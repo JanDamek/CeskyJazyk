@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Matematika
+ 
+ Polish
+
+  Created by Jan Damek on 01.06.14.
+  Copyright (c) 2014 PMQ-Software. All rights reserved.
+*/
+
+"÷" = "divide";
+"=" = "equals";
+">" = "greater";
+"<" = "lesser";
+"-" = "minus";
+"x" = "multiply";
+"×" = "multiply";
+"+" = "plus";
+
+"no InApp purchase items" = "Brak elementów do zakupu..";
+
+"result_0"="Nienajlepiej…";
+"result_1"="To jest gorszy wynik.";
+"result_2"="Odpowiedź dostateczna.";
+"result_3"="Nieźle.";
+"result_4"="Prawie bez błędów, super!";
+"result_5"="Absolutnie bez błędów, świetnie!";
+
+"%i (pocet prikladu %i)" = "%i (liczba ćwiczeń %i)";
+
+"allQuestion" = "Lesson over all";

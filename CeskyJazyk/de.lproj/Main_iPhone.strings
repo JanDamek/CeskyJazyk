@@ -1,0 +1,168 @@
+
+/* Class = "IBUIViewController"; title = "JakNaTo"; ObjectID = "06h-WC-F2r"; */
+"06h-WC-F2r.title" = "JakNaTo";
+
+/* Class = "IBUINavigationItem"; title = "Procvičování"; ObjectID = "18x-WY-Ra3"; */
+"18x-WY-Ra3.title" = "Auswertung";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "29f-Lt-qgf"; */
+"29f-Lt-qgf.normalTitle" = "Button";
+
+/* Class = "IBUIViewController"; title = "Lekce"; ObjectID = "2dm-sP-irr"; */
+"2dm-sP-irr.title" = "Lektion";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "5Oq-fn-Ye8"; */
+"5Oq-fn-Ye8.text" = "12";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "5t5-ZW-lYj"; */
+"5t5-ZW-lYj.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "6Gv-RD-avt"; */
+"6Gv-RD-avt.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "7Yk-5V-DGU"; */
+"7Yk-5V-DGU.text" = "00:00";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "7zi-gR-5nl"; */
+"7zi-gR-5nl.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "CKJ-Sv-jvF"; */
+"CKJ-Sv-jvF.text" = "Label";
+
+/* Class = "IBUIViewController"; title = "Testovani"; ObjectID = "DGS-M5-6W6"; */
+"DGS-M5-6W6.title" = "Auswertung";
+
+/* Class = "IBUILabel"; text = "00:31"; ObjectID = "DrX-RR-rZf"; */
+"DrX-RR-rZf.text" = "00:31";
+
+/* Class = "IBUILabel"; text = "Datum"; ObjectID = "G8e-DT-0gG"; */
+"G8e-DT-0gG.text" = "Datum";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ghg-FX-LIZ"; */
+"Ghg-FX-LIZ.text" = "Label";
+
+/* Class = "IBUILabel"; text = "/"; ObjectID = "I5W-sr-mnk"; */
+"I5W-sr-mnk.text" = "/";
+
+/* Class = "IBUILabel"; text = "prikladu"; ObjectID = "KRl-UC-Zkv"; */
+"KRl-UC-Zkv.text" = "Übungen";
+
+/* Class = "IBUILabel"; text = "Celkový čas"; ObjectID = "Lla-am-FS6"; */
+"Lla-am-FS6.text" = "Zeit";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "NUq-CI-s6g"; */
+"NUq-CI-s6g.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Nzd-Nw-88f"; */
+"Nzd-Nw-88f.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Oi5-Fj-9N7"; */
+"Oi5-Fj-9N7.text" = "Label";
+
+/* Class = "IBUILabel"; text = "99"; ObjectID = "PXx-Mn-fC5"; */
+"PXx-Mn-fC5.text" = "99";
+
+/* Class = "IBUINavigationItem"; title = "Jak na to?"; ObjectID = "PbE-bY-Da5"; */
+"PbE-bY-Da5.title" = "Wie macht man das?";
+
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "Rru-Cb-joA"; */
+"Rru-Cb-joA.title" = "Detail";
+
+/* Class = "IBUILabel"; text = "99"; ObjectID = "Tct-wL-bs7"; */
+"Tct-wL-bs7.text" = "99";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "TtU-Dc-zxl"; */
+"TtU-Dc-zxl.text" = "12";
+
+/* Class = "IBUILabel"; text = "Celkový čas"; ObjectID = "U6k-UZ-r8d"; */
+"U6k-UZ-r8d.text" = "Zeit";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "WDg-jC-8jw"; */
+"WDg-jC-8jw.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "Next"; ObjectID = "WdL-Ma-r85"; */
+"WdL-Ma-r85.normalTitle" = "Next";
+
+/* Class = "IBUILabel"; text = "Lekce"; ObjectID = "Wur-RP-HjD"; */
+"Wur-RP-HjD.text" = "Lektion";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "YA5-Dj-xqF"; */
+"YA5-Dj-xqF.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "YdO-sk-hjt"; */
+"YdO-sk-hjt.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ytw-lE-D4a"; */
+"Ytw-lE-D4a.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "b9o-lL-RzB"; */
+"b9o-lL-RzB.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "bIH-Y7-JKS"; */
+"bIH-Y7-JKS.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Vysledky testu"; ObjectID = "bvu-a6-5L6"; */
+"bvu-a6-5L6.normalTitle" = "Auswertung";
+
+/* Class = "IBUIViewController"; title = "VysledkyTestu"; ObjectID = "c8t-f0-qh8"; */
+"c8t-f0-qh8.title" = "Auswertung";
+
+/* Class = "IBUIButton"; normalTitle = "Retry"; ObjectID = "cBt-6P-uiT"; */
+"cBt-6P-uiT.normalTitle" = "Retry";
+
+/* Class = "IBUINavigationItem"; title = "Výsledky testů"; ObjectID = "cP3-yc-cWV"; */
+"cP3-yc-cWV.title" = "Auswertung";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "cQA-99-gbH"; */
+"cQA-99-gbH.text" = "Subtitle";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "ePR-zl-3nI"; */
+"ePR-zl-3nI.normalTitle" = "Button";
+
+/* Class = "IBUINavigationItem"; title = "Výsledek"; ObjectID = "fcj-mY-4tf"; */
+"fcj-mY-4tf.title" = "Auswertung";
+
+/* Class = "IBUILabel"; text = "chyb z"; ObjectID = "gKJ-T7-rhB"; */
+"gKJ-T7-rhB.text" = "Fehler von";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "gOZ-C5-788"; */
+"gOZ-C5-788.text" = "12";
+
+/* Class = "IBUILabel"; text = "Máš"; ObjectID = "hBf-wq-lQA"; */
+"hBf-wq-lQA.text" = "Sie haben";
+
+/* Class = "IBUILabel"; text = "PŘÍKLADY"; ObjectID = "hBs-5N-4tT"; */
+"hBs-5N-4tT.text" = "Übungen:";
+
+/* Class = "IBUINavigationItem"; title = "Výsledek testu"; ObjectID = "hQT-hj-pYV"; */
+"hQT-hj-pYV.title" = "Auswertung";
+
+/* Class = "IBUILabel"; text = "Pekny vysledek."; ObjectID = "keM-ZS-nth"; */
+"keM-ZS-nth.text" = "Pekny vysledek.";
+
+/* Class = "IBUINavigationItem"; title = "Detail"; ObjectID = "ldb-GH-sFe"; */
+"ldb-GH-sFe.title" = "Detail";
+
+/* Class = "IBUIButton"; normalTitle = "Zpet"; ObjectID = "mrD-Re-mrj"; */
+"mrD-Re-mrj.normalTitle" = "Zpet";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "nFC-Wo-fiP"; */
+"nFC-Wo-fiP.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Test result"; ObjectID = "nkF-E0-i2M"; */
+"nkF-E0-i2M.normalTitle" = "Auswertung";
+
+/* Class = "IBUIViewController"; title = "VysledekTestu"; ObjectID = "pNK-Um-Ih5"; */
+"pNK-Um-Ih5.title" = "Auswertung";
+
+/* Class = "IBUINavigationItem"; title = "Nákup"; ObjectID = "sAS-RJ-xP4"; */
+"sAS-RJ-xP4.title" = "Ankauf";
+
+/* Class = "IBUILabel"; text = "Počet chyb"; ObjectID = "tvw-Zm-6Y0"; */
+"tvw-Zm-6Y0.text" = "Anzahl der Fehler";
+
+/* Class = "IBUILabel"; text = "99"; ObjectID = "uKV-de-b9x"; */
+"uKV-de-b9x.text" = "99";
+
+/* Class = "IBUILabel"; text = "10.00 s"; ObjectID = "w1c-O4-lE0"; */
+"w1c-O4-lE0.text" = "10.00 s";

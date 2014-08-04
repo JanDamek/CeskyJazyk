@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Matematika
+ 
+ Slovak
+
+  Created by Jan Damek on 01.06.14.
+  Copyright (c) 2014 PMQ-Software. All rights reserved.
+*/
+
+"÷" = "divide";
+"=" = "equals";
+">" = "greater";
+"<" = "lesser";
+"-" = "minus";
+"x" = "multiply";
+"×" = "multiply";
+"+" = "plus";
+
+"no InApp purchase items" = "Nenájdené žiadne položky k nákupu.";
+
+"result_0"="Toto bolo slabé!";
+"result_1"="To je horší výsledok.";
+"result_2"="Uspokojivý výkon.";
+"result_3"="Pekný výsledok.";
+"result_4"="Takmer bez chyby, super!";
+"result_5"="Úplne bez chýb, skvele!";
+
+"%i (pocet prikladu %i)" = "%i (počet príkladov %i)";
+
+"allQuestion" = "Lesson over all";

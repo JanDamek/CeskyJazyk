@@ -1,0 +1,2774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMQcalculations testLength="12">
+    
+    <lesson id="1" name="Psaní Ů a Ú" demo="1">
+        <intro pages="6" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ú píšeme na začátku slov.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">úloha,  ústav, úkol, únava</span>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ú píšeme uprostřed slova po předponě.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">zúčastnit,  neúnavný</span>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ú píšeme uprostřed slova po první  části složenin.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">trojúhelník,  osmiúhelník</span>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ú píšeme uprostřed cizích nebo  přejatých slov.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">skútr,  kúra, manikúra, múza</span>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ú píšeme v mnoha citoslovcích.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">vrkú,  hú, bú</span>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ů píšeme uprostřed slov nebo na konci.</span></p>
+                <p><span>Například: <span style="color:#6fd171; ">stůl,  kůl, domů</span>.</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[ [?]nava [...] *ú ů]]></question>
+            <question><![CDATA[p[?]lka [...] ú *ů]]></question>
+            <question><![CDATA[dom[?] [...] ú *ů]]></question>
+            <question><![CDATA[kom[?]rka [...] ú *ů]]></question>
+            <question><![CDATA[d[?]l [...] ú *ů]]></question>
+            <question><![CDATA[ [?]stava [...] *ú ů]]></question>
+            <question><![CDATA[ [?]leva [...] *ú ů]]></question>
+            <question><![CDATA[ [?]čtenka [...] *ú ů]]></question>
+            <question><![CDATA[pr[?]vod [...] ú *ů]]></question>
+            <question><![CDATA[p[?]vod [...] ú *ů]]></question>
+            <question><![CDATA[vrk[?] [...] *ú ů]]></question>
+            <question><![CDATA[m[?]ra [...] ú *ů]]></question>
+            <question><![CDATA[d[?]vod [...] ú *ů]]></question>
+            <question><![CDATA[sm[?]la [...] ú *ů]]></question>
+            <question><![CDATA[dr[?]bež [...] ú *ů]]></question>
+            <question><![CDATA[holub[?]m [...] ú *ů]]></question>
+            <question><![CDATA[b[?]vol [...] ú *ů]]></question>
+            <question><![CDATA[m[?]žeme [...] ú *ů]]></question>
+            <question><![CDATA[kr[?]ček [...] ú *ů]]></question>
+            <question><![CDATA[tr[?]n [...] ú *ů]]></question>
+            <question><![CDATA[p[?]vab [...] ú *ů]]></question>
+            <question><![CDATA[d[?]raz [...] ú *ů]]></question>
+            <question><![CDATA[ [?]mrtí [...] *ú ů]]></question>
+            <question><![CDATA[d[?]kaz [...] ú *ů]]></question>
+            <question><![CDATA[ [?]kaz [...] *ú ů]]></question>
+            <question><![CDATA[ [?]nor [...] *ú ů]]></question>
+            <question><![CDATA[r[?]že [...] ú *ů]]></question>
+            <question><![CDATA[hr[?]za [...] ú *ů]]></question>
+            <question><![CDATA[k[?]ra [...] ú *ů]]></question>
+            <question><![CDATA[kr[?]ta [...] ú *ů]]></question>
+            <question><![CDATA[bl[?]za [...] ú *ů]]></question>
+            <question><![CDATA[ [?]kol [...] *ú ů]]></question>
+            <question><![CDATA[dol[?] [...] ú *ů]]></question>
+            <question><![CDATA[ [?]sta [...] *ú ů]]></question>
+            <question><![CDATA[p[?]da [...] ú *ů]]></question>
+            <question><![CDATA[k[?]že [...] ú *ů]]></question>
+            <question><![CDATA[ [?]nava [...] *ú ů]]></question>
+            <question><![CDATA[p[?]jdeme [...] ú *ů]]></question>
+            <question><![CDATA[mnoho obrázk[?] [...] ú *ů]]></question>
+            <question><![CDATA[ [?]terý [...] *ú ů]]></question>
+            <question><![CDATA[d[?]kladně [...] ú *ů]]></question>
+            <question><![CDATA[dv[?]r [...] ú *ů]]></question>
+            <question><![CDATA[z[?]staň [...] ú *ů]]></question>
+            <question><![CDATA[kr[?]tí maso [...] ú *ů]]></question>
+            <question><![CDATA[d[?]tka [...] ú *ů]]></question>
+            <question><![CDATA[ [?]raz [...] *ú ů]]></question>
+            <question><![CDATA[ [?]střice [...] *ú ů]]></question>
+            <question><![CDATA[ [?]vaha [...] *ú ů]]></question>
+            <question><![CDATA[ch[?]ze [...] ú *ů]]></question>
+            <question><![CDATA[ [?]spěch [...] *ú ů]]></question>
+            <question><![CDATA[ [?]ředník [...] *ú ů]]></question>
+            <question><![CDATA[ [?]řad [...] *ú ů]]></question>
+            <question><![CDATA[m[?]stek [...] ú *ů]]></question>
+            <question><![CDATA[pot[?]ček [...] ú *ů]]></question>
+            <question><![CDATA[sch[?]zka [...] ú *ů]]></question>
+            <question><![CDATA[dobré [?]mysly [...] *ú ů]]></question>
+            <question><![CDATA[ [?]tulek [...] *ú ů]]></question>
+            <question><![CDATA[včelí [?]l [...] *ú ů]]></question>
+            <question><![CDATA[b[?] [...] *ú ů]]></question>
+            <question><![CDATA[kr[?]ček [...] ú *ů]]></question>
+            <question><![CDATA[sch[?]zka [...] ú *ů]]></question>
+            <question><![CDATA[navlékání korálk[?] [...] ú *ů]]></question>
+            <question><![CDATA[bor[?]vky [...] ú *ů]]></question>
+            <question><![CDATA[z[?]stat [...] ú *ů]]></question>
+            <question><![CDATA[ [?]prava [...] *ú ů]]></question>
+            <question><![CDATA[ne[?]stupný [...] *ú ů]]></question>
+            <question><![CDATA[kr[?]pěj [...] ú *ů]]></question>
+            <question><![CDATA[pr[?]měr [...] ú *ů]]></question>
+            <question><![CDATA[tv[?]rce [...] ú *ů]]></question>
+            <question><![CDATA[hejno pták[?] [...] ú *ů]]></question>
+            <question><![CDATA[st[?]l [...] ú *ů]]></question>
+            <question><![CDATA[nej[?]žasnější [...] *ú ů]]></question>
+            <question><![CDATA[víc hlas[?] [...] ú *ů]]></question>
+            <question><![CDATA[dobr[?]tka [...] ú *ů]]></question>
+            <question><![CDATA[horská t[?]ra [...] *ú ů]]></question>
+            <question><![CDATA[bat[?]žek [...] ú *ů]]></question>
+            <question><![CDATA[bor[?]včí [...] ú *ů]]></question>
+            <question><![CDATA[odr[?]da [...] ú *ů]]></question>
+            <question><![CDATA[za[?]kolovat [...] *ú ů]]></question>
+            <question><![CDATA[ [?]činkující [...] *ú ů]]></question>
+            <question><![CDATA[pr[?]trž mračen [...] ú *ů]]></question>
+            <question><![CDATA[m[?]j bratr [...] ú *ů]]></question>
+            <question><![CDATA[d[?]kaz [...] ú *ů]]></question>
+            <question><![CDATA[s[?]l [...] ú *ů]]></question>
+            <question><![CDATA[ [?]žasný den [...] *ú ů]]></question>
+            <question><![CDATA[ [?]spěšný závod [...] *ú ů]]></question>
+            <question><![CDATA[r[?]žová [...] ú *ů]]></question>
+            <question><![CDATA[řecký b[?]h [...] ú *ů]]></question>
+            <question><![CDATA[dlouho st[?]ně [...] ú *ů]]></question>
+            <question><![CDATA[ [?]zkostliví rodiče [...] *ú ů]]></question>
+            <question><![CDATA[sněžný sk[?]tr [...] *ú ů]]></question>
+            <question><![CDATA[hluboká t[?]ň [...] ú *ů]]></question>
+            <question><![CDATA[ [?]bytek [...] *ú ů]]></question>
+        </test>
+    </lesson>
+    
+    <lesson id="2" name="Měkké a tvrdé souhlásky" demo="1">
+        <intro pages="2" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Měkké souhlásky</span></u></strong></p>
+                <p><span>ž – <span style="color:#6fd171; ">ži</span>vot,  ko<span style="color:#6fd171; ">ži</span>ch </span></p>
+                <p><span>š – <span style="color:#6fd171; ">ši</span>je,  ko<span style="color:#6fd171; ">ši</span>le </span></p>
+                <p><span>č – <span style="color:#6fd171; ">či</span>ch,  ko<span style="color:#6fd171; ">čičí</span></span></p>
+                <p><span>ř – <span style="color:#6fd171; ">ři</span>dič,  p<span style="color:#6fd171; ">ři</span>jde</span></p>
+                <p><span>c – <span style="color:#6fd171; ">ci</span>bule, <span style="color:#6fd171; ">ci</span>nkot</span></p>
+                <p><span>j – <span style="color:#6fd171; ">ji</span>nde, <span style="color:#6fd171; ">ji</span>novatka</span></p>
+                <p><span>di – <span style="color:#6fd171; ">di</span>vák,  cho<span style="color:#6fd171; ">di</span>dlo</span></p>
+                <p><span>ti – <span style="color:#6fd171; ">ti</span>kat,  kro<span style="color:#6fd171; ">ti</span>t</span></p>
+                <p><span>ni – <span style="color:#6fd171; ">ni</span>kdo,  ko<span style="color:#6fd171; ">ni</span>klec</span></p>
+                <p><span>&nbsp;</span></p>
+                <p><strong><u style="text-underline:red;"><span>POZOR na cizí nebo přejatá slova:</span></u></strong></p>
+                <p><span style="color:#772828; ">cyklista, cyklon, Cyril, cysta,  encyklopedie, cyklus, </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Tvrdé souhlásky</span></u></strong></p>
+                <p><span>h – <span style="color:#6fd171; ">Hy</span>nek,  po<span style="color:#6fd171; ">hy</span>b</span></p>
+                <p><span>ch – <span style="color:#6fd171; ">chy</span>ba, <span style="color:#6fd171; ">chy</span>trý</span></p>
+                <p><span>k – <span style="color:#6fd171; ">ky</span>nout, <span style="color:#6fd171; ">ky</span>přit</span></p>
+                <p><span>r – <span style="color:#6fd171; ">ry</span>ba,  ko<span style="color:#6fd171; ">ry</span>to</span></p>
+                <p><span>dy – <span style="color:#6fd171; ">dý</span>ka,  lo<span style="color:#6fd171; ">dy</span>ha</span></p>
+                <p><span>ty – <span style="color:#6fd171; ">ty</span>č,  mo<span style="color:#6fd171; ">ty</span>ka</span></p>
+                <p><span>ny – stra<span style="color:#6fd171; ">ny</span>,  hra<span style="color:#6fd171; ">ny</span></span></p>
+                <p><span>&nbsp;</span></p>
+                <p><strong><u style="text-underline:red;"><span>POZOR na cizí nebo přejatá slova:</span></u></strong></p>
+                <p><span style="color:#772828; ">hit, hierarchie, kino, rizoto,  koriandr, korida, koridor, Karin, Kristýna, Brit, triko, gorila, seriál, krimi,  prima </span></p>
+            ]]></page>
+            
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[ž[?]rafa [...] *i í y ý]]></question>
+            <question><![CDATA[kož[?]ch [...] *i í y ý]]></question>
+            <question><![CDATA[než[?]je [...] *i í y ý]]></question>
+            <question><![CDATA[u Jan[?] [...] i í *y ý]]></question>
+            <question><![CDATA[přež[?]je [...] *i í y ý]]></question>
+            <question><![CDATA[lž[?]ce [...] i *í y ý]]></question>
+            <question><![CDATA[pož[?]tek [...] *i í y ý]]></question>
+            <question><![CDATA[jin[?] [...] i í y *ý]]></question>
+            <question><![CDATA[záž[?]tek [...] *i í y ý]]></question>
+            <question><![CDATA[skř[?]tek [...] i *í y ý]]></question>
+            <question><![CDATA[stan[?] [...] i í *y ý]]></question>
+            <question><![CDATA[lž[?] [...] *i í y ý]]></question>
+            <question><![CDATA[bř[?]cho [...] *i í y ý]]></question>
+            <question><![CDATA[slan[?] koláč [...] i í y *ý]]></question>
+            <question><![CDATA[koř[?]st [...] *i í y ý]]></question>
+            <question><![CDATA[ř[?]kat [...] i *í y ý]]></question>
+            <question><![CDATA[ř[?]kadlo [...] i *í y ý]]></question>
+            <question><![CDATA[d[?]m z komína [...] i í y *ý]]></question>
+            <question><![CDATA[ř[?]kanka [...] i *í y ý]]></question>
+            <question><![CDATA[lék[?] [...] i í *y ý]]></question>
+            <question><![CDATA[př[?]klad [...] i *í y ý]]></question>
+            <question><![CDATA[např[?]klad [...] i *í y ý]]></question>
+            <question><![CDATA[tr[?]ko [...] *i í y ý]]></question>
+            <question><![CDATA[ř[?]msa [...] i *í y ý]]></question>
+            <question><![CDATA[kř[?]dlo [...] i *í y ý]]></question>
+            <question><![CDATA[kř[?]da [...] i *í y ý]]></question>
+            <question><![CDATA[led[?] [...] i í *y ý]]></question>
+            <question><![CDATA[kš[?]ltovka [...] *i í y ý]]></question>
+            <question><![CDATA[koš[?]le [...] *i í y ý]]></question>
+            <question><![CDATA[sladk[?] [...] i í y *ý]]></question>
+            <question><![CDATA[š[?]mpanz [...] *i í y ý]]></question>
+            <question><![CDATA[š[?]roké [...] *i í y ý]]></question>
+            <question><![CDATA[naš[?] [...] *i í y ý]]></question>
+            <question><![CDATA[tad[?] [...] i í *y ý]]></question>
+            <question><![CDATA[kaš[?] [...] *i í y ý]]></question>
+            <question><![CDATA[r[?]suje [...] i í y *ý]]></question>
+            <question><![CDATA[k[?]selé [...] i í *y ý]]></question>
+            <question><![CDATA[maš[?]na [...] *i í y ý]]></question>
+            <question><![CDATA[koč[?]čka [...] *i í y ý]]></question>
+            <question><![CDATA[hračk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[č[?]nka [...] *i í y ý]]></question>
+            <question><![CDATA[č[?]stý [...] *i í y ý]]></question>
+            <question><![CDATA[pr[?]č [...] i í *y ý]]></question>
+            <question><![CDATA[př[?]mka [...] i *í y ý]]></question>
+            <question><![CDATA[č[?]dlo [...] *i í y ý]]></question>
+            <question><![CDATA[rýžový nák[?]p [...] i í *y ý]]></question>
+            <question><![CDATA[dud[?] [...] i í *y ý]]></question>
+            <question><![CDATA[č[?]pera [...] *i í y ý]]></question>
+            <question><![CDATA[koč[?] [...] i *í y ý]]></question>
+            <question><![CDATA[r[?]ma [...] i í y *ý]]></question>
+            <question><![CDATA[Mic[?]na [...] *i í y ý]]></question>
+            <question><![CDATA[louk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[c[?]tron [...] *i í y ý]]></question>
+            <question><![CDATA[c[?]bule [...] *i í y ý]]></question>
+            <question><![CDATA[noh[?] [...] i í *y ý]]></question>
+            <question><![CDATA[státní h[?]mna [...] i í *y ý]]></question>
+            <question><![CDATA[j[?]novatka [...] *i í y ý]]></question>
+            <question><![CDATA[j[?]řina [...] *i í y ý]]></question>
+            <question><![CDATA[jiř[?]na [...] *i í y ý]]></question>
+            <question><![CDATA[r[?]že [...] i í y *ý]]></question>
+            <question><![CDATA[d[?]vadlo [...] *i í y ý]]></question>
+            <question><![CDATA[uš[?] [...] *i í y ý]]></question>
+            <question><![CDATA[zasad[?]l [...] *i í y ý]]></question>
+            <question><![CDATA[sad[?] [...] i í *y ý]]></question>
+            <question><![CDATA[t[?]kot [...] *i í y ý]]></question>
+            <question><![CDATA[papír[?] [...] i í *y ý]]></question>
+            <question><![CDATA[n[?]kdo [...] *i í y ý]]></question>
+            <question><![CDATA[š[?]pek [...] i *í y ý]]></question>
+            <question><![CDATA[n[?]c [...] *i í y ý]]></question>
+            <question><![CDATA[n[?]kam [...] *i í y ý]]></question>
+            <question><![CDATA[d[?]vák [...] *i í y ý]]></question>
+            <question><![CDATA[kon[?]klec [...] *i í y ý]]></question>
+            <question><![CDATA[poh[?]b [...] i í *y ý]]></question>
+            <question><![CDATA[kor[?]to [...] i í *y ý]]></question>
+            <question><![CDATA[r[?]ba [...] i í *y ý]]></question>
+            <question><![CDATA[ch[?]ba [...] i í *y ý]]></question>
+            <question><![CDATA[klad[?]vo [...] *i í y ý]]></question>
+            <question><![CDATA[poch[?]tat [...] i í *y ý]]></question>
+            <question><![CDATA[š[?]la [...] *i í y ý]]></question>
+            <question><![CDATA[ch[?]bí mi [...] i í *y ý]]></question>
+            <question><![CDATA[tuš[?]m [...] i *í y ý]]></question>
+            <question><![CDATA[k[?]no [...] *i í y ý]]></question>
+            <question><![CDATA[Tomáš[?] [...] *i í y ý]]></question>
+            <question><![CDATA[t[?]káme si [...] i í *y ý]]></question>
+            <question><![CDATA[star[?] [...] i í y *ý]]></question>
+            <question><![CDATA[komář[?] [...] *i í y ý]]></question>
+            <question><![CDATA[chod[?] [...] i *í y ý]]></question>
+            <question><![CDATA[oč[?] [...] *i í y ý]]></question>
+            <question><![CDATA[koš[?]le [...] *i í y ý]]></question>
+            <question><![CDATA[maj[?] [...] i *í y ý]]></question>
+            <question><![CDATA[kr[?]sa [...] i í *y ý]]></question>
+            <question><![CDATA[r[?]č [...] i í y *ý]]></question>
+            <question><![CDATA[š[?]roké [...] *i í y ý]]></question>
+            <question><![CDATA[not[?] [...] i í *y ý]]></question>
+            <question><![CDATA[t[?]chá [...] *i í y ý]]></question>
+            <question><![CDATA[kř[?]k [...] *i í y ý]]></question>
+            <question><![CDATA[š[?]ška [...] *i í y ý]]></question>
+            <question><![CDATA[hrušk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[kn[?]ha [...] *i í y ý]]></question>
+            <question><![CDATA[knih[?] [...] i í *y ý]]></question>
+            <question><![CDATA[lid[?]čky [...] *i í y ý]]></question>
+            <question><![CDATA[pod[?]vej se [...] i *í y ý]]></question>
+            <question><![CDATA[ř[?]kat [...] i *í y ý]]></question>
+            <question><![CDATA[št[?]ka [...] *i í y ý]]></question>
+            <question><![CDATA[č[?]slo [...] i *í y ý]]></question>
+            <question><![CDATA[lenoš[?]t [...] *i í y ý]]></question>
+            <question><![CDATA[šelma č[?]há [...] i *í y ý]]></question>
+            <question><![CDATA[uč[?]tel [...] *i í y ý]]></question>
+            <question><![CDATA[učitelk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[br[?]le [...] i í y *ý]]></question>
+            <question><![CDATA[banán[?] [...] i í *y ý]]></question>
+            <question><![CDATA[v garáž[?] [...] *i í y ý]]></question>
+            <question><![CDATA[ž[?]žala [...] i *í y ý]]></question>
+            <question><![CDATA[ř[?]pa [...] i *í y ý]]></question>
+            <question><![CDATA[holč[?]čka [...] *i í y ý]]></question>
+            <question><![CDATA[d[?]vka [...] i *í y ý]]></question>
+            <question><![CDATA[holk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[pokr[?]vka [...] i í y *ý]]></question>
+            <question><![CDATA[č[?]mpak [...] i *í y ý]]></question>
+            <question><![CDATA[š[?]je [...] *i *í y ý]]></question>
+            <question><![CDATA[ř[?]ká [...] i *í y ý]]></question>
+            <question><![CDATA[odpoč[?]vat [...] i *í y ý]]></question>
+            <question><![CDATA[krun[?]ř [...] i í y *ý]]></question>
+            <question><![CDATA[uvař[?]t [...] *i í y ý]]></question>
+            <question><![CDATA[brambor[?] [...] i í *y ý]]></question>
+            <question><![CDATA[opař[?]t [...] *i í y ý]]></question>
+            <question><![CDATA[skořápk[?] [...] i í *y ý]]></question>
+            <question><![CDATA[hoř[?] [...] i *í y ý]]></question>
+            <question><![CDATA[venč[?]t [...] *i í y ý]]></question>
+            <question><![CDATA[ch[?]še [...] i í y *ý]]></question>
+            <question><![CDATA[ch[?]trá [...] i í *y ý]]></question>
+            <question><![CDATA[Luc[?]e [...] *i í y ý]]></question>
+            <question><![CDATA[kož[?]ch [...] *i í y ý]]></question>
+            <question><![CDATA[hř[?]bě [...] i *í y ý]]></question>
+            <question><![CDATA[hr[?]zat [...] i í *y ý]]></question>
+            <question><![CDATA[tat[?]nek [...] i *í y ý]]></question>
+            <question><![CDATA[jsme kamarád[?] [...] *i í y ý]]></question>
+            <question><![CDATA[louž[?]čka [...] *i í y ý]]></question>
+            <question><![CDATA[kachn[?] [...] i í *y ý]]></question>
+            <question><![CDATA[kluc[?] [...] *i í y ý]]></question>
+            <question><![CDATA[toč[?]me [...] i *í y ý]]></question>
+            <question><![CDATA[frč[?]me [...] i *í y ý]]></question>
+            <question><![CDATA[nejdř[?]v [...] i *í y ý]]></question>
+            <question><![CDATA[r[?]chle [...] i í *y ý]]></question>
+            <question><![CDATA[ž[?]vot [...] *i í y ý]]></question>
+            <question><![CDATA[česk[?] [...] i í *y *ý]]></question>
+            <question><![CDATA[j[?]nak [...] *i í y ý]]></question>
+            <question><![CDATA[ptač[?] zpěv [...] i *í y ý]]></question>
+            <question><![CDATA[š[?]kmé [...] *i í y ý]]></question>
+            <question><![CDATA[š[?]roké [...] *i í y ý]]></question>
+            <question><![CDATA[č[?]nský [...] i *í y ý]]></question>
+            <question><![CDATA[hod[?]nka [...] *i í y ý]]></question>
+            <question><![CDATA[let[?]me letadlem [...] i *í y ý]]></question>
+            <question><![CDATA[mám kamarád[?] [...] i í *y ý]]></question>
+            <question><![CDATA[hromada kamen[?] [...] i *í y ý]]></question>
+            <question><![CDATA[velké kamen[?] [...] i í *y ý]]></question>
+            <question><![CDATA[poč[?]tač [...] i *í y ý]]></question>
+            <question><![CDATA[prázdnin[?] [...] i í *y ý]]></question>
+            <question><![CDATA[prázdn[?]ny [...] *i í y ý]]></question>
+            <question><![CDATA[č[?]slice [...] i *í y ý]]></question>
+            <question><![CDATA[ž[?]vá [...] *i í y ý]]></question>
+            <question><![CDATA[zř[?]cenina [...] i *í y ý]]></question>
+            <question><![CDATA[zaj[?]mavost [...] i *í y ý]]></question>
+            <question><![CDATA[slun[?]čko [...] i *í y ý]]></question>
+            <question><![CDATA[vaj[?]čko [...] i *í y ý]]></question>
+            <question><![CDATA[na kon[?] [...] *i í y ý]]></question>
+            <question><![CDATA[bucht[?] [...] i í *y ý]]></question>
+            <question><![CDATA[slož[?]té [...] *i í y ý]]></question>
+            <question><![CDATA[koř[?]nek [...] i *í y ý]]></question>
+            <question><![CDATA[suš[?]čka [...] *i í y ý]]></question>
+            <question><![CDATA[kř[?]da [...] i *í y ý]]></question>
+            <question><![CDATA[kříd[?] [...] i í *y ý]]></question>
+            <question><![CDATA[chř[?]pka [...] *i í y ý]]></question>
+        </test>
+    </lesson>
+    
+    <lesson id="4" name="Párové souhlásky" demo="1">
+        <intro pages="2" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>V&nbsp;některých
+                slovech vyslovujeme souhlásku jinou, než píšeme. Těmto dvojicím souhlásek se říká párové souhlásky.</span></p>
+                
+                <p><u><span>Jsou to:</span></u></p>
+                
+                <p><b><span
+                style='color:#00B050'>b</span></b><span>-<b><span style='color:blue'>p</span></b> (například slovo zu<b><span style='color:#00B050'>b</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>p</span></b>, ale píšu <b><span
+                style='color:#00B050'>b</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>d</span></b><span>-<b><span style='color:blue'>t</span></b> (například slovo sa<b><span style='color:#00B050'>d</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>t</span></b>, ale píšu <b><span
+                style='color:#00B050'>d</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>ď</span></b><span>-<b><span style='color:blue'>ť</span></b> (například slovo ze<b><span style='color:#00B050'>ď</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>ť</span></b>, ale píšu <b><span
+                style='color:#00B050'>ď</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>h</span></b><span>-<b><span style='color:blue'>ch</span></b> (například slovo ne<b><span style='color:#00B050'>h</span></b>ty
+                – vyslovím uprostřed <b><span
+                style='color:blue'>ch</span></b>, ale píšu <b><span
+                style='color:#00B050'>h</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>v</span></b><span>-<b><span style='color:blue'>f</span></b> (například slovo pá<b><span style='color:#00B050'>v</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>f</span></b>, ale píšu <b><span
+                style='color:#00B050'>v</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>-<b><span style='color:blue'>s</span></b> (například slovo ka<b><span style='color:#00B050'>z</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>s</span></b>, ale píšu <b><span
+                style='color:#00B050'>z</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                <p><b><span
+                style='color:#00B050'>ž</span></b><span>-<b><span style='color:blue'>š</span></b> (například slovo kní<b><span style='color:#00B050'>ž</span></b>ka
+                – vyslovím uprostřed <b><span
+                style='color:blue'>š</span></b>, ale píšu <b><span
+                style='color:#00B050'>ž</span></b>)</span></p>
+                
+                <p><span><o:p>&nbsp;</o:p></span></p>
+                
+                
+                
+                <p><b><span
+                style='color:#00B050'>g</span></b><span>-<b><span style='color:blue'>k</span></b> (například slovo smo<b><span style='color:#00B050'>g</span></b>
+                – vyslovím na konci <b><span
+                style='color:blue'>k</span></b>, ale píšu <b><span
+                style='color:#00B050'>g</span></b>)</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Abychom
+                zjistili, jaká souhláska se píše, pomůžeme si jiným tvarem toho slova nebo
+                slovem příbuzným.</span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>zu<b><span
+                style='color:#00B050'>b</span></b> – zu<b><span style='color:#00B050'>b</span></b>y,
+                zu<b><span style='color:#00B050'>b</span></b>u, zu<b><span style='color:#00B050'>b</span></b>ař</span></p>
+                
+                <p><span>sa<b><span
+                style='color:#00B050'>d</span></b> – sa<b><span style='color:#00B050'>d</span></b>y,
+                sa<b><span style='color:#00B050'>d</span></b>u, sa<b><span style='color:#00B050'>d</span></b>ař<b><span
+                style='color:#00B050'></span></b></span></p>
+                
+                <p><span>ze<b><span
+                style='color:#00B050'>ď</span></b> – z<b><span style='color:#00B050'>d</span></b>i,
+                ze<b><span style='color:#00B050'>d</span></b>ník</span></p>
+                
+                <p><span>ne<b><span
+                style='color:#00B050'>h</span></b>ty – ne<b><span style='color:#00B050'>h</span></b>et</span></p>
+                
+                <p><span>pá<b><span
+                style='color:#00B050'>v</span></b> – pá<b><span style='color:#00B050'>v</span></b>i,
+                pa<b><span style='color:#00B050'>v</span></b>í</span></p>
+                
+                <p><span>ka<b><span
+                style='color:#00B050'>z</span></b> – ka<b><span style='color:#00B050'>z</span></b>y,
+                ka<b><span style='color:#00B050'>z</span></b>it</span></p>
+                
+                <p><span>kní<b><span
+                style='color:#00B050'>ž</span></b>ka – kní<b><span style='color:#00B050'>ž</span></b>ek,
+                kni<b><span style='color:#00B050'>ž</span></b>ní</span></p>
+                
+                <p><span>smo<b><span
+                style='color:#00B050'>g</span></b> – smo<b><span style='color:#00B050'>g</span></b>u,
+                smo<b><span style='color:#00B050'>g</span></b>ový</span></p>
+                
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[vysoká vě[?] [...] *ž š ]]></question>
+            <question><![CDATA[le[?] klidně [...] š *ž ]]></question>
+            <question><![CDATA[nebezpečný pá[?] [...] *d t ]]></question>
+            <question><![CDATA[šťastný vítě[?] [...] s *z ]]></question>
+            <question><![CDATA[ostrý tenký drá[?] [...] *t d ]]></question>
+            <question><![CDATA[měkký tvaro[?] [...] *h ch ]]></question>
+            <question><![CDATA[le[?]ká otázka [...] *h ch ]]></question>
+            <question><![CDATA[zeleninový salá[?] [...] d *t ]]></question>
+            <question><![CDATA[mužná hru[?] [...] *ď ť ]]></question>
+            <question><![CDATA[zazněl gon[?] [...] k *g ]]></question>
+            <question><![CDATA[přiletěla ka[?]ka [...] *v f ]]></question>
+            <question><![CDATA[měl na čele po[?] [...] *t d ]]></question>
+            <question><![CDATA[vje[?]d do garáže [...] s *z ]]></question>
+            <question><![CDATA[he[?]ká kožešina [...] *b p ]]></question>
+            <question><![CDATA[he[?]ké děvče [...] s *z ]]></question>
+            <question><![CDATA[neznámá dí[?]ka [...] f *v ]]></question>
+            <question><![CDATA[dobrý obě[?] [...] *d t ]]></question>
+            <question><![CDATA[hou[?]ka se salámem [...] *s z ]]></question>
+            <question><![CDATA[spousta ža[?] [...] *b p ]]></question>
+            <question><![CDATA[červivý hři[?] [...] *b p ]]></question>
+            <question><![CDATA[dlouhá pohá[?]ka [...] *d t ]]></question>
+            <question><![CDATA[těžký bato[?] [...] ch *h ]]></question>
+            <question><![CDATA[teče mu kre[?] [...] *v f ]]></question>
+            <question><![CDATA[jíme ří[?]ky [...] s *z ]]></question>
+            <question><![CDATA[nalakované ne[?]ty [...] *h ch ]]></question>
+            <question><![CDATA[pyšný jako pá[?] [...] *v f ]]></question>
+            <question><![CDATA[venku je smo[?] [...] k *g ]]></question>
+            <question><![CDATA[zajímavá kní[?]ka [...] *ž š ]]></question>
+            <question><![CDATA[cihlová ze[?] [...] ť *ď ]]></question>
+            <question><![CDATA[ú[?]ká cesta [...] s *z ]]></question>
+            <question><![CDATA[čerstvý chlé[?] [...] *b p ]]></question>
+            <question><![CDATA[dřevěný plo[?] [...] *t d ]]></question>
+            <question><![CDATA[stra[?] o život [...] *ch h ]]></question>
+            <question><![CDATA[ble[?]ka v kožichu [...] *š ž ]]></question>
+            <question><![CDATA[utrpěl úra[?] hlavy [...] s *z ]]></question>
+            <question><![CDATA[přírodní úka[?] [...] *z s ]]></question>
+            <question><![CDATA[loupežníkův lu[?] [...] b *p ]]></question>
+            <question><![CDATA[rozzuřený le[?] [...] *v f ]]></question>
+            <question><![CDATA[šlechtický ro[?] [...] t *d ]]></question>
+            <question><![CDATA[středověký hra[?] [...] *d t ]]></question>
+            <question><![CDATA[klu[?]ký chodník [...] s *z ]]></question>
+            <question><![CDATA[nová kolobě[?]ka [...] *ž š ]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="10" name="Vyjmenovaná slova po B" demo="1">
+        <intro pages="14" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova po b:</span></u></strong></p>
+                <p><strong><span>b<span style="color:#6fd171; ">ý</span>t, b<span style="color:#6fd171; ">y</span>dlet, ob<span style="color:#6fd171; ">y</span>vatel, b<span style="color:#6fd171; ">y</span>t,  příb<span style="color:#6fd171; ">y</span>tek náb<span style="color:#6fd171; ">y</span>tek,  dob<span style="color:#6fd171; ">y</span>tek, ob<span style="color:#6fd171; ">y</span>čej,  b<span style="color:#6fd171; ">y</span>strý, b<span style="color:#6fd171; ">y</span>lina,  kob<span style="color:#6fd171; ">y</span>la, b<span style="color:#6fd171; ">ý</span>k,  Přib<span style="color:#6fd171; ">y</span>slav</span></strong><span style="color:#772828; "> </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">ý</span>t –</span></strong><span> vyjmenované slovo po b, znamená existovat, žít</span></p>
+                <p><em><span>&bdquo;Chci <u style="text-underline:#6fd171;">b<span style="color:#6fd171; ">ý</span>t</u> stále mladý.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">byl, byla,  bylo, byli, bychom, bych, bys, by, nabýt </span><span>-  získat<span style="color:#6fd171; ">, zbytek, odbýt</span> – nevěnovat pozornost, <span style="color:#6fd171; ">přebytek, přebývat, zabývat se</span> <span style="color:#6fd171; "> </span></span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><span style="color:#772828; ">bít – </span><span>mlátit, nabít<span style="color:#772828; "> </span>-  pistoli, mobilní telefon,<span style="color:#772828; "> odbít </span>- hodiny</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">y</span>dlit – </span></strong><span>vyjmenované  slovo po b</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">B<span style="color:#6fd171; ">y</span>dlím</u> v&nbsp;malém domku.&ldquo; </span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">bydliště,  bydlo, bydlení, spolubydlící, zabydlit se</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><span style="color:#772828; ">bidlo – tyč</span></p>
+                <p><em><span>&bdquo;Papoušek  sedí na <u style="text-underline:red;">b<span style="color:#772828; ">i</span>délku</u>&ldquo;</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>ob<span style="color:#6fd171; ">y</span>vatel –</span></strong><span> vyjmenované slovo po b, člověk žijící na určitém místě</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Ob<span style="color:#6fd171; ">y</span>vatel</u> České republiky je Čech.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">obývat,  obyvatelný, obývací pokoj</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">y</span>t –</span></strong><span> vyjmenované slovo po b</span></p>
+                <p><em><span>&bdquo;Pronajímá <u style="text-underline:#6fd171;">b<span style="color:#6fd171; ">y</span>t</u> 3+1.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">bytovka,  bytná, byteček</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><span style="color:#772828; ">bit</span> - mlácen</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>příb<span style="color:#6fd171; ">y</span>tek –</span></strong><span> vyjmenované slovo po b, místo k bydlení</span></p>
+                <p><em><span>&bdquo;Králíkárna  je <u>příb<span style="color:#6fd171; ">y</span>tek</u> pro králíky.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><span style="color:#772828; ">přibít</span><em><span> </span></em><span>– např. hřebík</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>náb<span style="color:#6fd171; ">y</span>tek –</span></strong><span> vyjmenované slovo po b, vybavení bytu</span></p>
+                <p><em><span>&bdquo;Mezi <u style="text-underline:#6fd171;">náb<span style="color:#6fd171; ">y</span>tek</u> patří skříně, postel i pohovka.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">nábytkářský  </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>dob<span style="color:#6fd171; ">y</span>tek –</span></strong><span> vyjmenované slovo po b, hospodářské zvíře</span></p>
+                <p><em><span>&bdquo;Na  louce se pase <u style="text-underline:#6fd171;">dob<span style="color:#6fd171; ">y</span>tek</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">dobytčí,  dobytče</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>ob<span style="color:#6fd171; ">y</span>čej –</span></strong><span> vyjmenované slovo po b, zvyk</span></p>
+                <p><em><span>&bdquo;Na  Vánoce dodržujeme různé <u style="text-underline:#6fd171;">ob<span style="color:#6fd171; ">y</span>čeje.&ldquo;</u></span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">obyčejný </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">y</span>strý –</span></strong><span> vyjmenované slovo po b, chytrý</span></p>
+                <p><em><span>&bdquo;Jenda  je <u style="text-underline:#6fd171;">b<span style="color:#6fd171; ">y</span>strý</u> žák.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">Bystrouška,  bystřina </span><span>– řeka, <span style="color:#6fd171; ">zbystřit</span></span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">y</span>lina –</span></strong><span> vyjmenované slovo po b, rostlina</span></p>
+                <p><em><span>&bdquo;Rostliny  dělíme na <u style="text-underline:#6fd171;">b<span style="color:#6fd171; ">y</span>liny</u> a dřeviny.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">bylinkový,  bylinný, býlí</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">bílý</span></em><em><span> – natřený bílou barvou</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>kob<span style="color:#6fd171; ">y</span>la –</span></strong><span> vyjmenované slovo po b, samice koně</span></p>
+                <p><em><span>&bdquo;Ve  stáji stojí <u style="text-underline:#6fd171;">kob<span style="color:#6fd171; ">y</span>la</u> s hříbětem.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">Kobylisy</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>b<span style="color:#6fd171; ">ý</span>k –</span></strong><span> vyjmenované slovo po b, zvíře</span></p>
+                <p><em><span>&bdquo;Toreador  zápasí s&nbsp;<u style="text-underline:#6fd171;">b<span style="color:#6fd171; ">ý</span>kem</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">býčí,  býkovec</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>Přib<span style="color:#6fd171; ">y</span>slav –</span></strong><span> vyjmenované slovo po b, město</span></p>
+                <p><em><span>&bdquo;Na  mapě hledáme město <u style="text-underline:#6fd171;">Přib<span style="color:#6fd171; ">y</span>slav</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">přibyslavský</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[b[?]tovka [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]č [...] *i y í ý]]></question>
+            <question><![CDATA[b[?]ček [...] i y í *ý]]></question>
+            <question><![CDATA[b[?]lá barva [...] i y *í ý]]></question>
+            <question><![CDATA[zb[?]tek [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]linkový čaj [...] i *y í ý]]></question>
+            <question><![CDATA[odb[?]jí půlnoc [...] i y *í ý]]></question>
+            <question><![CDATA[liška B[?]strouška [...] i *y í ý]]></question>
+            <question><![CDATA[kob[?]lka [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]dliště [...] i *y í ý]]></question>
+            <question><![CDATA[ob[?]čejný [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]lek z vajíčka [...] i y *í ý]]></question>
+            <question><![CDATA[nab[?]t baterie [...] i y *í ý]]></question>
+            <question><![CDATA[dob[?]t hrad [...] i y í *ý]]></question>
+            <question><![CDATA[ob[?]vat dům [...] i y í *ý]]></question>
+            <question><![CDATA[papoušek na b[?]délku [...] *i y í ý]]></question>
+            <question><![CDATA[dobré b[?]dlo [...] i *y í ý]]></question>
+            <question><![CDATA[chtěl b[?]ch [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]t první [...] i y í *ý]]></question>
+            <question><![CDATA[ob[?]lí [...] *i y í ý]]></question>
+            <question><![CDATA[ob[?]vatelný [...] i *y í ý]]></question>
+            <question><![CDATA[přeb[?]tek [...] i *y í ý]]></question>
+            <question><![CDATA[zab[?]t mouchu [...] i y *í ý]]></question>
+            <question><![CDATA[příb[?]tek pro psa [...] i *y í ý]]></question>
+            <question><![CDATA[obchod s náb[?]tkem [...] i *y í ý]]></question>
+            <question><![CDATA[dob[?]tčí farma [...] i *y í ý]]></question>
+            <question><![CDATA[kob[?]la s hříbětem [...] i *y í ý]]></question>
+            <question><![CDATA[nedob[?]tná pevnost [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]tový textil [...] i *y í ý]]></question>
+            <question><![CDATA[b[?]čí zápasy [...] i y í *ý]]></question>
+            <question><![CDATA[b[?]la sobota [...] i *y í ý]]></question>
+            <question><![CDATA[přib[?]t hřebík [...] i y *í ý]]></question>
+            <question><![CDATA[hřeb[?]k [...] i y *í ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="11" name="Vyjmenovaná slova po L" demo="1">
+        <intro pages="14" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova po l:</span></u></strong></p>
+                <p><strong><span>sl<span style="color:#6fd171; ">y</span>šet, ml<span style="color:#6fd171; ">ý</span>n, bl<span style="color:#6fd171; ">ý</span>skat se, pol<span style="color:#6fd171; ">y</span>kat,  pl<span style="color:#6fd171; ">y</span>nout, pl<span style="color:#6fd171; ">ý</span>tvat,  vzl<span style="color:#6fd171; ">y</span>kat, l<span style="color:#6fd171; ">y</span>sý,  l<span style="color:#6fd171; ">ý</span>tko, l<span style="color:#6fd171; ">ý</span>ko,  l<span style="color:#6fd171; ">y</span>že, pel<span style="color:#6fd171; ">y</span>něk,  pl<span style="color:#6fd171; ">y</span>š</span></strong></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>sl<span style="color:#6fd171; ">y</span>šet </span></strong><span>–  vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Sl<span style="color:#6fd171; ">y</span>šel</u> každé slovo.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">slyšící, neslyšící,  uslyšet, neslyšný, poslyš, neslyšný, slyšitelný</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>ml<span style="color:#6fd171; ">ý</span>n –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Ve <u style="text-underline:#6fd171;">ml<span style="color:#6fd171; ">ý</span>ně</u> se mele mouka.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">mlýnské,  mlynář, mlynářka, mlýnek </span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">mlít</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>bl<span style="color:#6fd171; ">ý</span>skat se –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Na  obloze se <u style="text-underline:#6fd171;">bl<span style="color:#6fd171; ">ý</span>ská</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">blýskavý,  zablýsknout</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">blízký, blízko – </span></em><em><span>nedaleký,  nedaleko</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pol<span style="color:#6fd171; ">y</span>kat –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Při  nemoci <u style="text-underline:#6fd171;">pol<span style="color:#6fd171; ">y</span>káme</u> léky.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">polykač,  spolykat, polykání</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pl<span style="color:#6fd171; ">y</span>nout –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Čas <u style="text-underline:#6fd171;">pl<span style="color:#6fd171; ">y</span>ne</u> pomalu.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">plyn,  plynný, uplynout, plynový, plynař, plynárenský</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pl<span style="color:#6fd171; ">ý</span>tvat –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Nesmíme <u style="text-underline:#6fd171;">pl<span style="color:#6fd171; ">ý</span>tvat</u> vodou.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">neplýtvat,  plýtvání</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>vzl<span style="color:#6fd171; ">y</span>kat –</span></strong><span> vyjmenované slovo po l, plakat </span></p>
+                <p><em><span>&bdquo;Děti  při pláči <u style="text-underline:#6fd171;">vzl<span style="color:#6fd171; ">y</span>kají</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vzlykot, vzlykání,  nevzlykat</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>l<span style="color:#6fd171; ">y</span>sý –</span></strong><span> vyjmenované slovo po l, holý</span></p>
+                <p><em><span>&bdquo;Muž  na fotografii byl <u style="text-underline:#6fd171;">l<span style="color:#6fd171; ">y</span>sý</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">lysina,  lysinka, lysat</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">lísat se</span></em><em><span> – tulit se</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>l<span style="color:#6fd171; ">ý</span>tko –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Po  tréninku mě bolí <u style="text-underline:#6fd171;">l<span style="color:#6fd171; ">ý</span>tko</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">lýtkový</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>l<span style="color:#6fd171; ">ý</span>ko –</span></strong><span> vyjmenované slovo po l, část pod kůrou</span></p>
+                <p><span><img width="132" height="124" src="file:///android_asset/vyjm_slova_clip_image002.jpg" alt="lýko" /></span><span> </span></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">lýkovec,  lýkožrout</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>l<span style="color:#6fd171; ">y</span>že –</span></strong><span> vyjmenované slovo po l</span></p>
+                <p><em><span>&bdquo;Na  hory si vezu <u style="text-underline:#6fd171;">l<span style="color:#6fd171; ">y</span>že</u> i snowboard.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">lyžovat,  lyžařský, lyžař, lyžařka</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">líže –</span></em><em><span> olizuje jazykem</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pel<span style="color:#6fd171; ">y</span>něk –</span></strong><span> vyjmenované slovo po l, bylina</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Pel<span style="color:#6fd171; ">y</span>něk</u> je hořká bylina.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">pelyňkový</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pl<span style="color:#6fd171; ">y</span>š –</span></strong><span> vyjmenované slovo po l, materiál</span></p>
+                <p><em><span>&bdquo;Medvídek  je vyrobený z <u style="text-underline:#6fd171;">pl<span style="color:#6fd171; ">y</span>še</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">plyšový,  plyšák</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">plíšek - </span></em><em><span>plech </span></em></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[sl[?]šitelný [...] i *y í ý]]></question>
+            <question><![CDATA[sl[?]mák [...] *i y í ý]]></question>
+            <question><![CDATA[l[?]kožrout [...] i y í *ý]]></question>
+            <question><![CDATA[l[?]že zmrzlinu [...] i y *í ý]]></question>
+            <question><![CDATA[ml[?]nář [...] i *y í ý]]></question>
+            <question><![CDATA[ml[?]t mouku [...] i y *í ý]]></question>
+            <question><![CDATA[zabl[?]sknout [...] i y í *ý]]></question>
+            <question><![CDATA[bl[?]zko lesa [...] i y *í ý]]></question>
+            <question><![CDATA[pol[?]kání [...] i *y í ý]]></question>
+            <question><![CDATA[pl[?]n [...] i *y í ý]]></question>
+            <question><![CDATA[pl[?]tvání [...] i y í *ý]]></question>
+            <question><![CDATA[pl[?]novod [...] i *y í ý]]></question>
+            <question><![CDATA[vzl[?]kot [...] i *y í ý]]></question>
+            <question><![CDATA[l[?]sina na hlavě [...] i *y í ý]]></question>
+            <question><![CDATA[l[?]tkový sval [...] i y í *ý]]></question>
+            <question><![CDATA[l[?]žařka [...] i *y í ý]]></question>
+            <question><![CDATA[pel[?]ňkový čaj [...] i *y í ý]]></question>
+            <question><![CDATA[pl[?]šová hračka [...] i *y í ý]]></question>
+            <question><![CDATA[sl[?]bit [...] i y *í ý]]></question>
+            <question><![CDATA[ml[?]n [...] i y í *ý]]></question>
+            <question><![CDATA[spl[?]nout s davem [...] i *y í ý]]></question>
+            <question><![CDATA[vzl[?]ká [...] i *y í ý]]></question>
+            <question><![CDATA[l[?]ková taška [...] i y í *ý]]></question>
+            <question><![CDATA[l[?]žařský [...] i *y í ý]]></question>
+            <question><![CDATA[pes se l[?]sá [...] i y *í ý]]></question>
+            <question><![CDATA[l[?]tovat [...] *i y í ý]]></question>
+            <question><![CDATA[usl[?]šet [...] i *y í ý]]></question>
+            <question><![CDATA[bl[?]skavý šperk [...] i y í *ý]]></question>
+            <question><![CDATA[upl[?]nout [...] i *y í ý]]></question>
+            <question><![CDATA[kovový pl[?]šek [...] i y *í ý]]></question>
+        </test>
+    </lesson>
+    
+    <lesson id="12" name="Vyjmenovaná slova po M" demo="1">
+        <intro pages="15" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slovy po m:</span></u></strong></p>
+                <p><strong><span>m<span style="color:#6fd171; ">y</span>, m<span style="color:#6fd171; ">ý</span>t, m<span style="color:#6fd171; ">y</span>slet, m<span style="color:#6fd171; ">ý</span>lit  se, hm<span style="color:#6fd171; ">y</span>z, m<span style="color:#6fd171; ">y</span>š,  hlem<span style="color:#6fd171; ">ý</span>žď, m<span style="color:#6fd171; ">ý</span>to,  m<span style="color:#6fd171; ">ý</span>tit, zam<span style="color:#6fd171; ">y</span>kat,  sm<span style="color:#6fd171; ">ý</span>kat, dm<span style="color:#6fd171; ">ý</span>chat,  chm<span style="color:#6fd171; ">ý</span>ří, nachom<span style="color:#6fd171; ">ý</span>tnout  se, Litom<span style="color:#6fd171; ">y</span>šl</span></strong></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">y</span> –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">M<span style="color:#6fd171; ">y</span></u> jsme  přišli všichni.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">mi </span></em><em><span>– mně, jednomu člověku</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">ý</span>t –</span></strong><span> vyjmenované slovo po m, čistit vodou </span></p>
+                <p><em><span>&bdquo;Nebaví  mě <u style="text-underline:#6fd171;">m<span style="color:#6fd171; ">ý</span>t</u> nádobí.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">umýt,  umyvadlo, myčka, mytí, mýdlo, mydlinky, mydlit, namydlit, nemýt, mýval</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">mít – </span></em><em><span>něco  vlastnit, <span style="color:#772828; ">míval</span> – něco měl</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">y</span>slet –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;Při  testu musíš <u style="text-underline:#6fd171;">m<span style="color:#6fd171; ">y</span>slet</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">mysl,  myšlenka, myslivec, myslivna, zamyslet se, přemýšlet, zamýšlet, dobromysl,  Nezamysl, myslitel, </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">ý</span>lit se –</span></strong><span> vyjmenované slovo po m, plést se</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">M<span style="color:#6fd171; ">ý</span>lit se</u>,  znamená dělat chyby.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">nemýlit  se, mýlka, omyl, zmýlit se, mylný, zmýlená</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>hm<span style="color:#6fd171; ">y</span>z –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;V  létě létá obtížný <u style="text-underline:#6fd171;">hm<span style="color:#6fd171; ">y</span>z</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">hmyzožravec</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">y</span>š –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">M<span style="color:#6fd171; ">y</span>š</u> je  malý hlodavec.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">myší,  myška, myšina, myšička, myšák</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>hlem<span style="color:#6fd171; ">ý</span>žď –</span></strong><span> vyjmenované slovo po m, šnek</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Hlem<span style="color:#6fd171; ">ý</span>žď</u> zahradní patří mezi plže.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">hlemýždí</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">ý</span>to –</span></strong><span> vyjmenované slovo po m, poplatek </span></p>
+                <p><em><span>&bdquo;Řidiči  musí platit <u style="text-underline:#6fd171;">m<span style="color:#6fd171; ">ý</span>to</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">mýtné</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>m<span style="color:#6fd171; ">ý</span>tit –</span></strong><span> vyjmenované slovo po m, kácet</span></p>
+                <p><em><span>&bdquo;Lesníci  nechali <u style="text-underline:#6fd171;">m<span style="color:#6fd171; ">ý</span>tit</u> část lesa.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vymýtit,  mýtina, mýtinka</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>zam<span style="color:#6fd171; ">y</span>kat –</span></strong><span> vyjmenované slovo po m </span></p>
+                <p><em><span>&bdquo;Pro  větší bezpečnost musíme <u style="text-underline:#6fd171;">zam<span style="color:#6fd171; ">y</span>kat</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">odmykat,  domykavost </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>sm<span style="color:#6fd171; ">ý</span>kat –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;Při  vytírání <u style="text-underline:#6fd171;">sm<span style="color:#6fd171; ">ý</span>káme</u> hadrem po podlaze.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">smýčit</span><span> – uklízet<span style="color:#6fd171; ">,  smýčení, smýkání </span></span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>dm<span style="color:#6fd171; ">ý</span>chat –</span></strong><span> vyjmenované slovo po m, vhánět vzduch</span></p>
+                <p><em><span>&bdquo;Při  rozdělávání se oheň <u style="text-underline:#6fd171;">dm<span style="color:#6fd171; ">ý</span>chá</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">rozdmýchat,  dmýchání, dmychadlo </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>nachom<span style="color:#6fd171; ">ý</span>tnout se –</span></strong><span> vyjmenované slovo po m</span></p>
+                <p><em><span>&bdquo;Nešťastně <u style="text-underline:#6fd171;">se nachom<span style="color:#6fd171; ">ý</span>tla</u> k nehodě.&ldquo;</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>Litom<span style="color:#6fd171; ">y</span>šl –</span></strong><span> vyjmenované slovo, město po m</span></p>
+                <p><em><span>&bdquo;Bedřich  Smetana se narodil v Litomyšli.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">litomyšlský </span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[m[?]šlenka [...] i *y í ý]]></question>
+            <question><![CDATA[půjč m[?] [...] *i y í ý]]></question>
+            <question><![CDATA[kom[?]ník [...] *i y í ý]]></question>
+            <question><![CDATA[m[?]čka [...] i *y í ý]]></question>
+            <question><![CDATA[m[?]ček [...] i y *í ý]]></question>
+            <question><![CDATA[m[?]t nápad [...] i y *í ý]]></question>
+            <question><![CDATA[om[?]l [...] i *y í ý]]></question>
+            <question><![CDATA[hm[?]zožravec [...] i *y í ý]]></question>
+            <question><![CDATA[m[?]šák [...] i *y í ý]]></question>
+            <question><![CDATA[hlem[?]žď [...] i y í *ý]]></question>
+            <question><![CDATA[m[?]t rád [...] i y *í ý]]></question>
+            <question><![CDATA[m[?] všichni [...] i *y í ý]]></question>
+            <question><![CDATA[m[?]dlinky [...] i *y í ý]]></question>
+            <question><![CDATA[zaplatit m[?]tné [...] i y í *ý]]></question>
+            <question><![CDATA[m[?]tit lesík [...] i y í *ý]]></question>
+            <question><![CDATA[m[?]tina [...] i y í *ý]]></question>
+            <question><![CDATA[odem[?]kat dveře [...] i *y í ý]]></question>
+            <question><![CDATA[sm[?]kat po pokoji [...] i y í *ý]]></question>
+            <question><![CDATA[rozdm[?]chat oheň [...] i y í *ý]]></question>
+            <question><![CDATA[m[?]chat oběd [...] i y *í ý]]></question>
+            <question><![CDATA[rozm[?]slet se [...] i *y í ý]]></question>
+            <question><![CDATA[um[?]vadlo [...] i *y í ý]]></question>
+            <question><![CDATA[m[?]lka [...] i y í *ý]]></question>
+            <question><![CDATA[nam[?]dlený [...] i *y í ý]]></question>
+            <question><![CDATA[sm[?]řený [...] i y *í ý]]></question>
+            <question><![CDATA[om[?]tá zelenina [...] i *y í ý]]></question>
+            <question><![CDATA[om[?]tnout dům [...] i y *í ý]]></question>
+            <question><![CDATA[zlom[?]t [...] *i y í ý]]></question>
+            <question><![CDATA[nam[?]chat barvu [...] i y *í ý]]></question>
+            <question><![CDATA[nem[?]slet [...] i *y í ý]]></question>
+            <question><![CDATA[sm[?]sl [...] i *y í ý]]></question>
+            <question><![CDATA[nachom[?]tnout se [...] i y í *ý]]></question>
+            <question><![CDATA[sm[?]čení [...] i y í *ý]]></question>
+            <question><![CDATA[medvídek m[?]val [...] i y í *ý]]></question>
+            <question><![CDATA[m[?]val peníze [...] i y *í ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="13" name="Vyjmenovaná slova po P" demo="1">
+        <intro pages="15" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova po p:</span></u></strong></p>
+                <p><strong><span>p<span style="color:#6fd171; ">ý</span>cha, p<span style="color:#6fd171; ">y</span>tel, p<span style="color:#6fd171; ">y</span>sk, netop<span style="color:#6fd171; ">ý</span>r,  slep<span style="color:#6fd171; ">ý</span>š, p<span style="color:#6fd171; ">y</span>l,  kop<span style="color:#6fd171; ">y</span>to, klop<span style="color:#6fd171; ">ý</span>tat,  třp<span style="color:#6fd171; ">y</span>tit se, zp<span style="color:#6fd171; ">y</span>tovat,  p<span style="color:#6fd171; ">y</span>kat, p<span style="color:#6fd171; ">ý</span>r,  p<span style="color:#6fd171; ">ý</span>řit se, čep<span style="color:#6fd171; ">ý</span>řit  se</span></strong><span style="color:#6fd171; "> </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">ý</span>cha –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">P<span style="color:#6fd171; ">ý</span>cha</u> je  špatná lidská vlastnost.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">pyšný,  pyšně, pyšnit se, zpychnout, pýchavka </span><span>–  houba,<span style="color:#6fd171; "> přepych, přepychový </span></span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">píchat</span></em><em><span> - bodat</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">y</span>tel –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;Na  poli stojí <u style="text-underline:#6fd171;">p<span style="color:#6fd171; ">y</span>tel</u> plný brambor.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">pytlíček,  pytlík, pytlovina, pytlák, pytlačit, strašpytel</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">y</span>sk –</span></strong><span> vyjmenované slovo po p, ret</span></p>
+                <p><em><span>&bdquo;Kůň  ohýbá <u style="text-underline:#6fd171;">p<span style="color:#6fd171; ">y</span>sk</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">ptakopysk</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">pískot, pískat</span></em><em><span> </span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>netop<span style="color:#6fd171; ">ý</span>r –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Netop<span style="color:#6fd171; ">ý</span>r</u> spí hlavou dolů.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">netopýří</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>slep<span style="color:#6fd171; ">ý</span>š –</span></strong><span> vyjmenované slovo po p, ještěrka </span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Slep<span style="color:#6fd171; ">ý</span>š</u> je  beznohá ještěrka.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">slepýší</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">slepíš</span></em><em><span> – spojíš lepidlem</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">y</span>l –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;Včely  sbírají <u style="text-underline:#6fd171;">p<span style="color:#6fd171; ">y</span>l</u> z rostlin.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">pylový,  opylovač, opylovat</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">pil </span></em><em><span>–  např. vodu, <span style="color:#772828; ">opilovat </span>- obrousit</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>kop<span style="color:#6fd171; ">y</span>to –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Kop<span style="color:#6fd171; ">y</span>to</u> koně se ošetřuje podkovou.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">lichokopytník,  sudokopytník, kopytník, kopýtko</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>klop<span style="color:#6fd171; ">ý</span>tat –</span></strong><span> vyjmenované slovo po p, zakopávat </span></p>
+                <p><em><span>&bdquo;Po  cestě klop<span style="color:#6fd171; ">ý</span>tal tulák.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">klopýtnutí,  klopýtnout</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>třp<span style="color:#6fd171; ">y</span>tit se –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;Na  ruce se mi <u style="text-underline:#6fd171;">třp<span style="color:#6fd171; ">y</span>tí</u> prstýnek.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">třpytivý,  třpyt, třpytka, zatřpytit se</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>zp<span style="color:#6fd171; ">y</span>tovat –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Zp<span style="color:#6fd171; ">y</span>tuji</u> svědomí.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">zpytavý,  zpytavě, nevyzpytatelný, jazykozpyt </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">y</span>kat –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;Zločinec  musí za svůj čin <u style="text-underline:#6fd171;">p<span style="color:#6fd171; ">y</span>kat</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">odpykat,  odpykávat, nepykat, pykání </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">ý</span>r –</span></strong><span> vyjmenované slovo po p, plevel </span></p>
+                <p><span><img width="98" height="94" src="file:///android_asset/vyjm_slova_clip_image002_0000.jpg" /></span><span> </span></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">pýřavka</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>p<span style="color:#6fd171; ">ý</span>řit se –</span></strong><span> vyjmenované slovo po p, červenat se</span></p>
+                <p><em><span>&bdquo;Když  dostal pusu, <u style="text-underline:#6fd171;">p<span style="color:#6fd171; ">ý</span>řil  se</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">zapýřit se</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>čep<span style="color:#6fd171; ">ý</span>řit se –</span></strong><span> vyjmenované slovo po p</span></p>
+                <p><em><span>&bdquo;Vrabec <u style="text-underline:#6fd171;">si čep<span style="color:#6fd171; ">ý</span>ří</u> peříčka.&ldquo;</span></em></p>
+                <p><em><span>&bdquo;Po  obvinění ze lži <u style="text-underline:#6fd171;">se čep<span style="color:#6fd171; ">ý</span>řila</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">rozčepýřit  se, rozčepýřený, načepýřit se, načepýřený</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[p[?]šná princezna [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]tlovina [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]tlák [...] i *y í ý]]></question>
+            <question><![CDATA[ptakop[?]sk [...] i *y í ý]]></question>
+            <question><![CDATA[netop[?]r [...] i y í *ý]]></question>
+            <question><![CDATA[slep[?]š vázu [...] i y *í ý]]></question>
+            <question><![CDATA[slep[?]š není had [...] i y í *ý]]></question>
+            <question><![CDATA[p[?]lové zrnko [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]l vodu [...] *i y í ý]]></question>
+            <question><![CDATA[žlutý p[?]l [...] i *y í ý]]></question>
+            <question><![CDATA[kop[?]tko [...] i y í *ý]]></question>
+            <question><![CDATA[klop[?]tnout o kámen [...] i y í *ý]]></question>
+            <question><![CDATA[třp[?]tivé šperky [...] i *y í ý]]></question>
+            <question><![CDATA[zp[?]tovat svědomí [...] i *y í ý]]></question>
+            <question><![CDATA[zp[?]vat píseň [...] i y *í ý]]></question>
+            <question><![CDATA[op[?]luje květiny [...] i *y í ý]]></question>
+            <question><![CDATA[op[?]luje nehty [...] *i y í ý]]></question>
+            <question><![CDATA[zp[?]chnout [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]tlík [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]skat [...] i y *í ý]]></question>
+            <question><![CDATA[zahrada plná p[?]ru [...] i y í *ý]]></question>
+            <question><![CDATA[vrabec se čep[?]řil [...] i y í *ý]]></question>
+            <question><![CDATA[dívka se zap[?]řila [...] i y í *ý]]></question>
+            <question><![CDATA[jehličí p[?]chá [...] i y *í ý]]></question>
+            <question><![CDATA[p[?]cha je vlastnost [...] i y í *ý]]></question>
+            <question><![CDATA[sudokop[?]tník [...] i *y í ý]]></question>
+            <question><![CDATA[p[?]lník [...] *i y í ý]]></question>
+            <question><![CDATA[klop[?]t zrak [...] *i y í ý]]></question>
+            <question><![CDATA[p[?]rko [...] i y *í ý]]></question>
+            <question><![CDATA[odp[?]kat si trest [...] i *y í ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="14" name="Vyjmenovaná slova po S" demo="0">
+        <intro pages="12" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova po s:</span></u></strong></p>
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>n, s<span style="color:#6fd171; ">y</span>tý s<span style="color:#6fd171; ">ý</span>r, s<span style="color:#6fd171; ">y</span>rový, s<span style="color:#6fd171; ">y</span>chravý, us<span style="color:#6fd171; ">y</span>chat,  s<span style="color:#6fd171; ">ý</span>kora, s<span style="color:#6fd171; ">ý</span>ček,  s<span style="color:#6fd171; ">y</span>sel, s<span style="color:#6fd171; ">y</span>čet,  s<span style="color:#6fd171; ">y</span>pat</span></strong><span style="color:#6fd171; "> </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>n –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">S<span style="color:#6fd171; ">y</span>n</u> zdědil nadání po otci.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">synovec,  synek, synáček, synovský, zlosyn</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>tý –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Jíst  nebudu, jsem <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">y</span>tý</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">nasytit,  nasycený, sytost, dosyta, přesycený, sytit</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">ý</span>r –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">S<span style="color:#6fd171; ">ý</span>r</u> je  mléčný výrobek.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sýrový,  syrovátka, syreček, sýrárna, sýrařský</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">síra</span></em><em><span> – chemický prvek</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>rový –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Před  uvařením je maso <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">y</span>rové</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">syrovinka</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">sírový </span></em><em><span>–  ze síry</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>chravý –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Podzim  je <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">y</span>chravý</u>,  prší a fouká vítr.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sychravo,  Sychrov</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>us<span style="color:#6fd171; ">y</span>chat –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Spadané  listí <u style="text-underline:#6fd171;">us<span style="color:#6fd171; ">y</span>chá</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">osychat,vysychat,zasychat,přesychat,</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">ý</span>kora –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Na  krmítko přilétla<u style="text-underline:#6fd171;"> s<span style="color:#6fd171; ">ý</span>kora</u> koňadra.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sýkorka,  sýkorčí</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">ý</span>ček –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;V  nočním lese houkal <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">ý</span>ček</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sýčkovat,  nesýčkovat</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>sel –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">S<span style="color:#6fd171; ">y</span>sel</u> je  hlodavec.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">syslí,  syslovat</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>čet –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Parní  hrnec při vaření <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">y</span>čí</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sykot,  syčení, sykat, sykavky, zasyčet, nesyčet</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>pat –</span></strong><span> vyjmenované slovo po s</span></p>
+                <p><em><span>&bdquo;Namrzlý  chodník <u style="text-underline:#6fd171;">s<span style="color:#6fd171; ">y</span>pal</u> pískem.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">sypání,  nasypat,sypký, sýpka, sypek, sypkovina, osypky, zásyp, osypaný, odsypávat, zasypávat,  přesypávat</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">sípat </span></em><em><span>- chraptět</span></em></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[s[?]novec [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]rové maso [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]rová roláda [...] i y í *ý]]></question>
+            <question><![CDATA[jedl dos[?]ta [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]chravé počasí [...] i *y í ý]]></question>
+            <question><![CDATA[us[?]chat [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]pat ptáčkům [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]pat a kašlat [...] i y *í ý]]></question>
+            <question><![CDATA[s[?]rka [...] *i y í ý]]></question>
+            <question><![CDATA[předs[?]ň [...] i y *í ý]]></question>
+            <question><![CDATA[s[?]náček [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]vá holubička [...] *i y í ý]]></question>
+            <question><![CDATA[s[?]tý [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]reček [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]korka [...] i y í *ý]]></question>
+            <question><![CDATA[s[?]ček [...] i y í *ý]]></question>
+            <question><![CDATA[zas[?]čet [...] i *y í ý]]></question>
+            <question><![CDATA[pros[?]t písek [...] i y *í ý]]></question>
+            <question><![CDATA[pros[?]t o pomoc [...] *i y í ý]]></question>
+            <question><![CDATA[s[?]tko [...] i y *í ý]]></question>
+            <question><![CDATA[s[?]rovátka [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]rotek [...] *i y í ý]]></question>
+            <question><![CDATA[s[?]tost [...] i *y í ý]]></question>
+            <question><![CDATA[os[?]chat [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]pač  [...] i *y í ý]]></question>
+            <question><![CDATA[s[?]pka na obilí [...] i y í *ý]]></question>
+            <question><![CDATA[nás[?]lí [...] *i y í ý]]></question>
+            <question><![CDATA[s[?]lnice [...] *i y í ý]]></question>
+            <question><![CDATA[s[?]čkovat [...] i y í *ý]]></question>
+            <question><![CDATA[kos[?]t trávu [...] *i y í ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="15" name="Vyjmenovaná slova po V" demo="0">
+        <intro pages="13" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova po v:</span></u></strong></p>
+                <p><strong><span>v<span style="color:#6fd171; ">y</span>, v<span style="color:#6fd171; ">y</span>soký, v<span style="color:#6fd171; ">ý</span>t,  v<span style="color:#6fd171; ">ý</span>skat, zv<span style="color:#6fd171; ">y</span>kat,  žv<span style="color:#6fd171; ">ý</span>kat, v<span style="color:#6fd171; ">y</span>dra,  v<span style="color:#6fd171; ">ý</span>r, v<span style="color:#6fd171; ">y</span>žle,  pov<span style="color:#6fd171; ">y</span>k, v<span style="color:#6fd171; ">ý</span>heň,  slova s&nbsp;předponou v<span style="color:#6fd171; ">y</span>-, v<span style="color:#6fd171; ">ý</span>-</span></strong><em><span> </span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">y</span> –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">V<span style="color:#6fd171; ">y</span></u> jste  hodný člověk.&ldquo;</span></em></p>
+                <p><em><span>&bdquo;Všechnu  práci jste odvedli <u style="text-underline:#6fd171;">v<span style="color:#6fd171; ">y</span></u>.&ldquo;</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">y</span>soký –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;U  cesty stál <u style="text-underline:#6fd171;">v<span style="color:#6fd171; ">y</span>soký</u> strom.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vyšší,  nejvyšší, vysoko, výška, výškový, výškoměr, výše, vysočina, výš, povýšit,  vysokohorský, výšina</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">vížka</span></em><em><span> – malá věž</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">ý</span>t –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;Slyšel  jsem <u style="text-underline:#6fd171;">v<span style="color:#6fd171; ">ý</span>t</u> psy.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vytí,  zavytí, zavýt</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">vít</span></em><em><span> – plést např. věneček</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">ý</span>skat –</span></strong><span> vyjmenované slovo po v, křičet</span></p>
+                <p><em><span>&bdquo;Děti  při hře <u style="text-underline:#6fd171;">v<span style="color:#6fd171; ">ý</span>skají</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">výskání,  výskot, zavýsknutí, nevýskat</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">vískat </span></em><em><span>–  probírat se ve vlasech</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>zv<span style="color:#6fd171; ">y</span>kat –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Zv<span style="color:#6fd171; ">y</span>kám</u> si  na nového učitele.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">zvykání,  zvyk, zvyklost, návyk, odvykat, přivykat, zlozvyk, návyk, obvyklý, obvyklost,  neobvyklost</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>žv<span style="color:#6fd171; ">ý</span>kat –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;Je  slušné <u style="text-underline:#6fd171;">žv<span style="color:#6fd171; ">ý</span>kat</u> se zavřenou pusou.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">nežvýkat,  ožvýkat, žvýkání, žvýkačka, přežvýkavec, přežvýkávat, žvýkací</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">y</span>dra –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">V<span style="color:#6fd171; ">y</span>dra</u> žije u vody.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vydří,  vydrovka, </span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">ý</span>r –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">V<span style="color:#6fd171; ">ý</span>r</u> je  naše největší sova.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">výří,  výreček </span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">vír </span></em><em><span>–  vzdušný, vodní</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">y</span>žle –</span></strong><span> vyjmenované slovo po v </span></p>
+                <p><em><span>&bdquo;Vyžle  je velmi hubený člověk.&ldquo;</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>pov<span style="color:#6fd171; ">y</span>k –</span></strong><span> vyjmenované slovo po v</span></p>
+                <p><em><span>&bdquo;Napadená  žena spustila hlasitý <u style="text-underline:#6fd171;">pov<span style="color:#6fd171; ">y</span>k</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">povykovat,  povykování</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>v<span style="color:#6fd171; ">ý</span>heň –</span></strong><span> vyjmenované slovo po v, žár</span></p>
+                <p><em><span>&bdquo;Blízko  ohně byla hotová <u style="text-underline:#6fd171;">v<span style="color:#6fd171; ">ý</span>heň</u>.&ldquo;</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>slova  s&nbsp;předponou v<span style="color:#6fd171; ">y</span>-, v<span style="color:#6fd171; ">ý</span>- </span></strong><span> </span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[v[?]ška [...] i y í *ý]]></question>
+            <question><![CDATA[v[?]žka [...] i y *í ý]]></question>
+            <question><![CDATA[v[?]sokohorský [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]t věneček [...] i y *í ý]]></question>
+            <question><![CDATA[v[?]t na měsíc [...] i y í *ý]]></question>
+            <question><![CDATA[vodní v[?]r [...] i y *í ý]]></question>
+            <question><![CDATA[v[?]r houká [...] i y í *ý]]></question>
+            <question><![CDATA[děti v[?]skají [...] i y í *ý]]></question>
+            <question><![CDATA[v[?]ská syna ve vlasech [...] i y *í ý]]></question>
+            <question><![CDATA[zv[?]k [...] i *y í ý]]></question>
+            <question><![CDATA[přežv[?]kavec [...] i y í *ý]]></question>
+            <question><![CDATA[v[?]dra [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]žle [...] i *y í ý]]></question>
+            <question><![CDATA[pov[?]kovat [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]heň [...] i y í *ý]]></question>
+            <question><![CDATA[v[?]mluvit [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]světlit [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]hrát [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]lákat [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]klat [...] *i y í ý]]></question>
+            <question><![CDATA[v[?]čko [...] i y *í ý]]></question>
+            <question><![CDATA[hroznové v[?]no [...] i y *í ý]]></question>
+            <question><![CDATA[zv[?]soka [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]la Amálka [...] i y *í ý]]></question>
+            <question><![CDATA[nov[?]ny [...] *i y í ý]]></question>
+            <question><![CDATA[zv[?]klost [...] i *y í ý]]></question>
+            <question><![CDATA[žv[?]kačka [...] i y í *ý]]></question>
+            <question><![CDATA[zlozv[?]k [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]sočina [...] i *y í ý]]></question>
+            <question><![CDATA[v[?]škoměr [...] i y í *ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="16" name="Vyjmenovaná slova po Z" demo="0">
+        <intro pages="5" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slovy po z:</span></u></strong></p>
+                <p><strong><span>brz<span style="color:#6fd171; ">y</span>, jaz<span style="color:#6fd171; ">y</span>k, naz<span style="color:#6fd171; ">ý</span>vat, Ruz<span style="color:#6fd171; ">y</span>ně</span></strong></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>brz<span style="color:#6fd171; ">y</span> –</span></strong><span> vyjmenované slovo po z</span></p>
+                <p><em><span>&bdquo;Vstal  jsem <u style="text-underline:#6fd171;">brz<span style="color:#6fd171; ">y</span></u> ráno.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">brzičko</span></em><em><span> </span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>jaz<span style="color:#6fd171; ">y</span>k –</span></strong><span> vyjmenované slovo po z</span></p>
+                <p><em><span>&bdquo;Pes  měl vyplazený <u style="text-underline:#6fd171;">jaz<span style="color:#6fd171; ">y</span>k</u>.&ldquo;</span></em></p>
+                <p><em><span>&bdquo;Ve  škole se učíme cizí <u style="text-underline:#6fd171;">jaz<span style="color:#6fd171; ">y</span>k</u>.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">jazykový,  jazýček, cizojazyčný, dvojjazyčný, jazylka, jazykověda</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>naz<span style="color:#6fd171; ">ý</span>vat –</span></strong><span> vyjmenované slovo po z</span></p>
+                <p><em><span>&bdquo;Nejdelší  kost v&nbsp;těle se nazývá stehenní.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">vyzývat,  ozývat, vzývat, vyzývavý</span></p>
+                <p><strong><u style="text-underline:red;"><span>Pozor na záměnu:</span></u></strong></p>
+                <p><em><span style="color:#772828; ">zívat</span></em><em><span> – projevovat únavu, nudu</span></em></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><span>Ruz<span style="color:#6fd171; ">y</span>ně –</span></strong><span> vyjmenované slovo po z</span></p>
+                <p><em><span>&bdquo;<u style="text-underline:#6fd171;">Ruz<span style="color:#6fd171; ">y</span>ně</u> je  část Prahy.&ldquo;</span></em></p>
+                <p><strong><u style="text-underline:#6fd171;"><span>Příbuzná slova:</span></u></strong></p>
+                <p><span style="color:#6fd171; ">ruzyňské</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[brz[?] [...] i *y í ý]]></question>
+            <question><![CDATA[brz[?]čko [...] *i y í ý]]></question>
+            <question><![CDATA[jaz[?]kověda [...] i *y í ý]]></question>
+            <question><![CDATA[jaz[?]k [...] i *y í ý]]></question>
+            <question><![CDATA[jaz[?]ček [...] i y í *ý]]></question>
+            <question><![CDATA[jaz[?]lka [...] i *y í ý]]></question>
+            <question><![CDATA[oz[?]vat se [...] i y í *ý]]></question>
+            <question><![CDATA[z[?]vat nudou [...] i y *í ý]]></question>
+            <question><![CDATA[naz[?]vat [...] i y í *ý]]></question>
+            <question><![CDATA[ruz[?]nské letiště [...] i *y í ý]]></question>
+            <question><![CDATA[Ruz[?]ně [...] i *y í ý]]></question>
+            <question><![CDATA[z[?]ma [...] *i y í ý]]></question>
+            <question><![CDATA[přez[?]movat [...] *i y í ý]]></question>
+            <question><![CDATA[mez[?]rka [...] i y *í ý]]></question>
+            <question><![CDATA[z[?]skat [...] i y *í ý]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="20" name="Vyjmenovaná slova - opakování" demo="0">
+        <intro pages="1" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong><u style="text-underline:#6fd171;"><span>Vyjmenovaná slova:</span></u></strong></p>
+                <p><strong><span>b<span style="color:#6fd171; ">ý</span>t, b<span style="color:#6fd171; ">y</span>dlet, ob<span style="color:#6fd171; ">y</span>vatel, b<span style="color:#6fd171; ">y</span>t,  příb<span style="color:#6fd171; ">y</span>tek náb<span style="color:#6fd171; ">y</span>tek,  dob<span style="color:#6fd171; ">y</span>tek, ob<span style="color:#6fd171; ">y</span>čej,  b<span style="color:#6fd171; ">y</span>strý, b<span style="color:#6fd171; ">y</span>lina,  kob<span style="color:#6fd171; ">y</span>la, b<span style="color:#6fd171; ">ý</span>k,  Přib<span style="color:#6fd171; ">y</span>slav</span></strong><span style="color:#772828; "> </span></p>
+                <hr>
+                <p><strong><span>sl<span style="color:#6fd171; ">y</span>šet, ml<span style="color:#6fd171; ">ý</span>n, bl<span style="color:#6fd171; ">ý</span>skat se, pol<span style="color:#6fd171; ">y</span>kat,  pl<span style="color:#6fd171; ">y</span>nout, pl<span style="color:#6fd171; ">ý</span>tvat,  vzl<span style="color:#6fd171; ">y</span>kat, l<span style="color:#6fd171; ">y</span>sý,  l<span style="color:#6fd171; ">ý</span>tko, l<span style="color:#6fd171; ">ý</span>ko,  l<span style="color:#6fd171; ">y</span>že, pel<span style="color:#6fd171; ">y</span>něk,  pl<span style="color:#6fd171; ">y</span>š</span></strong></p>
+                <hr>
+                <p><strong><span>m<span style="color:#6fd171; ">y</span>, m<span style="color:#6fd171; ">ý</span>t, m<span style="color:#6fd171; ">y</span>slet, m<span style="color:#6fd171; ">ý</span>lit  se, hm<span style="color:#6fd171; ">y</span>z, m<span style="color:#6fd171; ">y</span>š,  hlem<span style="color:#6fd171; ">ý</span>žď, m<span style="color:#6fd171; ">ý</span>to,  m<span style="color:#6fd171; ">ý</span>tit, zam<span style="color:#6fd171; ">y</span>kat,  sm<span style="color:#6fd171; ">ý</span>kat, dm<span style="color:#6fd171; ">ý</span>chat,  chm<span style="color:#6fd171; ">ý</span>ří, nachom<span style="color:#6fd171; ">ý</span>tnout  se, Litom<span style="color:#6fd171; ">y</span>šl</span></strong></p>
+                <hr>
+                <p><strong><span>p<span style="color:#6fd171; ">ý</span>cha, p<span style="color:#6fd171; ">y</span>tel, p<span style="color:#6fd171; ">y</span>sk, netop<span style="color:#6fd171; ">ý</span>r,  slep<span style="color:#6fd171; ">ý</span>š, p<span style="color:#6fd171; ">y</span>l,  kop<span style="color:#6fd171; ">y</span>to, klop<span style="color:#6fd171; ">ý</span>tat,  třp<span style="color:#6fd171; ">y</span>tit se, zp<span style="color:#6fd171; ">y</span>tovat,  p<span style="color:#6fd171; ">y</span>kat, p<span style="color:#6fd171; ">ý</span>r,  p<span style="color:#6fd171; ">ý</span>řit se, čep<span style="color:#6fd171; ">ý</span>řit  se</span></strong><span style="color:#6fd171; "> </span></p>
+                <hr>
+                <p><strong><span>s<span style="color:#6fd171; ">y</span>n, s<span style="color:#6fd171; ">y</span>tý s<span style="color:#6fd171; ">ý</span>r, s<span style="color:#6fd171; ">y</span>rový, s<span style="color:#6fd171; ">y</span>chravý, us<span style="color:#6fd171; ">y</span>chat,  s<span style="color:#6fd171; ">ý</span>kora, s<span style="color:#6fd171; ">ý</span>ček,  s<span style="color:#6fd171; ">y</span>sel, s<span style="color:#6fd171; ">y</span>čet,  s<span style="color:#6fd171; ">y</span>pat</span></strong><span style="color:#6fd171; "> </span></p>
+                <hr>
+                <p><strong><span>v<span style="color:#6fd171; ">y</span>, vysoký, v<span style="color:#6fd171; ">ý</span>t,  v<span style="color:#6fd171; ">ý</span>skat, zv<span style="color:#6fd171; ">y</span>kat,  žv<span style="color:#6fd171; ">ý</span>kat, v<span style="color:#6fd171; ">y</span>dra,  v<span style="color:#6fd171; ">ý</span>r, v<span style="color:#6fd171; ">y</span>žle,  pov<span style="color:#6fd171; ">y</span>k, v<span style="color:#6fd171; ">ý</span>heň,  slova s&nbsp;předponou v<span style="color:#6fd171; ">y</span>-, v<span style="color:#6fd171; ">ý</span>-</span></strong><em><span> </span></em></p>
+                <hr>
+                <p><strong><span>brz<span style="color:#6fd171; ">y</span>, jaz<span style="color:#6fd171; ">y</span>k, naz<span style="color:#6fd171; ">ý</span>vat, Ruz<span style="color:#6fd171; ">y</span>ně</span></strong></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[p[?]cha [...] *ý í i y]]></question>
+            <question><![CDATA[zap[?]chl [...] ý *í i y]]></question>
+            <question><![CDATA[b[?]t [...] ý í *y *i]]></question>
+            <question><![CDATA[l[?]st [...] ý í y *i]]></question>
+            <question><![CDATA[m[?]š [...] ý í *y i]]></question>
+            <question><![CDATA[b[?]tovka [...] ý í *y i]]></question>
+            <question><![CDATA[b[?]ček [...] *ý í i y]]></question>
+            <question><![CDATA[kobl[?]ha [...] ý í y *i]]></question>
+            <question><![CDATA[l[?]pa [...] ý *í i y]]></question>
+            <question><![CDATA[b[?]dliště [...] ý í *y i]]></question>
+            <question><![CDATA[b[?]lek [...] ý *í i y]]></question>
+            <question><![CDATA[m[?]šlenka [...] ý í *y i ]]></question>
+            <question><![CDATA[sm[?]ch [...] ý *í i y]]></question>
+            <question><![CDATA[s[?]n [...] ý í *y i]]></question>
+            <question><![CDATA[sl[?]z [...] ý í y *i]]></question>
+            <question><![CDATA[kop[?]tko [...] *ý í i y]]></question>
+            <question><![CDATA[p[?]la vodu [...] ý í y *i]]></question>
+            <question><![CDATA[zm[?]je [...] ý í y *i]]></question>
+            <question><![CDATA[korm[?]dlo [...] ý í y *i]]></question>
+            <question><![CDATA[v[?]soko [...] ý í *y i]]></question>
+            <question><![CDATA[prom[?]tání [...] ý *í i y]]></question>
+            <question><![CDATA[m[?]lá paní [...] ý í y *i]]></question>
+            <question><![CDATA[om[?]l [...] ý í *y i]]></question>
+            <question><![CDATA[zlob[?]t [...] ý í y *i]]></question>
+            <question><![CDATA[ob[?]vatel [...] ý í *y i]]></question>
+            <question><![CDATA[pov[?]kovat [...] ý í *y i]]></question>
+            <question><![CDATA[b[?]linky [...] ý í *y i]]></question>
+            <question><![CDATA[bab[?]čka [...] ý í y *i]]></question>
+            <question><![CDATA[kl[?]dný [...] ý í y *i]]></question>
+            <question><![CDATA[hm[?]zožravec [...] ý í *y i]]></question>
+            <question><![CDATA[krop[?]t [...] ý í y *i]]></question>
+            <question><![CDATA[bl[?]kat [...] ý í y *i]]></question>
+            <question><![CDATA[sl[?]mák [...] ý í y *i]]></question>
+            <question><![CDATA[příb[?]tek [...] ý í *y i]]></question>
+            <question><![CDATA[zv[?]k [...] ý í *y i]]></question>
+            <question><![CDATA[ob[?]čejný [...] ý í *y i]]></question>
+            <question><![CDATA[b[?]střina [...] ý í *y i]]></question>
+            <question><![CDATA[klop[?]tnout [...] *ý í i y]]></question>
+            <question><![CDATA[slab[?]kář [...] ý í y *i]]></question>
+            <question><![CDATA[kom[?]ník [...] ý í y *i]]></question>
+            <question><![CDATA[zb[?]tek [...] ý í *y i]]></question>
+            <question><![CDATA[hodiny odb[?]jí [...] ý *í y *i]]></question>
+            <question><![CDATA[v[?]žka kostela [...] ý *í i y]]></question>
+            <question><![CDATA[mam[?]nka [...] ý í y *i]]></question>
+            <question><![CDATA[pap[?]r [...] ý *í i y]]></question>
+            <question><![CDATA[lap[?]t [...] ý í y *i]]></question>
+            <question><![CDATA[zv[?]kat si [...] ý í *y i]]></question>
+            <question><![CDATA[v[?]klat se [...] ý í y *i]]></question>
+            <question><![CDATA[v[?]chod [...] *ý í i y]]></question>
+            <question><![CDATA[pov[?]razit si [...] ý í *y i]]></question>
+            <question><![CDATA[nov[?]nka [...] ý í y *i]]></question>
+            <question><![CDATA[nov[?]ny [...] ý í y *i]]></question>
+            <question><![CDATA[v[?]cházka [...] ý í *y i]]></question>
+            <question><![CDATA[přiv[?]tat [...] ý *í i y]]></question>
+            <question><![CDATA[sam[?]ce [...] ý í y *i]]></question>
+            <question><![CDATA[ob[?]čejný [...] ý í *y i]]></question>
+            <question><![CDATA[pel[?]ňkový [...] ý í *y i]]></question>
+            <question><![CDATA[ml[?]t mouku [...] ý *í i y]]></question>
+            <question><![CDATA[ml[?]nek [...] *ý í i y]]></question>
+            <question><![CDATA[bl[?]zko [...] ý *í i y]]></question>
+            <question><![CDATA[pl[?]n [...] ý í *y i]]></question>
+            <question><![CDATA[pl[?]vat [...] ý í y *i]]></question>
+            <question><![CDATA[z[?]vat [...] ý *í i y]]></question>
+            <question><![CDATA[zabl[?]sklo se [...] *ý í i y]]></question>
+            <question><![CDATA[s[?]rečky [...] ý í *y i]]></question>
+            <question><![CDATA[s[?]pat popel [...] ý í *y i]]></question>
+            <question><![CDATA[s[?]pat při nemoci [...] ý *í i y]]></question>
+            <question><![CDATA[s[?]rky [...] ý í y *i]]></question>
+            <question><![CDATA[v[?]stoupení [...] ý í *y i]]></question>
+            <question><![CDATA[pros[?]nec [...] ý í y *i]]></question>
+            <question><![CDATA[l[?]stopad [...] ý í y *i]]></question>
+            <question><![CDATA[m[?]lit se [...] *ý í i y]]></question>
+            <question><![CDATA[mal[?]ny [...] ý í y *i]]></question>
+            <question><![CDATA[brz[?] [...] ý í *y i]]></question>
+            <question><![CDATA[třp[?]t hvězd [...] ý í *y i ]]></question>
+            <question><![CDATA[p[?]t vodu [...] ý *í i y]]></question>
+            <question><![CDATA[pl[?]nový kotel [...] ý í *y i]]></question>
+            <question><![CDATA[olomoucké s[?]rečky [...] ý í *y i]]></question>
+            <question><![CDATA[v[?]li věnečky z pampelišek [...] ý í y *i]]></question>
+            <question><![CDATA[vlci v[?]li [...] ý í *y i]]></question>
+            <question><![CDATA[v[?]tr [...] ý *í i y]]></question>
+            <question><![CDATA[větrný ml[?]n [...] *ý í i y]]></question>
+            <question><![CDATA[vodní v[?]r [...] ý *í y i]]></question>
+            <question><![CDATA[spol[?]kat léky [...] ý í *y i]]></question>
+            <question><![CDATA[l[?]kožrout [...] *ý í i y]]></question>
+            <question><![CDATA[l[?]tovat [...] ý í y *i]]></question>
+            <question><![CDATA[lep[?]t [...] ý í y *i]]></question>
+            <question><![CDATA[l[?]zat zmrzlinu [...] ý *í i y]]></question>
+            <question><![CDATA[sm[?]chat [...] ý *í i y]]></question>
+            <question><![CDATA[um[?]vadlo [...] ý í *y i]]></question>
+            <question><![CDATA[m[?]t nádobí [...] *ý í i y]]></question>
+            <question><![CDATA[m[?]t radost [...] ý *í i y]]></question>
+            <question><![CDATA[pl[?]tvání [...] *ý í i y]]></question>
+            <question><![CDATA[pol[?]tovat [...] ý í y *i]]></question>
+            <question><![CDATA[p[?]šný [...] ý í *y i]]></question>
+            <question><![CDATA[pl[?]šový medvídek [...] ý í i *y]]></question>
+            <question><![CDATA[rozdm[?]chat oheň [...] *ý í i y]]></question>
+            <question><![CDATA[sl[?]bovat [...] ý í y *i]]></question>
+            <question><![CDATA[l[?]sina [...] ý í *y i]]></question>
+            <question><![CDATA[m[?]šlenka [...] ý í *y i]]></question>
+            <question><![CDATA[p[?]lové zrnko [...] ý í *y i]]></question>
+            <question><![CDATA[s[?]rové maso [...] ý í *y i]]></question>
+            <question><![CDATA[lich[?] a sudý [...] *ý í i y]]></question>
+            <question><![CDATA[s[?]rová roláda [...] *ý í i y]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="16" name="Psaní i/y, í/ý v koncovkách podstatných jmen podle vzorů" demo="1">
+        <intro pages="7" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Psaní
+                koncovek podstatných jmen se řídí podle vzorů podstatných jmen.</span></p>
+                
+                <p><span>Vzory <b>mužského
+                rodu</b>:</span></p>
+                
+                <p><b><span style='color:blue'>pán</span></b></p>
+                
+                <p><b><span style='color:blue'>hrad,
+                (les)</span></b></p>
+                
+                <p><b><span style='color:blue'>muž</span></b></p>
+                
+                <p><b><span style='color:blue'>stroj</span></b></p>
+                
+                <p><b><span style='color:blue'>předseda</span></b></p>
+                
+                <p><b><span style='color:blue'>soudce</span></b></p>
+                
+                
+                
+                <p><span>Vzory <b>ženského
+                rodu</b>:</span></p>
+                
+                <p><b><span style='color:blue'>žena</span></b></p>
+                
+                <p><b><span style='color:blue'>růže</span></b></p>
+                
+                <p><b><span style='color:blue'>píseň</span></b></p>
+                
+                <p><b><span style='color:blue'>kost</span></b></p>
+                
+                
+                
+                <p><span>Vzory <b>středního
+                rodu</b>:</span></p>
+                
+                <p><b><span style='color:blue'>město</span></b></p>
+                
+                <p><b><span style='color:blue'>moře </span></b></p>
+                
+                <p><b><span style='color:blue'>kuře</span></b></p>
+                
+                
+                
+                <p><b><span style='color:blue'>stavení</span></b></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Nejprve si
+                určíme <b>rod</b> podstatného jména. Ukážeme si na něj ukazovacími zájmeny <b>TEN</b>,
+                <b>TA</b>, <b>TO</b>.</span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span>TEN</span></b><span> pes – rod
+                mužský</span></p>
+                
+                <p><b><span>TA</span></b><span> kočka – rod
+                ženský</span></p>
+                
+                
+                
+                <p><b><span>TO </span></b><span>štěně – rod
+                střední</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Když známe
+                rod, potřebujeme slovo přiřadit ke <b>vzoru</b>. K&nbsp;tomu je třeba si určit
+                ještě <b>2. pád</b> slova v&nbsp;jednotném čísle a zjišťovat, který vzor se
+                shoduje v koncovce ve&nbsp;2.pádě s&nbsp;naším slovem.</span></p>
+                
+                <p><span>Slovo
+                mužského rodu <b><span style='color:blue'>pes </span></b>– 2. pád - bez koho, čeho – bez <b><span style='color:blue'>psa</span></b></span></p>
+                
+                <p><span>Hledáme mezi
+                vzory rodu mužského:</span></p>
+                
+                <p><b><span>pán</span></b><span> – 2. pád -
+                bez <b>pána</b></span></p>
+                
+                <p><b><span>hrad</span></b><span> <b>(les)</b>
+                – 2. pád – bez <b>hradu</b> <b>(lesa)</b></span></p>
+                
+                <p><b><span>muž</span></b><span> – 2. pád -
+                bez <b>muže</b></span></p>
+                
+                <p><b><span>stroj</span></b><span> – 2. pád –
+                bez <b>stroje</b></span></p>
+                
+                <p><b><span>předseda</span></b><span> – 2. pád –
+                bez <b>předsedy</b></span></p>
+                
+                <p><b><span>soudce</span></b><span> – 2. pád –
+                bez <b>soudce</b></span></p>
+                
+                
+                
+                <p><span>Zjistili
+                jsme, že slovo <b><span style='color:blue'>pes</span></b> se skloňuje podle vzoru <b>pán</b> (<b><span style='color:blue'>pes</span></b> bez <b><span
+                style='color:blue'>psa</span></b>, <b>pán</b> bez <b>pána</b>)</span></p>
+                
+                
+                
+                <p><b><span>POZOR!!!
+                PAMATUJTE SI!!! Ve 3. a 6. pádu jednotného čísla se u vzorů pán, muž, předseda
+                a soudce může objevit koncovka –ov<span style='color:#00B050'>i</span>! Vždy
+                s&nbsp;měkkým <span style='color:#00B050'>i</span>!!!</span></b></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><i><span>Praktická rada:</span></i></p>
+                
+                <p><i><span>Končí-li
+                slovo v&nbsp;mužském rodě v 1. pádu čísla jednotného koncovkou
+                <b><span style='font-style:normal'>–a</span></b>, skloňuje se vždy podle
+                vzoru </span></i><b><span>předseda</span></b><i><span>. Není potřeba dál určovat 2. pád.</span></i></p>
+                
+                <p><i><u><span>Například:</span></u></i><i><span> starosta,
+                houslista,…</span></i></p>
+                
+                <p><i><span>Končí</span></i><i><span>–li
+                slovo v&nbsp;mužském rodě v&nbsp;1. pádu čísla jednotného koncovkou </span></i><b><span>–e</span></b><i><span>, skloňuje se
+                vždy podle vzoru </span></i><b><span>soudce</span></b><i><span> a opět není potřeba určovat 2. pád.</span></i></p>
+                
+                
+                
+                <p><i><u><span>Například:</span></u></i><i><span> zástupce,
+                obhájce,…</span></i></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Slovo
+                ženského rodu <b><span style='color:blue'>kočka </span></b>– 2. pád – bez koho, čeho – bez <b><span style='color:blue'>kočky</span></b></span></p>
+                
+                <p><span>Hledáme mezi
+                vzory rodu ženského:</span></p>
+                
+                <p><b><span>žena </span></b><span>– 2. pád –
+                bez <b>ženy</b></span></p>
+                
+                <p><b><span>růže</span></b><span> – 2. pád –
+                bez <b>růže</b></span></p>
+                
+                <p><b><span>píseň</span></b><span> – 2. pád –
+                bez <b>písně</b></span></p>
+                
+                <p><b><span>kost</span></b><span> – 2. pád –
+                bez <b>kosti</b></span></p>
+                
+                <p><span>Zjistili
+                jsme, že slovo <b><span style='color:blue'>kočka</span></b> se skloňuje podle vzoru <b>žena</b>
+                (<b><span style='color:blue'>kočka </span></b>bez <b><span
+                style='color:blue'>kočky</span></b>, <b>žena</b> bez
+                <b>ženy</b>)</span></p>
+                
+                
+                
+                <p><b><span>POZOR!!!
+                PAMATUJTE SI!!! V&nbsp;7. pádu čísla množného se v&nbsp;ženském rodě vždy píše
+                na konci slova <span style='color:#00B050'>i</span>!!!(ženam<span
+                style='color:#00B050'>i</span>, růžem<span style='color:#00B050'>i</span>, písněm<span
+                style='color:#00B050'>i</span>, kostm<span style='color:#00B050'>i</span>,
+                kočkam<span style='color:#00B050'>i,</span> plachetnicem<span style='color:#00B050'>i</span>)</span></b></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Slovo
+                středního rodu <b><span style='color:blue'>štěně</span></b> – 2. pád - bez koho, čeho – bez <b><span style='color:blue'>štěněte</span></b></span></p>
+                
+                <p><span>Hledáme mezi
+                vzory rodu středního:</span></p>
+                
+                <p><b><span>město</span></b><span> – 2. pád –
+                bez <b>města</b></span></p>
+                
+                <p><b><span>moře </span></b><span>– 2. pád –
+                bez <b>moře</b></span></p>
+                
+                <p><b><span>kuře</span></b><span> – 2. pád –
+                bez <b>kuřete</b></span></p>
+                
+                <p><b><span>stavení</span></b><span> – 2. pád –
+                bez <b>stavení</b></span></p>
+                
+                
+                
+                <p><span>Zjistili
+                jsme, že slovo <b><span style='color:blue'>štěně</span></b> se skloňuje podle vzoru <b>kuře</b>
+                (<b><span style='color:blue'>štěně</span></b> bez <b><span
+                style='color:blue'>štěněte</span></b>, <b>kuře</b>
+                bez <b>kuřete</b>)</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Teď, když
+                umíme přiřadit podstatné jméno ke vzoru, není problém určit psaní <b><span
+                style='color:#00B050'>i</span></b> nebo <b><span style='color:#00B050'>y </span></b>po
+                obojetné souhlásce. Stačí si říci <b>vzor ve</b> <b>stejném čísle a pádu</b>
+                jako naše slovo.</span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>stoly s&nbsp;ubrus?</span></p>
+                
+                <p><span>stůl – vzor
+                hrad, s&nbsp;ubrus<b><span style='color:#00B050'>y</span></b> – s&nbsp;hrad<b><span
+                style='color:#00B050'>y</span></b></span></p>
+                
+                <p><b><span
+                style='color:#00B050'><o:p>&nbsp;</o:p></span></b></p>
+                
+                <p><span>na větv?</span></p>
+                
+                <p><span>větev – vzor
+                píseň, na větv<b><span style='color:#00B050'>i</span></b> – na písn<b><span
+                style='color:#00B050'>i</span></b></span></p>
+                
+                <p><b><span
+                style='color:#00B050'><o:p>&nbsp;</o:p></span></b></p>
+                
+                
+                
+                <p><span>mezi obil?m</span></p>
+                
+                <p><span>obilí – vzor
+                stavení, mezi obil<b><span style='color:#00B050'>í</span></b>m – mezi staven<b><span
+                style='color:#00B050'>í</span></b>m</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[veselé hlas[?] [...] i *y ]]></question>
+            <question><![CDATA[pyšní páv[?] [...] *i y ]]></question>
+            <question><![CDATA[poštovní holub[?] [...] *i y ]]></question>
+            <question><![CDATA[velké mraz[?] [...] i *y ]]></question>
+            <question><![CDATA[ps[?] a kočky [...] *i y ]]></question>
+            <question><![CDATA[zuřiví lv[?] [...] *i y ]]></question>
+            <question><![CDATA[hodně káv[?] [...] i *y ]]></question>
+            <question><![CDATA[divoké hus[?] [...] i *y ]]></question>
+            <question><![CDATA[kráv[?] s telaty [...] i *y ]]></question>
+            <question><![CDATA[těžké hlavolam[?] [...] i *y ]]></question>
+            <question><![CDATA[mezi skalam[?] [...] *i y ]]></question>
+            <question><![CDATA[pyšnému pávov[?] [...] *i y ]]></question>
+            <question><![CDATA[barevní motýl[?] [...] *i y ]]></question>
+            <question><![CDATA[vzteklí ps[?] [...] *i y ]]></question>
+            <question><![CDATA[temné sklep[?] [...] i *y ]]></question>
+            <question><![CDATA[pusté ostrov[?] [...] i *y ]]></question>
+            <question><![CDATA[líní krokodýl[?] [...] *i y ]]></question>
+            <question><![CDATA[rohaté koz[?] [...] i *y ]]></question>
+            <question><![CDATA[obilí v pytl[?]ch [...] *í ý ]]></question>
+            <question><![CDATA[černé uhl[?] [...] *í ý ]]></question>
+            <question><![CDATA[dlouhé tunel[?] [...] i *y ]]></question>
+            <question><![CDATA[dobré úmysl[?] [...] i *y ]]></question>
+            <question><![CDATA[lusky fazol[?] [...] *í ý ]]></question>
+            <question><![CDATA[v noční košil[?] [...] *i y ]]></question>
+            <question><![CDATA[u chalup[?] [...] i *y ]]></question>
+            <question><![CDATA[na větv[?] [...] *i y ]]></question>
+            <question><![CDATA[drahé automobil[?] [...] i *y ]]></question>
+            <question><![CDATA[čilí pstruz[?] [...] *i y ]]></question>
+            <question><![CDATA[guláš v kotl[?] [...] *i y ]]></question>
+            <question><![CDATA[blízko k cíl[?] [...] *i y ]]></question>
+            <question><![CDATA[s učitel[?] [...] *i y ]]></question>
+            <question><![CDATA[za dom[?] [...] i *y ]]></question>
+            <question><![CDATA[v plastových lahv[?]ch [...] *í ý ]]></question>
+            <question><![CDATA[přírodní živl[?] [...] i *y ]]></question>
+            <question><![CDATA[šlechtické erb[?] [...] i *y ]]></question>
+            <question><![CDATA[ostré střep[?] [...] i *y ]]></question>
+            <question><![CDATA[žáb[?] skřehotaly [...] i *y ]]></question>
+            <question><![CDATA[váza s květinam[?] [...] *i y ]]></question>
+            <question><![CDATA[staré příslov[?] [...] *í ý ]]></question>
+            <question><![CDATA[prsten s perlam[?] [...] *i y ]]></question>
+            <question><![CDATA[drahokam[?] [...] i *y ]]></question>
+            <question><![CDATA[koláč s povidl[?] [...] i *y ]]></question>
+            <question><![CDATA[jít k předsedov[?] [...] *i y ]]></question>
+            <question><![CDATA[zajímavé program[?] [...] i *y ]]></question>
+            <question><![CDATA[opelíchaní šakal[?] [...] *i y ]]></question>
+            <question><![CDATA[ztrouchnivělé trám[?] [...] i *y ]]></question>
+            <question><![CDATA[vonné sol[?] [...] *i y ]]></question>
+            <question><![CDATA[dobré zpráv[?] [...] i *y ]]></question>
+            <question><![CDATA[život na vs[?] [...] *i y ]]></question>
+            <question><![CDATA[vázat uzl[?] [...] i *y ]]></question>
+            <question><![CDATA[zralé obil[?] [...] *í ý ]]></question>
+            <question><![CDATA[nové časopis[?] [...] i *y ]]></question>
+            <question><![CDATA[vysoké topol[?] [...] i *y ]]></question>
+            <question><![CDATA[mezi topol[?] [...] i *y ]]></question>
+            <question><![CDATA[barokní kostel[?] [...] i *y ]]></question>
+            <question><![CDATA[jedovatí plaz[?] [...] *i y ]]></question>
+            <question><![CDATA[shnilé pařez[?] [...] i *y ]]></question>
+            <question><![CDATA[dva čáp[?] [...] *i y ]]></question>
+            <question><![CDATA[černí kos[?] [...] *i y ]]></question>
+            <question><![CDATA[veliké kaps[?] [...] i *y ]]></question>
+            <question><![CDATA[lesklé perl[?] [...] i *y ]]></question>
+            <question><![CDATA[divné hlas[?] [...] i *y ]]></question>
+            <question><![CDATA[loďka s vesl[?] [...] i *y ]]></question>
+            <question><![CDATA[s kniham[?] [...] *i y ]]></question>
+            <question><![CDATA[jdu k bratrov[?] [...] *i y ]]></question>
+            <question><![CDATA[směju se klaunov[?] [...] *i y ]]></question>
+            <question><![CDATA[chráněné sov[?] [...] i *y ]]></question>
+            <question><![CDATA[Santovi sob[?] [...] *i y ]]></question>
+            <question><![CDATA[nové ubrus[?] [...] i *y ]]></question>
+            <question><![CDATA[myši s kočkam[?] [...] *i y ]]></question>
+            <question><![CDATA[vidím žiraf[?] [...] i *y ]]></question>
+        </test>
+    </lesson>
+    
+    <lesson id="40" name="Shoda přísudku s podmětem I." demo="1">
+        <intro pages="5" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p>Je-li podmět v&nbsp;množném čísle rodu <b>mužského životného</b>,
+                je koncovka přísudku <b><span style='color:#6fd171'>–i</span></b>.</p>
+                <p>Například: Zajíci pobíhal<b><span style='color:#6fd171'>i</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Je-li podmět v&nbsp;množném čísle rodu <b>mužského
+                neživotného</b>, je koncovka přísudku <b><span style='color:#6fd171'>–y</span></b>.</p>
+                <p>Například: Stromy rozkvetl<b><span style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Je-li podmět v&nbsp;množném čísle rodu <b>ženského</b>, je
+                koncovka přísudku <b><span style='color:#6fd171'>–y</span></b>.</p>
+                <p>Například: Kočky mňoukal<b><span style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Je-li podmět v&nbsp;množném čísle rodu <b>středního</b>, je
+                koncovka přísudku <b><span style='color:#6fd171'>–a</span></b>.</p>
+                <p>Například: Štěňata štěkal<b><span style='color:#6fd171'>a</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><i>Praktická pomůcka- můžete si ukázat na podmět ukazovacími
+                zájmeny ti, ty, ta. Přísudek má vždy stejnou koncovku jako to zájmeno.</i></p>
+                <p><i>Například: T<span style='color:#6fd171'>i</span> ježci
+                dupal<span style='color:#6fd171'>i</span>.</i></p>
+                <p><i>          T<span style='color:#6fd171'>y</span> traktory
+                se rozjel<span style='color:#6fd171'>y</span>.</i></p>
+                <p><i>          T<span style='color:#6fd171'>y</span> houby
+                vyrostl<span style='color:#6fd171'>y</span>.</i></p>
+                <p><i>          T<span style='color:#6fd171'>a</span> kuřata
+                pípal<span style='color:#6fd171'>a</span>.</i></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="10">
+            <question><![CDATA[Vosy bzučel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Koťata pobíhal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Myši se schoval[?]. [...] *y i a]]></question>
+            <question><![CDATA[Sovy houkal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Sněhuláci roztál[?]. [...] y *i a]]></question>
+            <question><![CDATA[Jablka shnil[?]. [...] y i *a]]></question>
+            <question><![CDATA[Soudci se hádal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Blechy skákal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Auta se rozjel[?]. [...] y i *a ]]></question>
+            <question><![CDATA[Motorky předjížděl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Počítače se rozbil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Míče se ztratil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kluci se schoval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Zvonky cinkal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kozy se pásl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Starostové byl[?] zvoleni. [...] y *i a]]></question>
+            <question><![CDATA[Krávy bučel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Žáci se hlásil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Lyžaři upadl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Jeleni uháněl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Klokani skákal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Hračky se ztratil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Prasata chrochtal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Zuby vypadal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Vlasy se rozcuchal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Listy zčervenal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Vrata se zavřel[?]. [...] y i *a]]></question>
+            <question><![CDATA[Tužky se zlámal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Růže voněl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Tulipány rozkvetl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Větve byl[?] spáleny. [...] *y i a]]></question>
+            <question><![CDATA[Hlasy se rozléhal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Vejce se uvařil[?]. [...] y i *a]]></question>
+            <question><![CDATA[Papíry shořel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Letadla přistál[?]. [...] y i *a]]></question>
+            <question><![CDATA[Květiny odkvetl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Motýli létal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Stroje se porouchal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Pole se zazelenal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Vlaky zastavil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Lodě vyplul[?]. [...] *y i a]]></question>
+            <question><![CDATA[Struny se přetrhl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Pádla uplaval[?]. [...] y i *a]]></question>
+            <question><![CDATA[Tanky vystřelil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Lvi zařval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Psi byl[?] zavření. [...] y *i a]]></question>
+            <question><![CDATA[Lampy byl[?] zhasnuty. [...] *y i a]]></question>
+            <question><![CDATA[Čápi přiletěl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Ryby uplaval[?]. [...] *y i a]]></question>
+            <question><![CDATA[Morčata pískal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Těsta vykynul[?]. [...] y i *a]]></question>
+            <question><![CDATA[Žáby skřehotal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Páni pozdravil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Muži cvičil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Mobily zvonil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Chlupy se naježil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Slepice zobal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Bonbóny se slepil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ruce byl[?] umyty. [...] *y i a]]></question>
+            <question><![CDATA[Nohy se odřel[?]. [...] *y i a¨]]></question>
+            <question><![CDATA[Světla zhasl[?]. [...] y i *a]]></question>
+            <question><![CDATA[Trička se umazal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Kombajny vyjel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Korálky se rozkutálel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Děvčata se potápěl[?]. [...] y i *a]]></question>
+            <question><![CDATA[Limonády se chladil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Odpadky se hromadil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Barvy se smíchal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kocouři se popral[?]. [...] y *i a]]></question>
+            <question><![CDATA[Skla popraskal[?]. [...] y i *a]]></question>
+            <question><![CDATA[Keře uschl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Záclony se potrhal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kameny se valil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kroupy padal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Písničky se zpíval[?]. [...] *y i a]]></question>
+            <question><![CDATA[Předsedové odstoupil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Zástupci se sešl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Lišky byl[?] uloveny. [...] *y i a]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="41" name="Shoda přísudku s podmětem II." demo="0">
+        <intro pages="5" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p>Některé podměty mužského rodu se používají v&nbsp;životných i
+                neživotných tvarech. Například:      <i>slanečci/slanečky</i></p>
+                <p><i>                    ledoborci/ledoborce</i></p>
+                <p><i>                     ukazatelé/ukazatele</i></p>
+                <p>Slanečci zapáchal<b><span style='color:#6fd171'>i</span></b>.(slanečci-
+                rod mužský životný)</p>
+                <p>Slanečky zapáchal<b><span style='color:#6fd171'>y</span></b>.(slanečky
+                – rod mužský neživotný)</p>
+                <p>&nbsp;</p>
+                <p>Ledoborci vyplul<b><span style='color:#6fd171'>i</span></b>.(ledoborci-rod
+                mužský životný)</p>
+                <p>Ledoborce vyplul<b><span style='color:#6fd171'>y</span></b>.(ledoborce
+                –rod mužský neživotný)</p>
+                <p>Ukazatelé se ztratil<b><span style='color:#6fd171'>i</span></b>.(ukazatelé
+                -rod mužský životný)</p>
+                <p>Ukazatele se ztratil<b><span style='color:#6fd171'>y</span></b>.(ukazatele
+                – rod mužský neživotný)</p>
+                <p>&nbsp;</p>
+                <p><b>Pozor výjimka!!!</b> Neplatí to pro podmět<b> </b><i>dni/dny</i><b>.
+                </b>V<b>&nbsp;</b>přísudku je vždy<b> <span style='color:#6fd171'>–y</span></b>!</p>
+                <p>Dni plynul<b><span style='color:#6fd171'>y</span></b>.</p>
+                <p>Dny plynul<b><span
+                style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Končí-li podmět v&nbsp;množném čísle koncovkou <b>–ové</b>, je
+                vždy rodu mužského životného, tudíž je v&nbsp;přísudku <b><span
+                style='color:#6fd171'>–i</span></b>. Jedná se o zastaralé výrazy.</p>
+                <p>Například: Hrobové se otvíral<b><span style='color:#6fd171'>i</span></b>.</p>
+                <p>          Dnové se krátil<b><span style='color:#6fd171'>i</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Podstatné jméno <i>dítě</i> je v&nbsp;jednotném čísle rodu
+                středního, ale v&nbsp;množném čísle má tvar rodu ženského – <i>děti</i> (vzor <i>kosti</i>).
+                Proto se v&nbsp;přísudku píše <b><span style='color:#6fd171'>–y</span></b>.</p>
+                <p>Například: Děti běhal<b><span style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Podstatná jména <i>rodiče, koně, lidičky</i> jsou mluvnicky
+                životná, přestože mají neživotnou koncovku!!! Tudíž se v&nbsp;přísudku píše <b><span
+                style='color:#6fd171'>–i</span></b>.</p>
+                <p>Například: Rodiče spal<b><span style='color:#6fd171'>i</span></b>.</p>
+                <p>          Koně závodil<b><span style='color:#6fd171'>i</span></b>.</p>
+                <p>          Lidičky se seběhl<b><span
+                style='color:#6fd171'>i</span></b>.</p>
+                <p><b>Pozor však na koně
+                houpací!!!</b></p>
+                <p>Houpací koně se rozbil<b><span
+                style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Ve větách s&nbsp;podmětem <i>všeobecným </i>(to je podmět,
+                který není samostatně vyjádřen a rozumí se jím <i>někdo</i> nebo <i>lidé</i>)
+                se v&nbsp;přísudku píše vždy <b><span style='color:#6fd171'>–i</span></b>.</p>
+                <p>Například:      Hlásil<b><span style='color:#6fd171'>i</span></b>
+                to v&nbsp;rozhlase.</p>
+                <p>                Zvonil<b><span
+                style='color:#6fd171'>i</span></b> poledne.</p>
+            ]]></page>
+        </intro>
+        <test timeLimit="10">
+            <question><![CDATA[Děti si hrál[?]. [...] *y i a]]></question>
+            <question><![CDATA[Koně utekl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Dnové uplynul[?]. [...] y *i a]]></question>
+            <question><![CDATA[Rodiče nadával[?]. [...] y *i a]]></question>
+            <question><![CDATA[Hrobové se zavřel[?]. [...] y *i a]]></question>
+            <question><![CDATA[Lidičky si zpíval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Ledoborci ztroskotal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Ledoborce se potopil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ukazatele se ulomil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Uzenáči voněl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Děti křičel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Dny ubíhal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Koně vesele skákal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Uzenáče se zkazil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Dni se táhl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Houpací koně vrzal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Děti spal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ukazatelé zmizel[?]. [...] y *i a]]></question>
+            <question><![CDATA[Dnové byl[?] sluneční. [...] y *i a]]></question>
+            <question><![CDATA[Zavináče byl[?] vyprodány. [...] *y i a]]></question>
+            <question><![CDATA[Zavináči byl[?] kyselí. [...] y *i a]]></question>
+            <question><![CDATA[Děti zlobil[?]. [...] *y i a.]]></question>
+            <question><![CDATA[Příběhové byl[?] vyprávěni. [...] y *i a]]></question>
+            <question><![CDATA[Otiskl[?] to v novinách. [...] y *i a]]></question>
+            <question><![CDATA[Děti pomáhal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Čitatelé byl[?] označeni. [...] y *i a]]></question>
+            <question><![CDATA[Houpací koně se převrhl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Koně klusal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Rodiče přijel[?] domů. [...] y *i a]]></question>
+            <question><![CDATA[Lidičky tancoval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Národové se spojil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Říkal[?] to v rádiu. [...] y *i a]]></question>
+            <question><![CDATA[Děti byl[?] unavené. [...] *y i a]]></question>
+            <question><![CDATA[Rodiče byl[?] naštvaní. [...] y *i a]]></question>
+            <question><![CDATA[Koně si lehl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Čitatele byl[?] zaměněny. [...] *y i a]]></question>
+            <question><![CDATA[Ukazoval[?] to v televizi. [...] y *i a]]></question>
+            <question><![CDATA[Dni rychle utekl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Dny se pomalu táhl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Psal[?] o tom v novinách. [...] y *i a]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="42" name="Shoda přísudku s podmětem několikanásobným" demo="0">
+        <intro pages="4" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p>Je-li podmětů ve větě více a jsou-li všechny stejného rodu,
+                platí pro psaní <b><span style='color:#6fd171'>i/y</span></b> stejná pravidla,
+                jako by byl podmět v&nbsp;množném čísle ve větě jeden.</p>
+                <p>Například: Mroži a lachtani utekl<b><span style='color:#6fd171'>i</span></b>.(oba
+                podměty jsou rodu mužského životného)</p>
+                <p>          Kombajny i traktory vyjel<b><span
+                style='color:#6fd171'>y.</span></b>(oba podměty jsou rodu mužského neživotného)</p>
+                <p>          Mouchy, včely a vosy bzučel<b><span
+                style='color:#6fd171'>y</span></b>.(všechny tři podměty jsou rodu ženského)</p>
+                <p>          Koťata,štěňata i housata spal<b><span
+                style='color:#6fd171'>a</span></b>.(všechny tři podměty jsou rodu středního)</p>
+                <p><b>Pozor!!!</b>Je-li několik podmětů rodu středního a <b>alespoň
+                jeden</b> z&nbsp;nich je v&nbsp;jednotném čísle, píše se v&nbsp;přísudku –<b><span
+                style='color:#6fd171'>y</span></b>!</p>
+                <p>Například: Koťata, štěňata i house spal<b><span
+                style='color:#6fd171'>y</span></b>.</p>
+                <p>          Kotě, štěně i house spal<b><span style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Z&nbsp;předchozích pravidel vyplývá, že <b><span
+                style='color:#6fd171'>–y</span></b> v&nbsp;přísudku se píše také tehdy, jsou-li
+                podměty v&nbsp;jedné větě rodu<b> mužského</b> <b>neživotného</b><i> </i>a
+                zároveň rodu<b> ženského</b>.</p>
+                <p>Například: Lokomotiva (rod
+                ženský) i vagóny (rod mužský neživotný) shořel<b><span style='color:#6fd171'>y</span></b>.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Jsou-li ve větě <b>všechny</b> podměty <b>v</b>&nbsp;<b>jednotném
+                čísle</b> a mezi nimi alespoň jeden, který je rodu <b>mužského životného</b>,
+                píše se v&nbsp;přísudku <b><span style='color:#6fd171'>-i</span></b>.</p>
+                <p>Například: Maminka, otec a sestra mi přijel<b><span style='color:#6fd171'>i</span></b> naproti.</p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p>Takovýchto pravidel pro psaní <b><span style='color:#6fd171'>-i</span></b>
+                nebo <b><span style='color:#6fd171'>-y</span></b> v&nbsp;přísudku je
+                v&nbsp;českém jazyce ještě několik. Pokud byste si je přečetli všechna
+                najednou, těžko by se vám pamatovala a používala. Proto je dobré, když si
+                nejste jisti, mít po ruce <i>Pravidla českého pravopisu</i> a vyhledávat
+                v&nbsp;nich pravidla ke konkrétním větám.</p>
+                <p>Zde si procvičíte jen ta pravidla, která jste si výše
+                přečetli. </p>
+            ]]></page>
+        </intro>
+        <test timeLimit="10">
+            <question><![CDATA[Kočka, myš a pes se lekl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Hrady a zámky byl[?] zavřeny. [...] *y i a]]></question>
+            <question><![CDATA[Motýli a čmeláci poletoval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Káčata, housata a kuře zmokl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Lvíče a štěně se schoval[?]. [...] *y i a]]></question>
+            <question><![CDATA[Váza i hrnek se rozbil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Číšník i kuchař odešl[?]. [...] y *i a.]]></question>
+            <question><![CDATA[Maminka a tatínek spal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Sněhulák i rampouch roztál[?]. [...] y *i a]]></question>
+            <question><![CDATA[Květiny a stromy uschl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kola i auta jel[?]. [...] y i *a]]></question>
+            <question><![CDATA[Pes a kočka se pral[?]. [...] y *i a]]></question>
+            <question><![CDATA[Ryby a žáby se otrávil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ovce a kozy se pásl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Lišky a kuny se ukryl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ježci i krtci uprchl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Učitel i školník se zlobil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Petra a Jana byl[?] venku. [...] *y i a]]></question>
+            <question><![CDATA[Ruce i nohy byl[?] chladné. [...] *y i a]]></question>
+            <question><![CDATA[Počítače a tiskárny nešl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Tužky i pastelky se zlámal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Tužky a papíry došl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Hrušky i švestky shnil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Břízy a lípy se zazelenal[?]. [...] *y i a]]></question>
+            <question><![CDATA[Ondra a Jirka lyžoval[?]. [...] y *i a]]></question>
+            <question><![CDATA[Petr, Jana a Eva bruslil[?]. [...] y *i a]]></question>
+            <question><![CDATA[Borůvky a maliny uzrál[?]. [...] *y i a]]></question>
+            <question><![CDATA[Brouci a motýli se ukryl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Šroubky i matky orezl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Iva, Eva a Jana kreslil[?]. [...] *y i a]]></question>
+            <question><![CDATA[Konev a kbelík byl[?] děravé. [...] *y i a]]></question>
+            <question><![CDATA[Vidlička i nůž byl[?] špinavé. [...] *y i a]]></question>
+            <question><![CDATA[Zebra a žirafa usnul[?]. [...] *y i a]]></question>
+            <question><![CDATA[Lev, had i opice utekl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Tučňák a mrož se koupal[?]. [...] y *i a]]></question>
+            <question><![CDATA[Káva i čaj vychladl[?]. [...] *y i a]]></question>
+            <question><![CDATA[Sele, tele a jehňata ležel[?]. [...] *y i a]]></question>
+            <question><![CDATA[Kůzlata a jehňata poskakoval[?]. [...] y i *a]]></question>
+            <question><![CDATA[Kos i straka uletěl[?]. [...] y *i a]]></question>
+            <question><![CDATA[Klobouk i čepice byl[?] drahé. [...] *y i a]]></question>
+        </test>
+    </lesson>
+    
+    <lesson id="60" name="Psaní –ě po souhláskách b, p, v" demo="0">
+        <intro pages="3" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Skupinu
+                souhlásek <b><span style='color:#00B050'>bje</span></b>
+                a <b><span style='color:#00B050'>vje</span></b>
+                píšeme tehdy, je-li <b><span style='color:#00B050'>b</span></b> nebo <b><span
+                style='color:#00B050'>v</span></b>&nbsp;součástí
+                předpony a pak následuje kořen slova začínající <b>je<span style='color:#00B050'></span></b></span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span
+                style='color:#00B050'>v</span></b><b><span>je</span></b><span>l, </span></p>
+                
+                <p><span>o<b><span
+                style='color:#00B050'>b</span>je</b>l,</span></p>
+                
+                <p><span>o<b><span
+                style='color:#00B050'>b</span>je</b>dnávka,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>v</span></b><b><span>je</span></b><span>m,</span></p>
+                
+                <p><span>o<b><span
+                style='color:#00B050'>b</span>je</b>tí (vzít do náruče)</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>V&nbsp;ostatních
+                případech se píše <b><span
+                style='color:blue'>bě</span></b>, <b><span style='color:blue'>vě</span></b>.<b><span style='color:#00B050'></span></b></span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>o<b><span style='color:blue'>bě</span></b>d,</span></p>
+                
+                <p><span>o<b><span style='color:blue'>bě</span></b>ť,</span></p>
+                
+                <p><b><span style='color:blue'>bě</span></b><span>louš,</span></p>
+                
+                <p><b><span style='color:blue'>vě</span></b><span>štba,</span></p>
+                
+                <p><span>bez<b><span style='color:blue'>vě</span></b>domí</span></p>
+                
+                <p><b><span
+                style='color:#00B050'><o:p>&nbsp;</o:p></span></b></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Ve skupině <b><span style='color:blue'>pě</span></b> se píše vždy pouze <b><span
+                style='color:blue'>–ě</span></b>, protože
+                žádná předpona nekončí na <b><span
+                style='color:blue'>p</span></b>.</span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>pě</span></b><span>stovat,</span></p>
+                
+                <p><b><span style='color:blue'>pě</span></b><span>šina,</span></p>
+                
+                <p><b><span style='color:blue'>p</span></b><b><span>ě</span></b><span>na,</span></p>
+                
+                <p><span>us<b><span style='color:blue'>pě</span></b>chat</span></p>
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[b[?]loba [...] *ě je ]]></question>
+            <question><![CDATA[b[?]žet [...] *ě je ]]></question>
+            <question><![CDATA[p[?]nkava [...] *ě je ]]></question>
+            <question><![CDATA[kv[?]ten [...] *ě je ]]></question>
+            <question><![CDATA[ob[?]t [...] ě *je ]]></question>
+            <question><![CDATA[ob[?]dnávka [...] ě *je ]]></question>
+            <question><![CDATA[v[?]dec [...] *ě je ]]></question>
+            <question><![CDATA[záp[?]stí [...] *ě je ]]></question>
+            <question><![CDATA[p[?]stovat [...] *ě je ]]></question>
+            <question><![CDATA[kruhový ob[?]zd [...] ě *je ]]></question>
+            <question><![CDATA[ob[?]d [...] *ě je ]]></question>
+            <question><![CDATA[ob[?]ť trestného činu [...] *ě je ]]></question>
+            <question><![CDATA[ob[?]živo [...] *ě je ]]></question>
+            <question><![CDATA[maminčino ob[?]tí [...] ě *je ]]></question>
+            <question><![CDATA[bezv[?]domí [...] *ě je ]]></question>
+            <question><![CDATA[v[?]štění budoucnosti [...] *ě je ]]></question>
+            <question><![CDATA[v[?]dět [...] *ě je ]]></question>
+            <question><![CDATA[v[?]t do garáže [...] ě *je ]]></question>
+            <question><![CDATA[v[?]zd do dvora [...] ě *je ]]></question>
+            <question><![CDATA[zrakový v[?]m [...] ě *je ]]></question>
+            <question><![CDATA[p[?]na do koupele [...] *ě je ]]></question>
+            <question><![CDATA[p[?]nkava [...] *ě je ]]></question>
+            <question><![CDATA[p[?]kný [...] *ě je ]]></question>
+            <question><![CDATA[zp[?]v [...] *ě je ]]></question>
+            <question><![CDATA[kv[?]ten [...] *ě je ]]></question>
+            <question><![CDATA[vrátit se zp[?]t [...] *ě je ]]></question>
+            <question><![CDATA[kv[?]t [...] *ě je ]]></question>
+            <question><![CDATA[b[?]hat [...] *ě je ]]></question>
+            <question><![CDATA[v[?]dkyně [...] *ě je ]]></question>
+            <question><![CDATA[sv[?]dek [...] *ě je ]]></question>
+            <question><![CDATA[sv[?]dění [...] *ě je ]]></question>
+            <question><![CDATA[ob[?]hnout [...] *ě je ]]></question>
+            <question><![CDATA[b[?]žec [...] *ě je ]]></question>
+            <question><![CDATA[zp[?]vák [...] *ě je ]]></question>
+            <question><![CDATA[operní p[?]vkyně [...] *ě je ]]></question>
+            <question><![CDATA[špatné sv[?]domí [...] *ě je ]]></question>
+            <question><![CDATA[výb[?]h pro koně [...] *ě je ]]></question>
+            <question><![CDATA[ob[?]dnat se k lékaři [...] ě *je ]]></question>
+            <question><![CDATA[ob[?]dnané zboží [...] ě *je ]]></question>
+            <question><![CDATA[sv[?]t [...] *ě je ]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="70" name="Psaní předložek s a z" demo="1">
+        <intro pages="2" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Předložka <b><span style='color:blue'>s</span></b> (<b><span
+                style='color:blue'>se</span></b>) se pojí se <b>7.</b>
+                pádem (<b><span style='color:blue'>s</span></b> kým, čím) </span></p>
+                
+                
+                
+                <p><u><span><o:p><span
+                style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>&nbsp;tebou,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>&nbsp;kočkou,</span></p>
+                
+                <p><b><span style='color:blue'>se</span></b><span> sestrou</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Předložka <b><span
+                style='color:#00B050'>z</span></b> (<b><span style='color:#00B050'>ze</span></b>)
+                se pojí s&nbsp;<b>2.</b> pádem (<b><span style='color:#00B050'>z</span></b>
+                koho, čeho)</span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>jíst <b><span
+                style='color:#00B050'>z</span></b>&nbsp;talíře,</span></p>
+                
+                <p><span>létat <b><span
+                style='color:#00B050'>z</span></b>&nbsp;květu na květ,</span></p>
+                
+                <p><span>sklidit <b><span
+                style='color:#00B050'>ze</span></b> stolu</span></p>
+                
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[jít [?] tebou [...] *s z ]]></question>
+            <question><![CDATA[jít [?] lesa [...] s *z ]]></question>
+            <question><![CDATA[[?] nákupu [...] s *z ]]></question>
+            <question><![CDATA[[?] maminkou [...] *s z ]]></question>
+            <question><![CDATA[šaty [?] plátna [...] s *z ]]></question>
+            <question><![CDATA[čaj [?] máty [...] s *z ]]></question>
+            <question><![CDATA[závaží [?] olova [...] s *z ]]></question>
+            <question><![CDATA[pejsek [?] kočičkou [...] *s z ]]></question>
+            <question><![CDATA[[?] bratrem [...] *s z ]]></question>
+            <question><![CDATA[koš [?] proutí [...] s *z ]]></question>
+            <question><![CDATA[volat [?] okna [...] s *z ]]></question>
+            <question><![CDATA[chléb [?] máslem [...] *s z ]]></question>
+            <question><![CDATA[šaty [?] skříně [...] se *ze ]]></question>
+            <question><![CDATA[trpaslík [?] sádry [...] se *ze ]]></question>
+            <question><![CDATA[kočka [?] myší [...] *s z ]]></question>
+            <question><![CDATA[pomník [?] kamene [...] s *z ]]></question>
+            <question><![CDATA[bratr [?] sestrou [...] *se ze ]]></question>
+            <question><![CDATA[pomazánka [?] ryb [...] s *z ]]></question>
+            <question><![CDATA[hrnek [?] skla [...] se *ze ]]></question>
+            <question><![CDATA[slepice [?] kuřaty [...] *s z ]]></question>
+            <question><![CDATA[olej [?] slunečnic [...] se *ze ]]></question>
+            <question><![CDATA[bonbóny [?] čokolády [...] s *z ]]></question>
+            <question><![CDATA[vlak [?] vagóny [...] *s z ]]></question>
+            <question><![CDATA[traktor [?] valníkem [...] *s z ]]></question>
+            <question><![CDATA[písek [?] moře [...] s *z ]]></question>
+            <question><![CDATA[košťátko [?] lopatkou [...] *s z ]]></question>
+            <question><![CDATA[kostky [?] dřeva [...] se *ze ]]></question>
+            <question><![CDATA[kelímek [?] plastu [...] s *z ]]></question>
+            <question><![CDATA[boty [?] tkaničkami [...] *s z ]]></question>
+            <question><![CDATA[boty [?] kůže [...] s *z ]]></question>
+            <question><![CDATA[židle [?] kovu [...] s *z ]]></question>
+            <question><![CDATA[svíčka [?] vosku [...] s *z ]]></question>
+            <question><![CDATA[zub [?] kazem [...] *s z ]]></question>
+            <question><![CDATA[třešeň [?] červy [...] *s z ]]></question>
+            <question><![CDATA[jablko [?] stromu [...] se *ze ]]></question>
+            <question><![CDATA[mluvit [?] sestrou [...] *se ze ]]></question>
+            <question><![CDATA[dort [?] šlehačkou [...] *se ze ]]></question>
+            <question><![CDATA[ručník [?] bavlny [...] s *z ]]></question>
+            <question><![CDATA[květináč [?] kaktusem [...] *s z ]]></question>
+            <question><![CDATA[šroubek [?] matkou [...] *s z ]]></question>
+            <question><![CDATA[nůž [?] oceli [...] s *z ]]></question>
+            <question><![CDATA[nůž [?] vidličkou [...] *s z ]]></question>
+            <question><![CDATA[voda [?] kohoutku [...] s *z ]]></question>
+            <question><![CDATA[slon [?] kly [...] *s z ]]></question>
+            <question><![CDATA[salát [?] okurek [...] s *z ]]></question>
+            <question><![CDATA[sýr [?] plísní [...] *s z ]]></question>
+            <question><![CDATA[tužka [?] penálu [...] s *z ]]></question>
+            <question><![CDATA[běžet [?] kopce [...] s *z ]]></question>
+            <question><![CDATA[běžet [?] psem [...] *se ze ]]></question>
+            <question><![CDATA[brambory [?] tvarohem [...] *s z ]]></question>
+            <question><![CDATA[lézt [?] stanu [...] se *ze ]]></question>
+            <question><![CDATA[kuličky [?] hlíny [...] s *z ]]></question>
+            <question><![CDATA[hrad [?] písku [...] s *z ]]></question>
+            <question><![CDATA[nádobí [?] plastu [...] s *z ]]></question>
+            <question><![CDATA[prsten [?] zlata [...] se *ze ]]></question>
+            <question><![CDATA[houby [?] lesa [...] s *z ]]></question>
+            <question><![CDATA[koš [?] jablky [...] *s z ]]></question>
+            <question><![CDATA[pole [?] obilím [...] *s z ]]></question>
+            <question><![CDATA[konev [?] vodou [...] *s z ]]></question>
+            <question><![CDATA[vrata [?] dřeva [...] se *ze ]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="80" name="Psaní předpon s, se a z, ze" demo="0">
+        <intro pages="2" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Předpona <b><span style='color:blue'>s</span></b>, <b><span
+                style='color:blue'>se</span></b> se píše:</span></p>
+                
+                <p><span>1. u slov,
+                která vyjadřují <b>směr</b> <b>dohromady</b>, <b>na jedno místo</b>, <b>k&nbsp;sobě</b></span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>ejít se,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>eřadit se,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>esednout se,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>hluknout se,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>lepit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>mrštit se, </span></p>
+                
+                
+                
+                
+                
+                <p><span>2. u slov,
+                která mají význam <b>směřování</b> <b>shora dolů</b> nebo <b>z&nbsp;povrchu
+                pryč</b></span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>estoupit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>eskočit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>letět,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>padnout,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>česat,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>kácet,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>vléknout,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>etřít</span></p>
+                
+                
+                
+                <p><span>3.
+                v&nbsp;ustálených případech:</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>týskat si,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>levit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>chovat,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>konat,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>končit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>pálit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>pasit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>páchat,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>těžovat si,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>trávit,</span></p>
+                
+                <p><b><span style='color:blue'>s</span></b><span>tvořit</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Předpona <b><span
+                style='color:#00B050'>z</span></b>, <b><span
+                style='color:#00B050'>ze</span></b> se píše:</span></p>
+                
+                <p><span>1.u slov</span><span>, která vyjadřují <b>dokončení nebo výsledek
+                děje, činnosti<span style='color:#00B050'></span></b></span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>organizovat –
+                <b><span style='color:#00B050'>z</span></b>organizovat,</span></p>
+                
+                <p><span>slábnout – <b><span
+                style='color:#00B050'>z</span></b>eslábnout,</span></p>
+                
+                <p><span>chudnout – <b><span
+                style='color:#00B050'>z</span></b>chudnout,</span></p>
+                
+                <p><span>lámat – <b><span
+                style='color:#00B050'>z</span></b>lámat,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>emřít (sloveso
+                mřít se už nepoužívá)</span></p>
+                
+                
+                
+                <p><span>2. u slov,
+                která vyjadřují <b>změnu stavu</b></span></p>
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>tloustnout,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>hloupnout,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>červenat,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>choulostivět</span></p>
+                
+                
+                
+                <p><span>3. v
+                ustálených případech:</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>hostit se,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>koumat (<b><span
+                style='color:#00B050'>z</span></b>kumavka, <b><span style='color:#00B050'>z</span></b>koumaný,…),</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>koušet (<b><span
+                style='color:#00B050'>z</span></b>kouška, <b><span style='color:#00B050'>z</span></b>kušenost,…),</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>pívat (<b><span
+                style='color:#00B050'>z</span></b>pěv, <b><span style='color:#00B050'>z</span></b>pěvák,…),</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>pověď (<b><span
+                style='color:#00B050'>z</span></b>povědní, <b><span style='color:#00B050'>z</span></b>povědnice,…),</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>pytovat,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>pupný,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>působ (<b><span
+                style='color:#00B050'>z</span></b>působný, <b><span style='color:#00B050'>z</span></b>působilý,…),</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>říci se,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>řídit,</span></p>
+                
+                <p><b><span
+                style='color:#00B050'>z</span></b><span>tepilý</span></p>
+                
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[[?]třít z tabule [...] *se ze ]]></question>
+            <question><![CDATA[[?]známit se [...] *se ze ]]></question>
+            <question><![CDATA[[?]lít dohromady [...] *s z ]]></question>
+            <question><![CDATA[[?]dřevěnět [...] s *z ]]></question>
+            <question><![CDATA[[?]fouknout [...] *s z ]]></question>
+            <question><![CDATA[[?]mrštit se [...] *s z ]]></question>
+            <question><![CDATA[[?]česat si vlasy [...] *s z ]]></question>
+            <question><![CDATA[[?]kumavka [...] s *z ]]></question>
+            <question><![CDATA[[?]tloustnout [...] s *z ]]></question>
+            <question><![CDATA[[?]temnět [...] s *z ]]></question>
+            <question><![CDATA[[?]konat [...] *s z ]]></question>
+            <question><![CDATA[[?]pálit [...] *s z ]]></question>
+            <question><![CDATA[[?]bělet [...] s *z ]]></question>
+            <question><![CDATA[[?]pěvák [...] s *z ]]></question>
+            <question><![CDATA[[?]bít k sobě [...] *s z ]]></question>
+            <question><![CDATA[[?]hrabat [...] *s z ]]></question>
+            <question><![CDATA[[?]hlížet dolů [...] *s z ]]></question>
+            <question><![CDATA[[?]těžovat práci [...] s *z ]]></question>
+            <question><![CDATA[[?]těžovat si na nemoc [...] *s z ]]></question>
+            <question><![CDATA[[?]razit k zemi [...] *s z ]]></question>
+            <question><![CDATA[[?]běhnout se k sobě [...] *s z ]]></question>
+            <question><![CDATA[[?]běhnout z vojny [...] s *z ]]></question>
+            <question><![CDATA[[?]trhat ze zdi [...] *s z ]]></question>
+            <question><![CDATA[[?]trhat se námahou [...] s *z ]]></question>
+            <question><![CDATA[[?]tlouci dohromady [...] *s z ]]></question>
+            <question><![CDATA[[?]tlouci člověka [...] s *z ]]></question>
+            <question><![CDATA[[?]volat poradu [...] *s z ]]></question>
+            <question><![CDATA[[?]děsit se [...] s *z ]]></question>
+            <question><![CDATA[[?]černat [...] s *z ]]></question>
+            <question><![CDATA[[?]bírat jablka [...] *s z ]]></question>
+            <question><![CDATA[[?]cvrknout se [...] *s z ]]></question>
+            <question><![CDATA[[?]lepit papíry [...] *s z ]]></question>
+            <question><![CDATA[[?]hubnout [...] s *z ]]></question>
+            <question><![CDATA[[?]filmovat [...] s *z ]]></question>
+            <question><![CDATA[[?]orat pole [...] s *z ]]></question>
+            <question><![CDATA[[?]pona do vlasů [...] *s z ]]></question>
+            <question><![CDATA[[?]pojka [...] *s z ]]></question>
+            <question><![CDATA[[?]kamarádit se [...] *s z ]]></question>
+            <question><![CDATA[[?]vázat k sobě [...] *s z ]]></question>
+            <question><![CDATA[[?]pěv [...] s *z ]]></question>
+            <question><![CDATA[[?]působ [...] s *z ]]></question>
+            <question><![CDATA[[?]šít látku [...] *se ze ]]></question>
+            <question><![CDATA[[?]kalit vodu [...] s *z ]]></question>
+            <question><![CDATA[[?]vléknout šaty [...] *s z ]]></question>
+            <question><![CDATA[[?]hýbnout se [...] *s z ]]></question>
+            <question><![CDATA[[?]chůzka [...] *s z ]]></question>
+            <question><![CDATA[[?]mýt špínu [...] *s z ]]></question>
+            <question><![CDATA[[?]modrat [...] s *z ]]></question>
+            <question><![CDATA[[?]lupka [...] *s z ]]></question>
+            <question><![CDATA[[?]pláchnout záchod [...] *s z ]]></question>
+            <question><![CDATA[[?]ředit [...] s *z ]]></question>
+            <question><![CDATA[[?]chudnout [...] s *z ]]></question>
+            <question><![CDATA[[?]zlomit [...] s *z ]]></question>
+            <question><![CDATA[[?]mřít [...] se *ze ]]></question>
+            <question><![CDATA[[?]šedivět [...] se *ze ]]></question>
+            <question><![CDATA[[?]pozorovat změnu [...] s *z ]]></question>
+            <question><![CDATA[[?]tichnout [...] s *z ]]></question>
+            <question><![CDATA[[?]barvit [...] s *z ]]></question>
+            <question><![CDATA[[?]koumat mikroskopem [...] s *z ]]></question>
+            <question><![CDATA[[?]nehodnotit dílo [...] s *z ]]></question>
+            <question><![CDATA[těžká [?]kouška [...] s *z ]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="120" name="Psaní i/y , í/ý v koncovkách přídavných jmen podle vzorů" demo="0">
+        <intro pages="5" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Psaní
+                koncovek přídavných jmen se řídí podle vzorů přídavných jmen.</span></p>
+                
+                <p><span>Rozlišujeme
+                tři druhy přídavných jmen:</span></p>
+                
+                <p><b><span>tvrdá</span></b><span><span>  </span>- vzor <b><span style='color:blue'>mladý</span></b></span></p>
+                
+                <p><b><span>měkká</span></b><span> – vzor <b><span
+                style='color:blue'>jarní</span></b></span></p>
+                
+                
+                
+                <p><b><span>přivlastňovací</span></b><span> – vzory <b><span
+                style='color:blue'>otcův</span></b><span>, </span><b><span style='color:blue'>matčin</span></b></span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Přiřazování
+                přídavných jmen ke vzorům je snadné. Nejprve si řekneme přídavné jméno
+                v&nbsp;mužském, ženském a středním rodu.</span></p>
+                
+                <p><span>Například:TEN <b><span
+                style='color:blue'>znám</span><span
+                style='color:#00B050'>ý</span></b> (muž), TA <b><span style='color:blue'>znám</span><span style='color:#00B050'>á</span></b>
+                (žena), TO <b><span style='color:blue'>znám</span><span style='color:#00B050'>é</span></b> (dítě)</span></p>
+                
+                <p><span>Potom
+                přiřadíme přídavné jméno ke vzoru, který má ve všech třech rodech shodné
+                koncovky s&nbsp;naším přídavným jménem</span></p>
+                
+                <p><span>TEN <b><span
+                style='color:blue'>mlad</span><span style='color:#00B050'>ý</span></b>, TA <b><span
+                style='color:blue'>mlad</span><span style='color:#00B050'>á</span></b>, TO <b><span
+                style='color:blue'>mlad</span><span style='color:#00B050'>é</span></b></span></p>
+                
+                <p><span>TEN <b><span
+                style='color:blue'>jarní</span></b>, TA <b><span style='color:blue'>jarní</span></b>,
+                TO <b><span style='color:blue'>jarní</span></b></span></p>
+                
+                <p><span>TEN <b><span
+                style='color:blue'>otcův</span></b>, TA <b><span style='color:blue'>otcova</span></b>,
+                TO <b><span style='color:blue'>otcovo</span></b></span></p>
+                
+                <p><span>TEN <b><span
+                style='color:blue'>matčin</span></b>, TA <b><span style='color:blue'>matčina</span></b>,
+                TO <b><span style='color:blue'>matčino</span></b></span></p>
+                
+                
+                
+                <p><span>Zjistili
+                jsme, že přídavné jméno <b><span
+                style='color:blue'>znám</span><span
+                style='color:#00B050'>ý</span></b> se skloňuje podle<span>  </span>tvrdého vzoru <b>mlad</b><b><span style='color:#00B050'>ý</span></b>.</span></p>
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>U přídavných
+                jmen <b>tvrdých</b> (skloňují se podle vzoru <b>mladý</b>) je vždy
+                v&nbsp;koncovce <b><span style='color:#00B050'>ý</span></b> kromě <b>1. a 5.
+                pádu čísla množného, rodu mužského životného.</b></span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>bíl</span></b><b><span
+                style='color:#00B050'>í</span></b><span> (<b>mlad<span
+                style='color:#00B050'>í</span></b>) holubi,</span></p>
+                
+                <p><b><span style='color:blue'>nov</span></b><b><span
+                style='color:#00B050'>í</span></b><span> (<b>mlad<span
+                style='color:#00B050'>í</span></b>) žáci,</span></p>
+                
+                <p><b><span style='color:blue'>zuřiv</span></b><b><span
+                style='color:#00B050'>í</span></b><span> (<b>mlad<span
+                style='color:#00B050'>í</span></b>) psi</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>Přídavná
+                jména <b>měkká</b> (skloňují se podle vzoru <b>jarní</b>)se snadno poznají.
+                Jsou stejná ve všech rodech. U přídavných jmen měkkých je vždy v&nbsp;koncovce <b><span
+                style='color:#00B050'>í</span></b>.<span>    </span></span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><span>TEN <b><span style='color:blue'>ciz</span><span style='color:#00B050'>í</span></b>
+                (<b>jarn<span style='color:#00B050'>í</span></b>) muž,</span></p>
+                
+                <p><span>TA <b><span style='color:blue'>ciz</span><span style='color:#00B050'>í</span></b>
+                (<b>jarn<span style='color:#00B050'>í</span></b>) žena,</span></p>
+                
+                <p><span>TO <b><span style='color:blue'>ciz</span><span style='color:#00B050'>í</span><span
+                style='color:blue'> </span></b>(<b>jarn<span
+                style='color:#00B050'>í</span></b>) dítě</span></p>
+                
+            ]]></page>
+            <page type="html" fixed="1"><![CDATA[
+                <p><span>U přídavných
+                jmen přivlastňovacích (skloňují se podle vzoru otcův, matčin)se stejně jako u
+                tvrdých píše v&nbsp;koncovce <b><span style='color:#00B050'>y</span></b> <b>kromě
+                1. a 5.</b> <b>pádu čísla množného, rodu mužského životného</b>:</span></p>
+                
+                
+                
+                <p><u><span>Například:</span></u></p>
+                
+                <p><b><span style='color:blue'>Petrov</span></b><b><span
+                style='color:#00B050'>i
+                </span></b><span>(<b><span
+                style='color:blue'>otcov</span><span style='color:#00B050'>i</span></b>)
+                bratři,</span></p>
+                
+                <p><b><span style='color:blue'>myslivcov</span></b><b><span
+                style='color:#00B050'>i</span></b><span> (<b>otcov<span
+                style='color:#00B050'>i</span></b>) psi,</span></p>
+                
+                <p><b><span style='color:blue'>sestřin</span></b><b><span
+                style='color:#00B050'>i</span></b><span> (<b>matčin<span
+                style='color:#00B050'>i</span></b>)křečci</span></p>
+                
+                
+                <p><b><span>POZOR!!! PAMATUJTE SI!!! V&nbsp;7. pádě čísla množného se setkáváme u všech druhů
+                přídavných jmen s&nbsp;koncovkami –ým<span style='color:#00B050'>i</span> nebo –ím<span style='color:#00B050'>i</span>. Na konci se vždy
+                píše <span style='color:#00B050'>i</span>!</span></b></p>
+                
+            ]]></page>
+        </intro>
+        <test timeLimit="8" welcomeSound="">
+            <question><![CDATA[zuřiv[?] lvi [...] *í ý ]]></question>
+            <question><![CDATA[hus[?] peří [...] *í ý ]]></question>
+            <question><![CDATA[včel[?] med [...] *í ý ]]></question>
+            <question><![CDATA[šakal[?] vytí [...] *í ý ]]></question>
+            <question><![CDATA[vos[?] žihadlo [...] *í ý ]]></question>
+            <question><![CDATA[z ryz[?]ho zlata [...] *í ý ]]></question>
+            <question><![CDATA[ciz[?] jazyk [...] *í ý ]]></question>
+            <question><![CDATA[ryb[?] kost [...] *í ý ]]></question>
+            <question><![CDATA[orl[?] let [...] *í ý ]]></question>
+            <question><![CDATA[sysl[?] nora [...] *í ý ]]></question>
+            <question><![CDATA[mil[?] chlapec [...] í *ý  ]]></question>
+            <question><![CDATA[mil[?] chlapci [...] *í ý ]]></question>
+            <question><![CDATA[zdrav[?] zub [...] í *ý ]]></question>
+            <question><![CDATA[léčiv[?] pramen [...] í *ý ]]></question>
+            <question><![CDATA[drz[?] kluci [...] *í ý ]]></question>
+            <question><![CDATA[škodliv[?] brouci [...] *í ý ]]></question>
+            <question><![CDATA[čerstv[?] sýr [...] í *ý ]]></question>
+            <question><![CDATA[nov[?] žák [...] í *ý ]]></question>
+            <question><![CDATA[v borov[?]ch lesích [...] í *ý ]]></question>
+            <question><![CDATA[zl[?] lidé [...] *í ý ]]></question>
+            <question><![CDATA[živ[?] plot [...] í *ý ]]></question>
+            <question><![CDATA[osl[?] kopýtka [...] *í ý ]]></question>
+            <question><![CDATA[Erbenov[?] pohádky [...] i *y ]]></question>
+            <question><![CDATA[Honzov[?] ponožky [...] i *y ]]></question>
+            <question><![CDATA[Jirkov[?] kamarádi [...] *i y ]]></question>
+            <question><![CDATA[Lenčin[?] kamarádky [...] i *y ]]></question>
+            <question><![CDATA[Evin[?] papoušci [...] *i y ]]></question>
+            <question><![CDATA[ředitelov[?] podřízení [...] *i y ]]></question>
+            <question><![CDATA[učitelov[?] žáci [...] *i y ]]></question>
+            <question><![CDATA[učitelov[?] křídy [...] i *y ]]></question>
+            <question><![CDATA[Honzov[?] králíci [...] *i y ]]></question>
+            <question><![CDATA[babiččin[?] bačkory [...] i *y ]]></question>
+            <question><![CDATA[babiččin[?] vnuci [...] *i y ]]></question>
+            <question><![CDATA[Petrov[?] sešity [...] i *y ]]></question>
+            <question><![CDATA[s Jirkov[?]mi zvířaty [...] í *ý ]]></question>
+            <question><![CDATA[Jirkov[?] koně [...] *i y ]]></question>
+            <question><![CDATA[Ladov[?] ilustrace [...] i *y ]]></question>
+            <question><![CDATA[Purkyňov[?] objevy [...] i *y ]]></question>
+            <question><![CDATA[Popelčin[?] střevíčky [...] i *y ]]></question>
+            <question><![CDATA[s Mirkov[?]mi morčaty [...] í *ý ]]></question>
+            <question><![CDATA[bez dědov[?]ch rad [...] í *ý ]]></question>
+            <question><![CDATA[ke Karlov[?]m sestrám [...] í *ý ]]></question>
+            <question><![CDATA[kocourov[?] uši [...] i *y ]]></question>
+            <question><![CDATA[uklízeččin[?] hadry [...] i *y ]]></question>
+            <question><![CDATA[školníkov[?] nadávky [...] i *y ]]></question>
+            <question><![CDATA[zahradníkov[?] růže [...] i *y ]]></question>
+            <question><![CDATA[bez Alšov[?]ch obrazů [...] í *ý ]]></question>
+            <question><![CDATA[ke králov[?]m rádcům [...] í *ý ]]></question>
+            <question><![CDATA[nad borov[?]mi lesy [...] í *ý ]]></question>
+            <question><![CDATA[bublav[?] potůček [...] í *ý ]]></question>
+            <question><![CDATA[u čap[?]ho hnízda [...] *í ý ]]></question>
+            <question><![CDATA[z lipov[?]ch květů [...] í *ý ]]></question>
+            <question><![CDATA[libov[?] řízek [...] í *ý ]]></question>
+            <question><![CDATA[nad orlím[?] hnízdy [...] *i y ]]></question>
+            <question><![CDATA[s milým[?] děvčaty [...] *i y ]]></question>
+            <question><![CDATA[s psím[?] chlupy [...] *i y ]]></question>
+            <question><![CDATA[s letním[?] bouřkami [...] *i y ]]></question>
+            <question><![CDATA[s neznámým[?] lidmi [...] *i y ]]></question>
+            <question><![CDATA[se známým[?] herci [...] *i y ]]></question>
+        </test>
+    </lesson>
+    
+    
+    <lesson id="1212" name="Co dále pro vás máme? Příklady z matematiky" demo="1">
+        <intro pages="4" sound="0">
+            <page type="html" fixed="1"><![CDATA[
+                <p><strong>Naše další nabídka</strong></p>
+                <p>Hledejte na Google play "pmq&nbsp;software" a zobrazí se vám naše celá nabídka. Poměrně často přidáváme nové programy a budeme snad i dále pokračovat.</p>
+                <hr>
+                <p><span style="text-decoration: underline;">Výukové kartičky</span></p>
+                <p><img src="file:///android_asset/adverts/kartickycz.png"></p>
+                <p>Více jak 500 výukových kartiček zahrnuto do několika zábavných her. Děti se učí poznávat mnoho nových obrázků.</p>
+                <p><span style="text-decoration: underline;">Abeceda pro děti</span></p>
+                <p><img src="file:///android_asset/adverts/abc.png"></p>
+                <p>Výuka abecedy ještě nikdy nebyla tak zajímavá. Krásné obrázky a příjemný hlas průvodkyně vede děti k poznání celé abecedy.</p>
+                <p><span style="text-decoration: underline;">Počítání pro děti</span></p>
+                <p><img src="file:///android_asset/adverts/pocitani.png"></p>
+                <p>Počítání do deseti a do dvaceti. Výuka porovnávání čísel a procvičování všech čísel pomocí devíti her.</p>
+                <p><span style="text-decoration: underline;">Výuka anglických slovíček</span></p>
+                <p><img src="file:///android_asset/adverts/czeng.png"></p>
+                <p>Program pro učení slovíček pomocí obrázků. Obsahuje výukové pexeso a procvičování výslovnosti. Váš hlas se nahraje a porovná se s rodilým mluvčím.</p>
+                <p><span style="text-decoration: underline;">Výuka německých slovíček</span></p>
+                <p><img src="file:///android_asset/adverts/czde.png"></p>
+                <p>Stejný program, jako výuka anglických slovíček, jen je vše pro němčinu. Každé slovo obsahuje člen a zápis výslovnosti v češtině.</p>
+                <hr>
+                <p>Vyzkoušejte, co nabízíme pro matematiku. Program, který má celou řadu příkladů na porovnání čísel, sčítání, odčítání, násobení, dělení a další kombinace.</p>
+            ]]></page>
+            <page fixed="1"><![CDATA[
+                2 = 2
+                3:2# = 2#
+            ]]></page>
+            <page fixed="1"><![CDATA[
+                5 > 4
+                1:5 = 5#
+                3:4 = 4#
+                3:5# > 4#
+            ]]></page>
+            <page fixed="1"><![CDATA[
+                2 < 4
+                1:2 = 2#
+                3:4 = 4#
+                3:2# < 4#
+            ]]></page>
+        </intro>
+        <test timeLimit="8">
+            <question><![CDATA[1 [?] 1 [...] > < *= ]]></question>
+            <question><![CDATA[5 [?] 1 [...] *> < = ]]></question>
+            <question>10 - 2 = [?] [...] 9 7 *8 6 5 10 3 2 4</question>
+            <question>8 - 5 = [?] [...] 4 2 *3 1 5 6</question>
+            <question>6 + 3 = [?] [...] 10 8 *9 7 6 11 12 18 1 3 2 5 19</question>
+            <question>2 + 7 = [?] [...] 10 8 *9 7 6 11 12 18 5 14 4 19</question>
+            <question>5 + 15 = [?] [...] 19 *20 18 17 4 16 13 10 3</question>
+            <question>5 + 11 = [?] [...] 17 15 *16 14 13 18 19 10 8 4 6 2 12</question>
+            <question>18 - 8 = [?] [...] 11 9 *10 8 7 12 13 18 19 5 2 6 20 16</question>
+            <question>19 - 2 = [?] [...] 18 16 *17 15 14 19 20 12 7 10 13 11 1</question>
+            <question><![CDATA[75 [?] 99 [...] > *< = ]]></question>
+            <question>20 - 14 = [?] [...] 7 5 *6 4 3 8 9 19 1 14 2 16</question>
+            <question>20 - 10 = [?] [...] 11 9 *10 8 7 12 13 17 2 6 20</question>
+            <question><![CDATA[ (3 - 2)  + 6 = [?] [...] 8 6 *7 5 4 9 10 18 1 12]]></question>
+            <question><![CDATA[ (3 + 8)  + 8 = [?] [...] 20 18 *19 17 16 4 9 1 0]]></question>
+            <question><![CDATA[ (10 - 2)  + 10 = [?] [...] 19 17 *18 16 15 20 6 2 1]]></question>
+            <question>25 ÷ 5 = [?] [...] 6 4 *5 3 2 7 8 44 30 49 20</question>
+            <question>24 ÷ 6 = [?] [...] 5 3 *4 2 1 6 7 48 46 8 30 18</question>
+            <question>8 × 5 = [?] [...] 41 39 *40 38 37 42 43 27 9 47 13 1</question>
+            <question>8 × 6 = [?] [...] 49 47 *48 46 45 50 51 23 64 63 14 1</question>
+            <question>6 × 6 = [?] [...] 37 35 *36 34 33 38 39 27 32 12 1</question>
+            <question><![CDATA[(7 + 2) × 2 = [?] [...] 19 17 *18 16 15 20 21 40 46 85 11 0]]></question>
+            <question><![CDATA[(14 - 11) × 8 = [?] [...] 25 23 *24 22 21 26 27 88 11 15 5 3]]></question>
+            <question><![CDATA[2 × (15 - 13) = [?] [...] 5 3 *4 2 1 6 7 48 23 89 0]]></question>
+        </test>
+    </lesson>
+    
+</PMQcalculations>

@@ -1,0 +1,33 @@
+/*
+ Localizable.strings
+ Matematika
+ 
+ Czech
+ 
+ Created by Jan Damek on 01.06.14.
+ Copyright (c) 2014 PMQ-Software. All rights reserved.
+ */
+
+"result_0"="Toto bylo slabé!";
+"result_1"="To je horší výsledek.";
+"result_2"="Uspokojivý výkon.";
+"result_3"="Pěkný výsledek.";
+"result_4"="Skoro bez chyby, super!";
+"result_5"="Naprosto bez chyb, skvěle!";
+
+"÷" = "divide";
+"=" = "equals";
+">" = "greater";
+"<" = "lesser";
+"-" = "minus";
+"x" = "multiply";
+"×" = "multiply";
+"+" = "plus";
+
+"no InApp purchase items" = "Nenalezené žádné položky k nákupu.";
+
+"%i (pocet prikladu %i)" = "%i (počet přikladů %i)";
+
+"allQuestion" = "Procvičování chyb";
+
+"Back" = "Zpět";
