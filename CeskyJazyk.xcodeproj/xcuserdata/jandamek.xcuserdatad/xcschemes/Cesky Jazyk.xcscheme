@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F52763F9192E0E98001BEC6B"
-               BuildableName = "CeskyJazyk.app"
-               BlueprintName = "CeskyJazyk"
-               ReferencedContainer = "container:CeskyJazyk.xcodeproj">
+               BuildableName = "ceskyjazyk.app"
+               BlueprintName = "ceskyjazyk"
+               ReferencedContainer = "container:ceskyjazyk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "F5276425192E0E98001BEC6B"
                BuildableName = "CeskyJazykTests.xctest"
                BlueprintName = "CeskyJazykTests"
-               ReferencedContainer = "container:CeskyJazyk.xcodeproj">
+               ReferencedContainer = "container:ceskyjazyk.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F52763F9192E0E98001BEC6B"
-            BuildableName = "CeskyJazyk.app"
-            BlueprintName = "CeskyJazyk"
-            ReferencedContainer = "container:CeskyJazyk.xcodeproj">
+            BuildableName = "ceskyjazyk.app"
+            BlueprintName = "ceskyjazyk"
+            ReferencedContainer = "container:ceskyjazyk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F52763F9192E0E98001BEC6B"
-            BuildableName = "CeskyJazyk.app"
-            BlueprintName = "CeskyJazyk"
-            ReferencedContainer = "container:CeskyJazyk.xcodeproj">
+            BuildableName = "ceskyjazyk.app"
+            BlueprintName = "ceskyjazyk"
+            ReferencedContainer = "container:ceskyjazyk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F52763F9192E0E98001BEC6B"
-            BuildableName = "CeskyJazyk.app"
-            BlueprintName = "CeskyJazyk"
-            ReferencedContainer = "container:CeskyJazyk.xcodeproj">
+            BuildableName = "ceskyjazyk.app"
+            BlueprintName = "ceskyjazyk"
+            ReferencedContainer = "container:ceskyjazyk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -18,6 +18,7 @@
 		F53E6095193B969A00E3EE3E /* pmqResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E6094193B969A00E3EE3E /* pmqResultViewController.m */; };
 		F53E6098193BAA9C00E3EE3E /* pmqLessonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E6097193BAA9C00E3EE3E /* pmqLessonTableViewCell.m */; };
 		F53F582919338BA600956AEB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53F582819338BA600956AEB /* StoreKit.framework */; };
+		F55C90B1198F985800D94A98 /* ceskyjazyk-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */; };
 		F56F586A198A6B4800172EA2 /* timeout_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56F5869198A6B4800172EA2 /* timeout_big@2x.png */; };
 		F5701A8119862E4900E41387 /* CeskyJazyk.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = F5276417192E0E98001BEC6B /* CeskyJazyk.xcdatamodeld */; };
 		F5701A8219862E5B00E41387 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5276411192E0E98001BEC6B /* Main_iPhone.storyboard */; };
@@ -189,7 +190,6 @@
 		F5701B2D19862E8700E41387 /* boy54.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CA7081197E5F4300C3DAC9 /* boy54.png */; };
 		F5701B2E19862E8700E41387 /* boy55.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CA7082197E5F4300C3DAC9 /* boy55.png */; };
 		F5701B7219862E8700E41387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5276408192E0E98001BEC6B /* InfoPlist.strings */; };
-		F5701B7319862E8700E41387 /* CeskyJazyk-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = F527640D192E0E98001BEC6B /* CeskyJazyk-Prefix.pch */; };
 		F5701B7419862E8700E41387 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F53E608E193B8A4800E3EE3E /* Localizable.strings */; };
 		F5701B7C19864EC500E41387 /* gly_howto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5701B7619864EC500E41387 /* gly_howto@2x.png */; };
 		F5701B7D19864EC500E41387 /* gly_howto.png in Resources */ = {isa = PBXBuildFile; fileRef = F5701B7719864EC500E41387 /* gly_howto.png */; };
@@ -371,14 +371,12 @@
 		F50B98A1197DA23E004F3898 /* 9#@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9#@2x.png"; sourceTree = "<group>"; };
 		F52269641956C0C00064F6FC /* btn_pmq_mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pmq_mini.png; sourceTree = "<group>"; };
 		F52269791956E2740064F6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F52763FA192E0E98001BEC6B /* CeskyJazyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeskyJazyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52763FA192E0E98001BEC6B /* ceskyjazyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceskyjazyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52763FD192E0E98001BEC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F52763FF192E0E98001BEC6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F5276401192E0E98001BEC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5276403192E0E98001BEC6B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F5276407192E0E98001BEC6B /* CeskyJazyk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CeskyJazyk-Info.plist"; sourceTree = "<group>"; };
 		F527640B192E0E98001BEC6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F527640D192E0E98001BEC6B /* CeskyJazyk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CeskyJazyk-Prefix.pch"; sourceTree = "<group>"; };
 		F527640E192E0E98001BEC6B /* pmqAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pmqAppDelegate.h; sourceTree = "<group>"; };
 		F527640F192E0E98001BEC6B /* pmqAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pmqAppDelegate.m; sourceTree = "<group>"; };
 		F5276418192E0E98001BEC6B /* CeskyJazyk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CeskyJazyk.xcdatamodel; sourceTree = "<group>"; };
@@ -391,6 +389,8 @@
 		F53E6097193BAA9C00E3EE3E /* pmqLessonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqLessonTableViewCell.m; sourceTree = "<group>"; };
 		F53F5823193343B800956AEB /* CeskyJazyk 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CeskyJazyk 2.xcdatamodel"; sourceTree = "<group>"; };
 		F53F582819338BA600956AEB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ceskyjazyk-Info.plist"; sourceTree = "<group>"; };
+		F55C90B0198F985800D94A98 /* ceskyjazyk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ceskyjazyk-Prefix.pch"; sourceTree = "<group>"; };
 		F56F5869198A6B4800172EA2 /* timeout_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeout_big@2x.png"; sourceTree = "<group>"; };
 		F56F586C198A7E1800172EA2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F56F586E198A7E1B00172EA2 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -1281,7 +1281,7 @@
 		F52763FB192E0E98001BEC6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F52763FA192E0E98001BEC6B /* CeskyJazyk.app */,
+				F52763FA192E0E98001BEC6B /* ceskyjazyk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1320,10 +1320,10 @@
 		F5276406192E0E98001BEC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5276407192E0E98001BEC6B /* CeskyJazyk-Info.plist */,
+				F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */,
+				F55C90B0198F985800D94A98 /* ceskyjazyk-Prefix.pch */,
 				F5276408192E0E98001BEC6B /* InfoPlist.strings */,
 				F527640B192E0E98001BEC6B /* main.m */,
-				F527640D192E0E98001BEC6B /* CeskyJazyk-Prefix.pch */,
 				F53E608E193B8A4800E3EE3E /* Localizable.strings */,
 			);
 			name = "Supporting Files";
@@ -1726,9 +1726,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F52763F9192E0E98001BEC6B /* CeskyJazyk */ = {
+		F52763F9192E0E98001BEC6B /* ceskyjazyk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5276438192E0E98001BEC6B /* Build configuration list for PBXNativeTarget "CeskyJazyk" */;
+			buildConfigurationList = F5276438192E0E98001BEC6B /* Build configuration list for PBXNativeTarget "ceskyjazyk" */;
 			buildPhases = (
 				F52763F6192E0E98001BEC6B /* Sources */,
 				F52763F7192E0E98001BEC6B /* Frameworks */,
@@ -1738,9 +1738,9 @@
 			);
 			dependencies = (
 			);
-			name = CeskyJazyk;
+			name = ceskyjazyk;
 			productName = CeskyJazyk;
-			productReference = F52763FA192E0E98001BEC6B /* CeskyJazyk.app */;
+			productReference = F52763FA192E0E98001BEC6B /* ceskyjazyk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1766,7 +1766,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F52763F5192E0E98001BEC6B /* Build configuration list for PBXProject "CeskyJazyk" */;
+			buildConfigurationList = F52763F5192E0E98001BEC6B /* Build configuration list for PBXProject "ceskyjazyk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1783,7 +1783,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F52763F9192E0E98001BEC6B /* CeskyJazyk */,
+				F52763F9192E0E98001BEC6B /* ceskyjazyk */,
 			);
 		};
 /* End PBXProject section */
@@ -1934,6 +1934,7 @@
 				F5701AE219862E8700E41387 /* 81.aac in Resources */,
 				F5701AE319862E8700E41387 /* 82.aac in Resources */,
 				F5701AE419862E8700E41387 /* 83.aac in Resources */,
+				F55C90B1198F985800D94A98 /* ceskyjazyk-Info.plist in Resources */,
 				F5701AE519862E8700E41387 /* 84.aac in Resources */,
 				F5701BF71986B27B00E41387 /* pmq_hp@2x.png in Resources */,
 				F5701C4A198785F600E41387 /* timeout.png in Resources */,
@@ -2031,7 +2032,6 @@
 				F5701C4819877F9A00E41387 /* bg_list2_320_odd@2x.png in Resources */,
 				F5701B7219862E8700E41387 /* InfoPlist.strings in Resources */,
 				F5701BDB1986B18A00E41387 /* bg_list_even.9.png in Resources */,
-				F5701B7319862E8700E41387 /* CeskyJazyk-Prefix.pch in Resources */,
 				F5701BF11986B20C00E41387 /* bg_list2_odd.9.png in Resources */,
 				F5701B7419862E8700E41387 /* Localizable.strings in Resources */,
 				F5701A8219862E5B00E41387 /* Main_iPhone.storyboard in Resources */,
@@ -3680,10 +3680,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CeskyJazyk/CeskyJazyk-Prefix.pch";
-				INFOPLIST_FILE = "CeskyJazyk/CeskyJazyk-Info.plist";
+				GCC_PREFIX_HEADER = "CeskyJazyk/ceskyjazyk-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CeskyJazyk/ceskyjazyk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = CeskyJazyk;
+				PRODUCT_NAME = ceskyjazyk;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -3698,10 +3698,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CeskyJazyk/CeskyJazyk-Prefix.pch";
-				INFOPLIST_FILE = "CeskyJazyk/CeskyJazyk-Info.plist";
+				GCC_PREFIX_HEADER = "CeskyJazyk/ceskyjazyk-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CeskyJazyk/ceskyjazyk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = CeskyJazyk;
+				PRODUCT_NAME = ceskyjazyk;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -3711,7 +3711,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F52763F5192E0E98001BEC6B /* Build configuration list for PBXProject "CeskyJazyk" */ = {
+		F52763F5192E0E98001BEC6B /* Build configuration list for PBXProject "ceskyjazyk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5276436192E0E98001BEC6B /* Debug */,
@@ -3720,7 +3720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5276438192E0E98001BEC6B /* Build configuration list for PBXNativeTarget "CeskyJazyk" */ = {
+		F5276438192E0E98001BEC6B /* Build configuration list for PBXNativeTarget "ceskyjazyk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5276439192E0E98001BEC6B /* Debug */,
