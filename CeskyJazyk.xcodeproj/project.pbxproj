@@ -18,7 +18,6 @@
 		F53E6095193B969A00E3EE3E /* pmqResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E6094193B969A00E3EE3E /* pmqResultViewController.m */; };
 		F53E6098193BAA9C00E3EE3E /* pmqLessonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E6097193BAA9C00E3EE3E /* pmqLessonTableViewCell.m */; };
 		F53F582919338BA600956AEB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53F582819338BA600956AEB /* StoreKit.framework */; };
-		F55C90B1198F985800D94A98 /* ceskyjazyk-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */; };
 		F56F586A198A6B4800172EA2 /* timeout_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56F5869198A6B4800172EA2 /* timeout_big@2x.png */; };
 		F5701A8119862E4900E41387 /* CeskyJazyk.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = F5276417192E0E98001BEC6B /* CeskyJazyk.xcdatamodeld */; };
 		F5701A8219862E5B00E41387 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5276411192E0E98001BEC6B /* Main_iPhone.storyboard */; };
@@ -1750,7 +1749,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = pmq;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "PMQ-Software";
 				TargetAttributes = {
 					F52763F9192E0E98001BEC6B = {
@@ -1934,7 +1933,6 @@
 				F5701AE219862E8700E41387 /* 81.aac in Resources */,
 				F5701AE319862E8700E41387 /* 82.aac in Resources */,
 				F5701AE419862E8700E41387 /* 83.aac in Resources */,
-				F55C90B1198F985800D94A98 /* ceskyjazyk-Info.plist in Resources */,
 				F5701AE519862E8700E41387 /* 84.aac in Resources */,
 				F5701BF71986B27B00E41387 /* pmq_hp@2x.png in Resources */,
 				F5701C4A198785F600E41387 /* timeout.png in Resources */,

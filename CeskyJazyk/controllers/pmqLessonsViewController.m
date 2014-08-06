@@ -273,11 +273,13 @@
     [selectionView setBackgroundColor:[UIColor clearColor]];
     UIImageView *i = [[UIImageView alloc] initWithFrame:selectionView.bounds];
     if (indexPath.row % 2) {
-            i.image = [UIImage imageNamed:@"bg_list2_320_even.png"];
-    } else
-        i.image = [UIImage imageNamed:@"bg_list2_320_odd.png"];
+        i.image = [UIImage imageNamed:@"bg_list2_320_even"];
+    } else {
+        i.image = [UIImage imageNamed:@"bg_list2_320_odd"];
+    }
     [selectionView addSubview:i];
     cell.selectedBackgroundView = selectionView;
+    [i sizeToFit];
     
     cell.lessonName.text = object.name;
     [cell.lessonName sizeToFit];
