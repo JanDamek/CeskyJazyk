@@ -388,8 +388,8 @@
 		F53E6097193BAA9C00E3EE3E /* pmqLessonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqLessonTableViewCell.m; sourceTree = "<group>"; };
 		F53F5823193343B800956AEB /* CeskyJazyk 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CeskyJazyk 2.xcdatamodel"; sourceTree = "<group>"; };
 		F53F582819338BA600956AEB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ceskyjazyk-Info.plist"; sourceTree = "<group>"; };
-		F55C90B0198F985800D94A98 /* ceskyjazyk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ceskyjazyk-Prefix.pch"; sourceTree = "<group>"; };
+		F55C90AF198F985800D94A98 /* CeskyJazyk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CeskyJazyk-Info.plist"; sourceTree = "<group>"; };
+		F55C90B0198F985800D94A98 /* CeskyJazyk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CeskyJazyk-Prefix.pch"; sourceTree = "<group>"; };
 		F56F5869198A6B4800172EA2 /* timeout_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeout_big@2x.png"; sourceTree = "<group>"; };
 		F56F586C198A7E1800172EA2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F56F586E198A7E1B00172EA2 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -1319,8 +1319,8 @@
 		F5276406192E0E98001BEC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F55C90AF198F985800D94A98 /* ceskyjazyk-Info.plist */,
-				F55C90B0198F985800D94A98 /* ceskyjazyk-Prefix.pch */,
+				F55C90AF198F985800D94A98 /* CeskyJazyk-Info.plist */,
+				F55C90B0198F985800D94A98 /* CeskyJazyk-Prefix.pch */,
 				F5276408192E0E98001BEC6B /* InfoPlist.strings */,
 				F527640B192E0E98001BEC6B /* main.m */,
 				F53E608E193B8A4800E3EE3E /* Localizable.strings */,
