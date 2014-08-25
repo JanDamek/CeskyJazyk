@@ -71,7 +71,7 @@
     [super viewDidAppear:animated];
     
     isReadyToPlay = YES;
-    
+    if (_p && ![_p.data.type isEqualToString:@"html"])
     @try {
         NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
                                              pathForResource:@"intro"

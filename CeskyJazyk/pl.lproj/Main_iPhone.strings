@@ -1,14 +1,14 @@
 
-/* Class = "IBUIViewController"; title = "JakNaTo"; ObjectID = "06h-WC-F2r"; */
+/* Class = "IBUIViewController"; title = "JakToZrobić"; ObjectID = "06h-WC-F2r"; */
 "06h-WC-F2r.title" = "JakToZrobić";
 
-/* Class = "IBUINavigationItem"; title = "Procvičování"; ObjectID = "18x-WY-Ra3"; */
+/* Class = "IBUINavigationItem"; title = "Ćviczenie"; ObjectID = "18x-WY-Ra3"; */
 "18x-WY-Ra3.title" = "Ćviczenie";
 
 /* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "29f-Lt-qgf"; */
 "29f-Lt-qgf.normalTitle" = "Button";
 
-/* Class = "IBUIViewController"; title = "Lekce"; ObjectID = "2dm-sP-irr"; */
+/* Class = "IBUIViewController"; title = "Ćvičenia"; ObjectID = "2dm-sP-irr"; */
 "2dm-sP-irr.title" = "Ćvičenia";
 
 /* Class = "IBUILabel"; text = "12"; ObjectID = "5Oq-fn-Ye8"; */
@@ -29,13 +29,13 @@
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "CKJ-Sv-jvF"; */
 "CKJ-Sv-jvF.text" = "Label";
 
-/* Class = "IBUIViewController"; title = "Testovani"; ObjectID = "DGS-M5-6W6"; */
+/* Class = "IBUIViewController"; title = "Ćviczenie"; ObjectID = "DGS-M5-6W6"; */
 "DGS-M5-6W6.title" = "Ćviczenie";
 
 /* Class = "IBUILabel"; text = "00:31"; ObjectID = "DrX-RR-rZf"; */
 "DrX-RR-rZf.text" = "00:31";
 
-/* Class = "IBUILabel"; text = "Datum"; ObjectID = "G8e-DT-0gG"; */
+/* Class = "IBUILabel"; text = "Data"; ObjectID = "G8e-DT-0gG"; */
 "G8e-DT-0gG.text" = "Data";
 
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "Ghg-FX-LIZ"; */
@@ -44,10 +44,10 @@
 /* Class = "IBUILabel"; text = "/"; ObjectID = "I5W-sr-mnk"; */
 "I5W-sr-mnk.text" = "/";
 
-/* Class = "IBUILabel"; text = "prikladu"; ObjectID = "KRl-UC-Zkv"; */
+/* Class = "IBUILabel"; text = "ćviczenie"; ObjectID = "KRl-UC-Zkv"; */
 "KRl-UC-Zkv.text" = "ćviczenie";
 
-/* Class = "IBUILabel"; text = "Celkový čas"; ObjectID = "Lla-am-FS6"; */
+/* Class = "IBUILabel"; text = "Łączny czas"; ObjectID = "Lla-am-FS6"; */
 "Lla-am-FS6.text" = "Łączny czas";
 
 /* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "NUq-CI-s6g"; */
@@ -62,7 +62,7 @@
 /* Class = "IBUILabel"; text = "99"; ObjectID = "PXx-Mn-fC5"; */
 "PXx-Mn-fC5.text" = "99";
 
-/* Class = "IBUINavigationItem"; title = "Jak na to?"; ObjectID = "PbE-bY-Da5"; */
+/* Class = "IBUINavigationItem"; title = "Jak to zrobić?"; ObjectID = "PbE-bY-Da5"; */
 "PbE-bY-Da5.title" = "Jak to zrobić?";
 
 /* Class = "IBUIViewController"; title = "Detail"; ObjectID = "Rru-Cb-joA"; */
@@ -74,7 +74,7 @@
 /* Class = "IBUILabel"; text = "12"; ObjectID = "TtU-Dc-zxl"; */
 "TtU-Dc-zxl.text" = "12";
 
-/* Class = "IBUILabel"; text = "Celkový čas"; ObjectID = "U6k-UZ-r8d"; */
+/* Class = "IBUILabel"; text = "Łączny czas"; ObjectID = "U6k-UZ-r8d"; */
 "U6k-UZ-r8d.text" = "Łączny czas";
 
 /* Class = "IBUILabel"; text = "12"; ObjectID = "WDg-jC-8jw"; */
@@ -101,16 +101,16 @@
 /* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "bIH-Y7-JKS"; */
 "bIH-Y7-JKS.normalTitle" = "Button";
 
-/* Class = "IBUIButton"; normalTitle = "Vysledky testu"; ObjectID = "bvu-a6-5L6"; */
+/* Class = "IBUIButton"; normalTitle = "Wynik testu"; ObjectID = "bvu-a6-5L6"; */
 "bvu-a6-5L6.normalTitle" = "Wynik testu";
 
-/* Class = "IBUIViewController"; title = "VysledkyTestu"; ObjectID = "c8t-f0-qh8"; */
+/* Class = "IBUIViewController"; title = "Wyniky testów"; ObjectID = "c8t-f0-qh8"; */
 "c8t-f0-qh8.title" = "Wyniky testów";
 
-/* Class = "IBUIButton"; normalTitle = "Retry"; ObjectID = "cBt-6P-uiT"; */
+/* Class = "IBUIButton"; normalTitle = "Powtórka"; ObjectID = "cBt-6P-uiT"; */
 "cBt-6P-uiT.normalTitle" = "Powtórka";
 
-/* Class = "IBUINavigationItem"; title = "Výsledky testů"; ObjectID = "cP3-yc-cWV"; */
+/* Class = "IBUINavigationItem"; title = "Wyniki testów"; ObjectID = "cP3-yc-cWV"; */
 "cP3-yc-cWV.title" = "Wyniki testów";
 
 /* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "cQA-99-gbH"; */
@@ -119,22 +119,22 @@
 /* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "ePR-zl-3nI"; */
 "ePR-zl-3nI.normalTitle" = "Button";
 
-/* Class = "IBUINavigationItem"; title = "Výsledek"; ObjectID = "fcj-mY-4tf"; */
+/* Class = "IBUINavigationItem"; title = "Wynik"; ObjectID = "fcj-mY-4tf"; */
 "fcj-mY-4tf.title" = "Wynik";
 
-/* Class = "IBUILabel"; text = "chyb z"; ObjectID = "gKJ-T7-rhB"; */
+/* Class = "IBUILabel"; text = "błędów"; ObjectID = "gKJ-T7-rhB"; */
 "gKJ-T7-rhB.text" = "błędów";
 
 /* Class = "IBUILabel"; text = "12"; ObjectID = "gOZ-C5-788"; */
 "gOZ-C5-788.text" = "12";
 
-/* Class = "IBUILabel"; text = "Máš"; ObjectID = "hBf-wq-lQA"; */
+/* Class = "IBUILabel"; text = "Całkowita"; ObjectID = "hBf-wq-lQA"; */
 "hBf-wq-lQA.text" = "Całkowita";
 
-/* Class = "IBUILabel"; text = "PŘÍKLADY"; ObjectID = "hBs-5N-4tT"; */
+/* Class = "IBUILabel"; text = "ĆWICZENIA:"; ObjectID = "hBs-5N-4tT"; */
 "hBs-5N-4tT.text" = "ĆWICZENIA:";
 
-/* Class = "IBUINavigationItem"; title = "Výsledek testu"; ObjectID = "hQT-hj-pYV"; */
+/* Class = "IBUINavigationItem"; title = "Wynik testu"; ObjectID = "hQT-hj-pYV"; */
 "hQT-hj-pYV.title" = "Wynik testu";
 
 /* Class = "IBUILabel"; text = "Pekny vysledek."; ObjectID = "keM-ZS-nth"; */
@@ -149,16 +149,16 @@
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "nFC-Wo-fiP"; */
 "nFC-Wo-fiP.text" = "Label";
 
-/* Class = "IBUIButton"; normalTitle = "Test result"; ObjectID = "nkF-E0-i2M"; */
+/* Class = "IBUIButton"; normalTitle = "Wynik"; ObjectID = "nkF-E0-i2M"; */
 "nkF-E0-i2M.normalTitle" = "Wynik";
 
 /* Class = "IBUIViewController"; title = "VysledekTestu"; ObjectID = "pNK-Um-Ih5"; */
 "pNK-Um-Ih5.title" = "VysledekTestu";
 
-/* Class = "IBUINavigationItem"; title = "Nákup"; ObjectID = "sAS-RJ-xP4"; */
+/* Class = "IBUINavigationItem"; title = "Zakup"; ObjectID = "sAS-RJ-xP4"; */
 "sAS-RJ-xP4.title" = "Zakup";
 
-/* Class = "IBUILabel"; text = "Počet chyb"; ObjectID = "tvw-Zm-6Y0"; */
+/* Class = "IBUILabel"; text = "LICZBA BŁĘDÓW:"; ObjectID = "tvw-Zm-6Y0"; */
 "tvw-Zm-6Y0.text" = "LICZBA BŁĘDÓW:";
 
 /* Class = "IBUILabel"; text = "99"; ObjectID = "uKV-de-b9x"; */

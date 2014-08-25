@@ -29,7 +29,7 @@
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "CKJ-Sv-jvF"; */
 "CKJ-Sv-jvF.text" = "Label";
 
-/* Class = "IBUIViewController"; title = "Testovani"; ObjectID = "DGS-M5-6W6"; */
+/* Class = "IBUIViewController"; title = "Testování"; ObjectID = "DGS-M5-6W6"; */
 "DGS-M5-6W6.title" = "Testování";
 
 /* Class = "IBUILabel"; text = "00:31"; ObjectID = "DrX-RR-rZf"; */
@@ -44,7 +44,7 @@
 /* Class = "IBUILabel"; text = "/"; ObjectID = "I5W-sr-mnk"; */
 "I5W-sr-mnk.text" = "/";
 
-/* Class = "IBUILabel"; text = "prikladu"; ObjectID = "KRl-UC-Zkv"; */
+/* Class = "IBUILabel"; text = "příkladů"; ObjectID = "KRl-UC-Zkv"; */
 "KRl-UC-Zkv.text" = "příkladů";
 
 /* Class = "IBUILabel"; text = "Celkový čas"; ObjectID = "Lla-am-FS6"; */
@@ -101,13 +101,13 @@
 /* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "bIH-Y7-JKS"; */
 "bIH-Y7-JKS.normalTitle" = "Button";
 
-/* Class = "IBUIButton"; normalTitle = "Vysledky testu"; ObjectID = "bvu-a6-5L6"; */
+/* Class = "IBUIButton"; normalTitle = "Výsledky testu"; ObjectID = "bvu-a6-5L6"; */
 "bvu-a6-5L6.normalTitle" = "Výsledky testu";
 
 /* Class = "IBUIViewController"; title = "VysledkyTestu"; ObjectID = "c8t-f0-qh8"; */
 "c8t-f0-qh8.title" = "VysledkyTestu";
 
-/* Class = "IBUIButton"; normalTitle = "Retry"; ObjectID = "cBt-6P-uiT"; */
+/* Class = "IBUIButton"; normalTitle = "Znova"; ObjectID = "cBt-6P-uiT"; */
 "cBt-6P-uiT.normalTitle" = "Znova";
 
 /* Class = "IBUINavigationItem"; title = "Výsledky testů"; ObjectID = "cP3-yc-cWV"; */
@@ -143,13 +143,13 @@
 /* Class = "IBUINavigationItem"; title = "Detail"; ObjectID = "ldb-GH-sFe"; */
 "ldb-GH-sFe.title" = "Detail";
 
-/* Class = "IBUIButton"; normalTitle = "Zpet"; ObjectID = "mrD-Re-mrj"; */
+/* Class = "IBUIButton"; normalTitle = "Zpět"; ObjectID = "mrD-Re-mrj"; */
 "mrD-Re-mrj.normalTitle" = "Zpět";
 
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "nFC-Wo-fiP"; */
 "nFC-Wo-fiP.text" = "Label";
 
-/* Class = "IBUIButton"; normalTitle = "Test result"; ObjectID = "nkF-E0-i2M"; */
+/* Class = "IBUIButton"; normalTitle = "Výsledek testu"; ObjectID = "nkF-E0-i2M"; */
 "nkF-E0-i2M.normalTitle" = "Výsledek testu";
 
 /* Class = "IBUIViewController"; title = "VysledekTestu"; ObjectID = "pNK-Um-Ih5"; */

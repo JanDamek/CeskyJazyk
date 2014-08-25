@@ -22,7 +22,7 @@
 
 @synthesize ani;
 
-#define kProductIdentifier @"com.pmqsoftware.CeskyJazyk"
+#define kProductIdentifier @"com.pmqsoftware.ceskyjazyk"
 
 -(void)viewDidLoad{
     [super viewDidLoad];

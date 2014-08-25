@@ -179,6 +179,14 @@
     [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
 }
 
+-(void)setMenorFont{
+    float font_size = _questionLabel1.font.pointSize;
+    _questionLabel1.font = [_questionLabel1.font fontWithSize:font_size*0.9];
+    _questionLabel2.font = [_questionLabel2.font fontWithSize:font_size*0.9];
+    _labelAnswer.font = [_labelAnswer.font fontWithSize:font_size*0.9];
+    [self realignView];
+}
+
 -(void)realignView{
 //    [UIView beginAnimations:@"realign" context:nil];
     
@@ -211,6 +219,10 @@
     
     size += q2.size.width;
     q1.origin.x = midl - (size / 2);
+    if (q1.origin.x<10)
+    {
+        [self setMenorFont];
+    }else{
     size = q1.origin.x + q1.size.width;
     
     if (!_labelAnswer.isHidden){
@@ -235,6 +247,7 @@
     _labelAnswer.frame = lA;
 //    [UIView setAnimationDuration:0.3];
 //    [UIView commitAnimations];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -600,7 +613,10 @@
     
     //    if (_testMode != tmTest) {
     Questions *q = [_questions objectAtIndex:answered];
-    q.last_answer = [NSNumber numberWithBool:sender.tag==1];
+    if (sender){
+        q.last_answer = [NSNumber numberWithBool:sender.tag==1];
+    } else
+        q.last_answer = [NSNumber numberWithBool:NO];
     float inTime = _timerView.timeToCount*(_timerView.percent/100);
     if (inTime==0) inTime = _timerView.timeToCount;
     q.time_of_answer = [NSNumber numberWithFloat:inTime];

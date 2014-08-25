@@ -264,6 +264,8 @@
 		F58C02641989550200CA3755 /* intro.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191519573ABA00D8F04E /* intro.aac */; };
 		F58C02651989550200CA3755 /* math_result1.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191A19573ABA00D8F04E /* math_result1.aac */; };
 		F58C02661989550200CA3755 /* math_result2.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191C19573ABA00D8F04E /* math_result2.aac */; };
+		F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */; };
+		F5AAD7B219992A520051650F /* vyjm_slova_clip_image002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */; };
 		F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB04EF193FBE510025EBFB /* pmqResultCell.m */; };
 		F5C565241940C6BA00C78F5C /* pmqTestResultInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C565231940C6BA00C78F5C /* pmqTestResultInfoViewController.m */; };
 		F5C565271940EF0F00C78F5C /* pmqResultQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C565261940EF0F00C78F5C /* pmqResultQuestionCell.m */; };
@@ -391,17 +393,12 @@
 		F55C90AF198F985800D94A98 /* CeskyJazyk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CeskyJazyk-Info.plist"; sourceTree = "<group>"; };
 		F55C90B0198F985800D94A98 /* CeskyJazyk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CeskyJazyk-Prefix.pch"; sourceTree = "<group>"; };
 		F56F5869198A6B4800172EA2 /* timeout_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeout_big@2x.png"; sourceTree = "<group>"; };
-		F56F586C198A7E1800172EA2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
-		F56F586E198A7E1B00172EA2 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
-		F56F5870198A7E1D00172EA2 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
-		F56F5872198A7E2000172EA2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F56F5874198A7E2600172EA2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F5876198A7E2800172EA2 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F5878198A7E3300172EA2 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F587A198A7E3A00172EA2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F587B198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F56F587C198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F56F587D198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F56F587E198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F5880198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/divide.aac; sourceTree = "<group>"; };
 		F56F5881198A909E00172EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/equals.aac; sourceTree = "<group>"; };
@@ -1096,6 +1093,13 @@
 		F5A58BD61957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/97.aac; sourceTree = "<group>"; };
 		F5A58BD71957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/98.aac; sourceTree = "<group>"; };
 		F5A58BD81957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/99.aac; sourceTree = "<group>"; };
+		F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002_0000.jpg; sourceTree = "<group>"; };
+		F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002.jpg; sourceTree = "<group>"; };
+		F5AAD7B819993F080051650F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		F5AAD7B919993F140051650F /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		F5AAD7BA19993F2F0051650F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		F5AAD7BB19993F4B0051650F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		F5AAD7BC19993F590051650F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		F5BB04EE193FBE510025EBFB /* pmqResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmqResultCell.h; sourceTree = "<group>"; };
 		F5BB04EF193FBE510025EBFB /* pmqResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqResultCell.m; sourceTree = "<group>"; };
 		F5C565221940C6BA00C78F5C /* pmqTestResultInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmqTestResultInfoViewController.h; sourceTree = "<group>"; };
@@ -1627,6 +1631,8 @@
 		F5F0F07E19364541003C4FFA /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */,
+				F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */,
 				F56F5869198A6B4800172EA2 /* timeout_big@2x.png */,
 				F5701C49198785F600E41387 /* timeout.png */,
 				F5701C3819877F8D00E41387 /* list */,
@@ -1816,6 +1822,7 @@
 				F5701C311986B3E300E41387 /* gly_practice_big.png in Resources */,
 				F5701B7E19864EC500E41387 /* gly_practice@2x.png in Resources */,
 				F5701B8119864EC500E41387 /* gly_time_test.png in Resources */,
+				F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */,
 				F5701BED1986B1C700E41387 /* list_shadow_top.9.png in Resources */,
 				F5701B8019864EC500E41387 /* gly_time_test@2x.png in Resources */,
 				F5701A8519862E8700E41387 /* game_definition.xml in Resources */,
@@ -1895,6 +1902,7 @@
 				F5701C0E1986B3CB00E41387 /* item_6@2x.png in Resources */,
 				F5701AC419862E8700E41387 /* 54.aac in Resources */,
 				F5701C2D1986B3E300E41387 /* gly_list_fwd@2x.png in Resources */,
+				F5AAD7B219992A520051650F /* vyjm_slova_clip_image002.jpg in Resources */,
 				F5701AC519862E8700E41387 /* 55.aac in Resources */,
 				F5701AC619862E8700E41387 /* 56.aac in Resources */,
 				F5701AC719862E8700E41387 /* 57.aac in Resources */,
@@ -2251,11 +2259,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				F59B30A6198A388F0007A916 /* Base */,
-				F56F586C198A7E1800172EA2 /* cs */,
-				F56F586E198A7E1B00172EA2 /* sk */,
-				F56F5870198A7E1D00172EA2 /* pl */,
-				F56F5872198A7E2000172EA2 /* de */,
-				F56F587D198A909E00172EA2 /* en */,
+				F5AAD7B819993F080051650F /* cs */,
+				F5AAD7B919993F140051650F /* sk */,
+				F5AAD7BA19993F2F0051650F /* pl */,
+				F5AAD7BB19993F4B0051650F /* de */,
+				F5AAD7BC19993F590051650F /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
