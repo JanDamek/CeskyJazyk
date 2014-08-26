@@ -24,4 +24,6 @@ enum TestMode {
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 @property BOOL isNew;
 
+@property (strong, nonatomic) IBOutlet UIArcTimerView *questionTimer;
+
 @end

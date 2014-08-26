@@ -264,6 +264,7 @@
 		F58C02641989550200CA3755 /* intro.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191519573ABA00D8F04E /* intro.aac */; };
 		F58C02651989550200CA3755 /* math_result1.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191A19573ABA00D8F04E /* math_result1.aac */; };
 		F58C02661989550200CA3755 /* math_result2.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191C19573ABA00D8F04E /* math_result2.aac */; };
+		F5A7A51C19AC7AE800D969DF /* pmqQuestionControll.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A51B19AC7AE800D969DF /* pmqQuestionControll.m */; };
 		F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */; };
 		F5AAD7B219992A520051650F /* vyjm_slova_clip_image002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */; };
 		F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB04EF193FBE510025EBFB /* pmqResultCell.m */; };
@@ -1093,6 +1094,8 @@
 		F5A58BD61957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/97.aac; sourceTree = "<group>"; };
 		F5A58BD71957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/98.aac; sourceTree = "<group>"; };
 		F5A58BD81957374000B24EC1 /* sk */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk; path = sk.lproj/99.aac; sourceTree = "<group>"; };
+		F5A7A51A19AC7AE800D969DF /* pmqQuestionControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmqQuestionControll.h; sourceTree = "<group>"; };
+		F5A7A51B19AC7AE800D969DF /* pmqQuestionControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqQuestionControll.m; sourceTree = "<group>"; };
 		F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002_0000.jpg; sourceTree = "<group>"; };
 		F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002.jpg; sourceTree = "<group>"; };
 		F5AAD7B819993F080051650F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -1520,6 +1523,15 @@
 			path = numbers;
 			sourceTree = "<group>";
 		};
+		F5A7A51919AC7A9200D969DF /* questionControll */ = {
+			isa = PBXGroup;
+			children = (
+				F5A7A51A19AC7AE800D969DF /* pmqQuestionControll.h */,
+				F5A7A51B19AC7AE800D969DF /* pmqQuestionControll.m */,
+			);
+			name = questionControll;
+			sourceTree = "<group>";
+		};
 		F5BB04ED193FBE050025EBFB /* cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -1594,6 +1606,7 @@
 		F5F0F05E19364511003C4FFA /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F5A7A51919AC7A9200D969DF /* questionControll */,
 				F5BB04ED193FBE050025EBFB /* cells */,
 				F5F0F05F19364511003C4FFA /* pmqDetailLesonsViewController.h */,
 				F5F0F06019364511003C4FFA /* pmqDetailLesonsViewController.m */,
@@ -2066,6 +2079,7 @@
 				F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */,
 				F5C565271940EF0F00C78F5C /* pmqResultQuestionCell.m in Sources */,
 				F5F0F06B19364511003C4FFA /* pmqDetailLesonsViewController.m in Sources */,
+				F5A7A51C19AC7AE800D969DF /* pmqQuestionControll.m in Sources */,
 				F5E015441977CCAE0090125A /* Pages.m in Sources */,
 				F5F0F06E19364511003C4FFA /* pmqLessonsViewController.m in Sources */,
 				F53E6098193BAA9C00E3EE3E /* pmqLessonTableViewCell.m in Sources */,

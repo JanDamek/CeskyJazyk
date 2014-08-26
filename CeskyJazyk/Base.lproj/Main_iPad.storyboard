@@ -716,18 +716,6 @@
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeout_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="GDj-MM-Eee">
                                 <rect key="frame" x="43" y="280" width="618" height="400"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFg-JS-Ee1">
-                                <rect key="frame" x="107" y="176" width="88" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="99" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0P-YI-ioK">
-                                <rect key="frame" x="318" y="176" width="88" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9CB-So-AXO">
                                 <rect key="frame" x="70" y="86" width="564" height="46"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -853,25 +841,18 @@
                                     <action selector="answerButtonAction:" destination="YSQ-WZ-sxf" eventType="touchUpInside" id="SdC-fA-sdV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="question_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Tn-ug-V9X">
-                                <rect key="frame" x="410" y="176" width="45" height="96"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="uUv-F8-96S"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&gt;((" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-wp-wzE">
-                                <rect key="frame" x="211" y="176" width="88" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Tu-kx-1Ty" customClass="UIArcTimerView">
-                                <rect key="frame" x="463" y="176" width="96" height="96"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlu-dV-lkD" customClass="pmqQuestionControll">
+                                <rect key="frame" x="43" y="196" width="618" height="124"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-YG-xmY" customClass="UIArcTimerView">
+                                        <rect key="frame" x="284" y="0.0" width="121" height="124"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="96" id="Hto-Jz-suX"/>
-                                    <constraint firstAttribute="height" constant="96" id="rOV-Sv-A5z"/>
-                                </constraints>
+                                <connections>
+                                    <outlet property="questionTimer" destination="4IZ-YG-xmY" id="orr-dw-MZu"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -879,13 +860,16 @@
                             <constraint firstAttribute="trailing" secondItem="DuD-fu-qCy" secondAttribute="trailing" id="0Wf-Ps-gfP"/>
                             <constraint firstItem="UBe-Ta-4eg" firstAttribute="top" secondItem="GDj-MM-Eee" secondAttribute="bottom" constant="88" id="1m5-dE-pKQ"/>
                             <constraint firstItem="y4k-Or-HHz" firstAttribute="top" secondItem="0zO-4R-Ocx" secondAttribute="top" id="3hg-F1-K59"/>
+                            <constraint firstAttribute="trailing" secondItem="vlu-dV-lkD" secondAttribute="trailing" constant="42" id="4mR-Lc-yhr"/>
                             <constraint firstItem="JYI-hd-AgM" firstAttribute="top" secondItem="Bnn-kG-JSn" secondAttribute="bottom" constant="57" id="77i-eu-rYP"/>
                             <constraint firstItem="9CB-So-AXO" firstAttribute="top" secondItem="S4U-fd-eH4" secondAttribute="bottom" constant="22" id="Bfa-ZA-FNd"/>
                             <constraint firstItem="9CB-So-AXO" firstAttribute="centerX" secondItem="DuD-fu-qCy" secondAttribute="centerX" id="DGK-hi-xSa"/>
                             <constraint firstItem="DuD-fu-qCy" firstAttribute="top" secondItem="X5S-x8-7QN" secondAttribute="top" id="Eka-Pk-pA9"/>
+                            <constraint firstItem="vlu-dV-lkD" firstAttribute="leading" secondItem="X5S-x8-7QN" secondAttribute="leading" constant="43" id="KaY-mt-xga"/>
                             <constraint firstAttribute="bottom" secondItem="DuD-fu-qCy" secondAttribute="bottom" id="LLM-KW-QGE"/>
                             <constraint firstItem="GDj-MM-Eee" firstAttribute="top" secondItem="X5S-x8-7QN" secondAttribute="top" constant="280" id="Nhr-b6-yCS"/>
                             <constraint firstItem="SoF-JP-Mc0" firstAttribute="trailing" secondItem="y4k-Or-HHz" secondAttribute="trailing" id="QvX-SI-0DU"/>
+                            <constraint firstAttribute="bottom" secondItem="vlu-dV-lkD" secondAttribute="bottom" constant="448" id="RbG-Yj-eka"/>
                             <constraint firstItem="SoF-JP-Mc0" firstAttribute="bottom" secondItem="Bnn-kG-JSn" secondAttribute="bottom" id="UcC-Fg-qOk"/>
                             <constraint firstItem="iJU-dx-dzl" firstAttribute="top" secondItem="SoF-JP-Mc0" secondAttribute="top" id="Vt1-dq-sVN"/>
                             <constraint firstItem="JYI-hd-AgM" firstAttribute="bottom" secondItem="y4k-Or-HHz" secondAttribute="bottom" id="W5t-zk-Zzq"/>
@@ -900,6 +884,7 @@
                             <constraint firstItem="Bnn-kG-JSn" firstAttribute="trailing" secondItem="JYI-hd-AgM" secondAttribute="trailing" id="kfC-C1-Kdq"/>
                             <constraint firstItem="Bnn-kG-JSn" firstAttribute="leading" secondItem="JYI-hd-AgM" secondAttribute="leading" id="lIe-4O-aEY"/>
                             <constraint firstItem="iJU-dx-dzl" firstAttribute="leading" secondItem="SoF-JP-Mc0" secondAttribute="trailing" constant="26" id="mFc-gz-hmi"/>
+                            <constraint firstItem="vlu-dV-lkD" firstAttribute="top" secondItem="X5S-x8-7QN" secondAttribute="top" constant="196" id="mt5-nL-AhV"/>
                             <constraint firstItem="DuD-fu-qCy" firstAttribute="leading" secondItem="X5S-x8-7QN" secondAttribute="leading" id="pON-i8-P1m"/>
                             <constraint firstItem="iJU-dx-dzl" firstAttribute="trailing" secondItem="0zO-4R-Ocx" secondAttribute="trailing" id="pwX-Ir-O6l"/>
                             <constraint firstItem="y4k-Or-HHz" firstAttribute="centerX" secondItem="GDj-MM-Eee" secondAttribute="centerX" id="t83-IM-Glp"/>
@@ -927,13 +912,10 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="703" height="768"/>
                     <connections>
-                        <outlet property="labelAnswer" destination="Ico-wp-wzE" id="SKV-V3-6pu"/>
                         <outlet property="marks" destination="9CB-So-AXO" id="oTH-Yl-gx7"/>
-                        <outlet property="questionLabel1" destination="TFg-JS-Ee1" id="Pfj-Xm-tK7"/>
-                        <outlet property="questionLabel2" destination="G0P-YI-ioK" id="qvP-Ne-YOC"/>
-                        <outlet property="questionMark" destination="9Tn-ug-V9X" id="ws1-jY-Wkj"/>
+                        <outlet property="questionTimer" destination="4IZ-YG-xmY" id="BnP-W6-zL9"/>
+                        <outlet property="questionView" destination="vlu-dV-lkD" id="XKy-Mm-yJC"/>
                         <outlet property="timeOutImage" destination="GDj-MM-Eee" id="U7n-kF-BGD"/>
-                        <outlet property="timerView" destination="1Tu-kx-1Ty" id="u8v-x6-UxN"/>
                         <outletCollection property="answerButtons" destination="Bnn-kG-JSn" id="DlA-pd-HXz"/>
                         <outletCollection property="answerButtons" destination="SoF-JP-Mc0" id="LJn-eP-oM8"/>
                         <outletCollection property="answerButtons" destination="iJU-dx-dzl" id="kfc-VL-v16"/>
@@ -945,7 +927,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDA-y6-Mmq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="483" y="376"/>
+            <point key="canvasLocation" x="482.5" y="376"/>
         </scene>
         <!--Výsledek-->
         <scene sceneID="5iQ-PE-Rxb">
@@ -1475,7 +1457,6 @@
         <image name="list_shadow_bottom.9.png" width="62" height="48"/>
         <image name="list_shadow_top.9.png" width="62" height="48"/>
         <image name="pmq_hp.png" width="72" height="37"/>
-        <image name="question_mark.png" width="65" height="97"/>
         <image name="star_bg.png" width="53" height="53"/>
         <image name="status_1star.png" width="166" height="30"/>
         <image name="timeout.png" width="47" height="52"/>
