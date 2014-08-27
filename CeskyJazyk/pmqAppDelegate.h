@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "pmqData.h"
+#import "pmqLessonsViewController.h"
 
 @interface pmqAppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -18,6 +19,7 @@
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 @property (readonly, strong, nonatomic) pmqData *data;
+@property (strong, nonatomic) pmqLessonsViewController *lessonController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

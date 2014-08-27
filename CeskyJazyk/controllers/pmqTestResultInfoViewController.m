@@ -45,6 +45,7 @@
     int i = [self.navigationController.viewControllers count]-2;
     pmqTestingViewController *c = [self.navigationController.viewControllers objectAtIndex:i];
     c.isNew = YES;
+    c.isRepeat = NO;
     
     if (c.testMode==tmPractice){
         c.testMode = tmTestOnTime;
@@ -54,11 +55,14 @@
         NSIndexPath *i = [d.data.lessons indexPathForObject:l];
         int r = i.row;
         r++;
+        
+        pmqAppDelegate *appDelegate = (pmqAppDelegate*)[[UIApplication sharedApplication]delegate];
         i = [NSIndexPath indexPathForRow:r inSection:i.section];
+        [appDelegate.lessonController setItemIndex:i];
+
         l = [d.data.lessons objectAtIndexPath:i];
         
         c.data = l.relationship_test;
-        c.isNew = YES;
     }
     
     [self.navigationController popViewControllerAnimated:YES];
@@ -68,6 +72,8 @@
     int i = [self.navigationController.viewControllers count]-2;
     pmqTestingViewController *c = [self.navigationController.viewControllers objectAtIndex:i];
     c.isNew = YES;
+    c.testMode = tmPracticeFails;
+    c.isRepeat = YES;
     
     [self.navigationController popViewControllerAnimated:YES];
 }
@@ -191,15 +197,15 @@
     self.inTime.text = [NSString stringWithFormat:@"%02i:%02i", min, sec];
     
     self.badAnswer.text = [_result.bad_answers stringValue];
-    self.totalQuestion.text = [NSString stringWithFormat:@"%lu", (unsigned long)[_result.relationship_questions count]];
+    self.totalQuestion.text = [NSString stringWithFormat:@"%i", 12];
     
     [_btnRetry setHidden: ([_result.bad_answers intValue]==0)];
     switch (_testMode) {
         case tmPractice:
+        case tmPracticeFails:
             [_btnNext setHidden:[_result.bad_answers intValue]!=0];
             break;
         case tmNone:
-        case tmPracticeFails:
         case tmPracticeOverAllFail:
             [_btnNext setHidden:YES];
             break;

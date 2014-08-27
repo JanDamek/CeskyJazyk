@@ -58,9 +58,9 @@
 {
     isReadyToPlay = NO;
     [super viewDidLoad];
-
+    
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
-                             forBarMetrics:UIBarMetricsDefault];
+                                                  forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     self.navigationController.navigationBar.translucent = YES;
     
@@ -72,16 +72,16 @@
     
     isReadyToPlay = YES;
     if (_p && ![_p.data.type isEqualToString:@"html"])
-    @try {
-        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                             pathForResource:@"intro"
-                                             ofType:@"aac"]];
-        _player = [[AVAudioPlayer alloc]
-                   initWithContentsOfURL:url
-                   error:nil];
-        _player.delegate = self;
-        [_player play];
-    }
+        @try {
+            NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                                 pathForResource:@"intro"
+                                                 ofType:@"aac"]];
+            _player = [[AVAudioPlayer alloc]
+                       initWithContentsOfURL:url
+                       error:nil];
+            _player.delegate = self;
+            [_player play];
+        }
     @catch (NSException *exception) {
         NSLog(@"%@", exception);
     }
@@ -99,12 +99,18 @@
 
 -(void)setData:(Intros *)data{
     _data = data;
-    _act_page = 0;
-    n = [[NSMutableArray alloc] initWithCapacity:[_data.relationship_pages count]];
-    for (Pages *p in _data.relationship_pages) {
-        [n insertObject:p atIndex:0];
-    }
+    _act_page = -1;
+    int max = [_data.relationship_pages count];
+    n = [[NSMutableArray alloc] initWithCapacity:max];
     
+    for (int i=0;i<max;i++){
+        for (Pages *p in _data.relationship_pages) {
+            int order = [p.order intValue];
+            if (i==order){
+                [n addObject:p];
+            }
+        }
+    }
     [self next:_btnNext];
 }
 - (IBAction)backBtnAction:(UIButton *)sender {
@@ -124,18 +130,19 @@
         h = 50;
         [_explainGrid setHidden:YES];
         [_webView setHidden:NO];
-        NSString *htmlString = [NSString stringWithFormat:@"<span style=\"font-size: %i; color:white\">%@</span>",
-                      24,
-                      _pages.content];
+        NSString *htmlString = [NSString stringWithFormat:@"<span style=\"font-size: %i; color:white\">%@</span>", 24, _pages.content];
         NSURL *baseUrl = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
         [_webView loadHTMLString:htmlString baseURL:baseUrl];
+        [_btnPrev setHidden:NO];
     }else{
+        [_btnPrev setHidden:YES];
         [_webView setHidden:YES];
         [_explainGrid setHidden:NO];
         w = (_explainGrid.frame.size.width - (_p.numOfColumns * 5) - 10 ) / [self.p numOfColumns];
         h = (_explainGrid.frame.size.height - (_p.numOfColumns * 5) - 10) / [self.p numOfRows] ;
         
-        [_explainGrid reloadData];}
+        [_explainGrid reloadData];
+    }
 }
 
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -147,7 +154,7 @@
         _font = [UIFont boldSystemFontOfSize:h / 2];
     } else
         _font = [UIFont boldSystemFontOfSize:w / 2];
-
+    
     return CGSizeMake(w, h);
 }
 
@@ -159,17 +166,16 @@
 
 - (IBAction)next:(UIButton *)sender {
     if (!_pages){
-        if ([n count]>0){
-            _pages = [n objectAtIndex:[n count]-1];
-            [n removeObject:_pages];
+        _act_page++;
+        if (_act_page<[n count]){
+            _pages = [n objectAtIndex:_act_page];
         } else
             _pages = nil;
         if (_pages){
-            _act_page++;
-            
             [self prepareData];
-            
             [self next:sender];
+            BOOL enb = _act_page>0;
+            [_btnPrev setEnabled:enb];
         } else {
             if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
                 pmqDetailLesonsViewController *d = [self.navigationController.viewControllers objectAtIndex:0];
@@ -220,6 +226,16 @@
 }
 
 - (IBAction)preview:(id)sender {
+    _act_page--;
+    if (_act_page<=0){
+        _act_page=0;
+        [_btnPrev setEnabled:NO];
+    }
+    _pages = [n objectAtIndex:_act_page];
+    
+    [self prepareData];
+    
+    [self next:sender];
     
 }
 

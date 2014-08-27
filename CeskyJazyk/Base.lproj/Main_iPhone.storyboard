@@ -1040,7 +1040,7 @@
                                     <action selector="next:" destination="06h-WC-F2r" eventType="touchUpInside" id="5Y9-lc-I7u"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t5b-MV-ZEq">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t5b-MV-ZEq">
                                 <rect key="frame" x="20" y="415" width="90" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="gly_list_back.png" backgroundImage="btn_192x124_up.png">

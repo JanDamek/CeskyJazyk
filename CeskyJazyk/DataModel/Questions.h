@@ -1,8 +1,8 @@
 //
 //  Questions.h
-//  calculations
+//  ceskyjazyk
 //
-//  Created by Jan Damek on 29.07.14.
+//  Created by Jan Damek on 27.08.14.
 //  Copyright (c) 2014 PMQ-Software. All rights reserved.
 //
 
@@ -15,18 +15,24 @@
 
 @property (nonatomic, retain) NSString * content;
 @property (nonatomic, retain) NSNumber * last_answer;
-@property (nonatomic, retain) NSNumber * time_of_answer;
 @property (nonatomic, retain) NSNumber * lesson_id;
-@property (nonatomic, retain) NSSet *relationship_result;
+@property (nonatomic, retain) NSNumber * time_of_answer;
+@property (nonatomic, retain) Results *relationship_result1;
 @property (nonatomic, retain) NSSet *relationship_test;
+@property (nonatomic, retain) Results *relationship_result2;
+@property (nonatomic, retain) Results *relationship_result3;
+@property (nonatomic, retain) Results *relationship_result4;
+@property (nonatomic, retain) Results *relationship_result5;
+@property (nonatomic, retain) Results *relationship_result6;
+@property (nonatomic, retain) Results *relationship_result7;
+@property (nonatomic, retain) Results *relationship_result8;
+@property (nonatomic, retain) Results *relationship_result9;
+@property (nonatomic, retain) Results *relationship_result10;
+@property (nonatomic, retain) Results *relationship_result11;
+@property (nonatomic, retain) Results *relationship_result12;
 @end
 
 @interface Questions (CoreDataGeneratedAccessors)
-
-- (void)addRelationship_resultObject:(Results *)value;
-- (void)removeRelationship_resultObject:(Results *)value;
-- (void)addRelationship_result:(NSSet *)values;
-- (void)removeRelationship_result:(NSSet *)values;
 
 - (void)addRelationship_testObject:(Tests *)value;
 - (void)removeRelationship_testObject:(Tests *)value;

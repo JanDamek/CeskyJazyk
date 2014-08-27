@@ -1183,7 +1183,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                             </webView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apW-2I-Zwj">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apW-2I-Zwj">
                                 <rect key="frame" x="44" y="693" width="90" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="EKm-SM-hlI"/>
@@ -1406,6 +1406,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tz7-XL-Aw8" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="500"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Loa-4v-8ES">
@@ -1421,7 +1422,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="c7f-9I-84Q">
                     <rect key="frame" x="0.0" y="0.0" width="50" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="gly_back.png" backgroundImage="btn_192x124_dwn.png">
+                    <state key="normal" image="gly_back.png" backgroundImage="btn_192x124_up.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
@@ -1436,7 +1437,6 @@
         <image name="bg_list_even.9.png" width="260" height="64"/>
         <image name="bg_overlay.png" width="160" height="256"/>
         <image name="boy11.png" width="818" height="1009"/>
-        <image name="btn_192x124_dwn.png" width="96" height="62"/>
         <image name="btn_192x124_up.png" width="96" height="62"/>
         <image name="btn_green_up_1133x348.png" width="566" height="174"/>
         <image name="btn_pmq_mini.png" width="44" height="22"/>
@@ -1471,7 +1471,7 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="vYP-xj-ZMy"/>
+        <segue reference="4wz-Zb-sEt"/>
         <segue reference="lf1-kM-SZV"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

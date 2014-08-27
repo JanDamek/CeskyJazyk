@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="14A298i" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6220.8" systemVersion="14A238x" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Intros" representedClassName="Intros" syncable="YES">
         <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
         <relationship name="relationship_lesson" maxCount="1" deletionRule="Nullify" destinationEntity="Lessons" inverseName="relationship_intro" inverseEntity="Lessons" syncable="YES"/>
@@ -30,7 +30,18 @@
         <attribute name="last_answer" optional="YES" attributeType="Boolean" defaultValueString="YES" indexed="YES" syncable="YES"/>
         <attribute name="lesson_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="time_of_answer" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="relationship_result" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions1" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions2" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result3" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions3" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result4" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions4" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result5" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions5" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result6" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions6" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result7" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions7" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result8" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions8" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result9" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions9" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result10" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions10" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result11" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions11" inverseEntity="Results" syncable="YES"/>
+        <relationship name="relationship_result12" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Results" inverseName="relationship_questions12" inverseEntity="Results" syncable="YES"/>
         <relationship name="relationship_test" toMany="YES" deletionRule="Nullify" destinationEntity="Tests" inverseName="relationship_question" inverseEntity="Tests" syncable="YES"/>
     </entity>
     <entity name="Results" representedClassName="Results" syncable="YES">
@@ -38,7 +49,18 @@
         <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="rate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="total_time" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="relationship_questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result1" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result2" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions3" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result3" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions4" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result4" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions5" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result5" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions6" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result6" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions7" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result7" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions8" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result8" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions9" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result9" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions10" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result10" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions11" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result11" inverseEntity="Questions" syncable="YES"/>
+        <relationship name="relationship_questions12" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questions" inverseName="relationship_result12" inverseEntity="Questions" syncable="YES"/>
         <relationship name="relationship_test" maxCount="1" deletionRule="Nullify" destinationEntity="Tests" inverseName="relationship_results" inverseEntity="Tests" syncable="YES"/>
     </entity>
     <entity name="Tests" representedClassName="Tests" syncable="YES">
@@ -54,8 +76,8 @@
         <element name="Intros" positionX="270" positionY="225" width="128" height="90"/>
         <element name="Lessons" positionX="261" positionY="189" width="128" height="163"/>
         <element name="Pages" positionX="261" positionY="216" width="128" height="120"/>
-        <element name="Questions" positionX="306" positionY="243" width="128" height="135"/>
-        <element name="Results" positionX="324" positionY="306" width="128" height="133"/>
+        <element name="Questions" positionX="306" positionY="243" width="128" height="298"/>
+        <element name="Results" positionX="324" positionY="306" width="128" height="298"/>
         <element name="Tests" positionX="288" positionY="234" width="128" height="148"/>
     </elements>
 </model>

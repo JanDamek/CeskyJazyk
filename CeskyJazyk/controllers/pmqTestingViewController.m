@@ -21,6 +21,8 @@
     float mark_size;
     
     NSMutableArray *_questions;
+
+    NSMutableArray *_repeatFaults;
     
     int answered;
     
@@ -45,6 +47,7 @@
 @synthesize testMode = _testMode;
 @synthesize timeOutImage = _timeOutImage;
 @synthesize isNew = _isNew;
+@synthesize isRepeat = _isRepeat;
 
 #pragma mark - initialization
 
@@ -66,13 +69,15 @@
     [super viewDidLoad];
     
     _isNew = YES;
+    _isRepeat = NO;
+    
+    _repeatFaults = [[NSMutableArray alloc] init];
     
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                                                   forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     self.navigationController.navigationBar.translucent = YES;
     
-    _questionView.delegate = self;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
     mark_size = (_marks.frame.size.width - 120) / 12;
     }else{
@@ -92,7 +97,8 @@
     if (self.masterPopoverController != nil) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
     }
-    
+
+    _questionView.delegate = self;
 }
 
 - (IBAction)btnStartAction:(id)sender {
@@ -233,7 +239,15 @@
     }
     
     int lesson_id=[[(Questions*)[questions objectAtIndex:0]lesson_id]intValue];
-    _questions = [[NSMutableArray alloc] init];
+    if (_isRepeat){
+        _questions = [[NSMutableArray alloc] init];
+        [_questions addObjectsFromArray:_repeatFaults];
+        count_question += [_repeatFaults count];
+    } else
+        _questions = [[NSMutableArray alloc] init];
+    
+    _repeatFaults = [[NSMutableArray alloc] init];
+    
     Questions *q;
     if (firstFail){
         int index = 0;
@@ -321,7 +335,7 @@
             break;
             
         case tmPracticeFails:
-            [self prepareQuestions:[[_data.relationship_question allObjects] mutableCopy]firstFail:YES];
+            [self prepareQuestions:[[_data.relationship_question allObjects] mutableCopy] firstFail:YES];
             break;
             
         case tmPracticeOverAllFail:{
@@ -414,15 +428,18 @@
     float inTime = _questionView.questionTimer.timeToCount*(_questionView.questionTimer.percent/100);
     if (inTime==0) inTime = _questionView.questionTimer.timeToCount;
     q.time_of_answer = [NSNumber numberWithFloat:inTime];
-    //    }
-    answered++;
+
     if ([q.last_answer boolValue]) {
         _questionView.showState = qcAnswer;
         time_to_show_answer = 1;
     } else {
         _questionView.showState = qcAnswerBad;
         time_to_show_answer = 3;
+        [_repeatFaults addObject:q];
     }
+    [_questions setObject:q atIndexedSubscript:answered];
+
+    answered++;
     
     NSString *sound_file;
     if (sender==nil){
@@ -458,10 +475,6 @@
     [_data addRelationship_resultsObject:r];
     r.relationship_test = _data;
     
-    NSArray *rq = [r.relationship_questions allObjects];
-    for (Questions *q in rq) {
-        [r removeRelationship_questionsObject:q];
-    }
     float total_time = 0;
     int bad_answer = 0;
     for (int i=0; i<[_questions count]; i++) {
@@ -470,7 +483,44 @@
         if ([q.last_answer integerValue]==0){
             bad_answer++;
         }
-        [r addRelationship_questionsObject:q];
+        switch (i) {
+            case 0:
+                r.relationship_questions1 = q;
+                break;
+            case 1:
+                r.relationship_questions2 = q;
+                break;
+            case 2:
+                r.relationship_questions3 = q;
+                break;
+            case 3:
+                r.relationship_questions4 = q;
+                break;
+            case 4:
+                r.relationship_questions5 = q;
+                break;
+            case 5:
+                r.relationship_questions6 = q;
+                break;
+            case 6:
+                r.relationship_questions7 = q;
+                break;
+            case 7:
+                r.relationship_questions8 = q;
+                break;
+            case 8:
+                r.relationship_questions9 = q;
+                break;
+            case 9:
+                r.relationship_questions10 = q;
+                break;
+            case 10:
+                r.relationship_questions11 = q;
+                break;
+            case 11:
+                r.relationship_questions12 = q;
+                break;
+        }
     }
     r.total_time = [NSNumber numberWithFloat:total_time];
     r.bad_answers = [NSNumber numberWithInt:bad_answer];
@@ -501,7 +551,7 @@
     c.testMode = _testMode;
     [self.navigationController pushViewController:c animated:YES];
 
-    _questionView.showState =qcHideAll;
+    _questionView.showState = qcHideAll;
     
     for (UIButton *b in _answerButtons) {
         [b setHidden:YES];

@@ -60,6 +60,7 @@
         intros_order++;
         [l addRelationship_introObject:intros];
         
+        pages_order = 0;
         NSDictionary *intr = [i valueForKey:@"intro"];
         id pp = [intr valueForKey:@"page"];
         if ([pp isKindOfClass:[NSArray class] ]) {
