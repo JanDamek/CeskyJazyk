@@ -106,7 +106,11 @@
 
 - (void)splitViewController:(UISplitViewController *)splitController willHideViewController:(UIViewController *)viewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)popoverController
 {
-    barButtonItem.title = NSLocalizedString(@"Lekce", @"Lekce");
+//    barButtonItem.title = NSLocalizedString(@"Lekce", @"Lekce");
+    [barButtonItem setImage:[UIImage imageNamed:@"gly_back"]];
+    [barButtonItem setBackgroundImage:[UIImage imageNamed:@"btn_51x32_up"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [barButtonItem setWidth:51];
+    
     [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.masterPopoverController = popoverController;
 }

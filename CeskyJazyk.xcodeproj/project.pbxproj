@@ -271,6 +271,7 @@
 		F5A7A52919ADBFCB00D969DF /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52819ADBFCB00D969DF /* Questions.m */; };
 		F5A7A52C19ADBFCC00D969DF /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52B19ADBFCC00D969DF /* Results.m */; };
 		F5A7A52F19ADBFCC00D969DF /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52E19ADBFCC00D969DF /* Tests.m */; };
+		F5A7A53119ADFFB900D969DF /* btn_51x32_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */; };
 		F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */; };
 		F5AAD7B219992A520051650F /* vyjm_slova_clip_image002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */; };
 		F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB04EF193FBE510025EBFB /* pmqResultCell.m */; };
@@ -1109,6 +1110,7 @@
 		F5A7A52B19ADBFCC00D969DF /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = CeskyJazyk/datamodel/Results.m; sourceTree = "<group>"; };
 		F5A7A52D19ADBFCC00D969DF /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tests.h; path = CeskyJazyk/datamodel/Tests.h; sourceTree = "<group>"; };
 		F5A7A52E19ADBFCC00D969DF /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tests.m; path = CeskyJazyk/datamodel/Tests.m; sourceTree = "<group>"; };
+		F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up.png; sourceTree = "<group>"; };
 		F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002_0000.jpg; sourceTree = "<group>"; };
 		F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002.jpg; sourceTree = "<group>"; };
 		F5AAD7B819993F080051650F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -1381,6 +1383,7 @@
 		F5701B8219864F3C00E41387 /* background */ = {
 			isa = PBXGroup;
 			children = (
+				F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */,
 				F5701B8419864FCB00E41387 /* btn_192x124_up@2x.png */,
 				F5701B8619864FCB00E41387 /* btn_blue_up_373x334@2x.png */,
 				F5701B8819864FCB00E41387 /* btn_green_up_1133x348@2x.png */,
@@ -1895,6 +1898,7 @@
 				F5701AB219862E8700E41387 /* 38.aac in Resources */,
 				F5701AB319862E8700E41387 /* 39.aac in Resources */,
 				F5701AB419862E8700E41387 /* 4.aac in Resources */,
+				F5A7A53119ADFFB900D969DF /* btn_51x32_up.png in Resources */,
 				F5701C4719877F9A00E41387 /* bg_list2_320_even@2x.png in Resources */,
 				F5701AB519862E8700E41387 /* 40.aac in Resources */,
 				F5701AB619862E8700E41387 /* 41.aac in Resources */,
