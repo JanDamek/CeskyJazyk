@@ -272,6 +272,8 @@
 		F5A7A52C19ADBFCC00D969DF /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52B19ADBFCC00D969DF /* Results.m */; };
 		F5A7A52F19ADBFCC00D969DF /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52E19ADBFCC00D969DF /* Tests.m */; };
 		F5A7A53119ADFFB900D969DF /* btn_51x32_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */; };
+		F5A7A53319AE447600D969DF /* btn_51x32_up_popover.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */; };
+		F5A7A53519AF185600D969DF /* btn_51x32_up_bcg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */; };
 		F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */; };
 		F5AAD7B219992A520051650F /* vyjm_slova_clip_image002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */; };
 		F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB04EF193FBE510025EBFB /* pmqResultCell.m */; };
@@ -1111,6 +1113,8 @@
 		F5A7A52D19ADBFCC00D969DF /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tests.h; path = CeskyJazyk/datamodel/Tests.h; sourceTree = "<group>"; };
 		F5A7A52E19ADBFCC00D969DF /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tests.m; path = CeskyJazyk/datamodel/Tests.m; sourceTree = "<group>"; };
 		F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up.png; sourceTree = "<group>"; };
+		F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up_popover.png; sourceTree = "<group>"; };
+		F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up_bcg.png; sourceTree = "<group>"; };
 		F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002_0000.jpg; sourceTree = "<group>"; };
 		F5AAD7B019992A520051650F /* vyjm_slova_clip_image002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002.jpg; sourceTree = "<group>"; };
 		F5AAD7B819993F080051650F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -1383,6 +1387,8 @@
 		F5701B8219864F3C00E41387 /* background */ = {
 			isa = PBXGroup;
 			children = (
+				F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */,
+				F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */,
 				F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */,
 				F5701B8419864FCB00E41387 /* btn_192x124_up@2x.png */,
 				F5701B8619864FCB00E41387 /* btn_blue_up_373x334@2x.png */,
@@ -1865,6 +1871,7 @@
 				F5701A9719862E8700E41387 /* 13.aac in Resources */,
 				F5701A9819862E8700E41387 /* 14.aac in Resources */,
 				F5701A9919862E8700E41387 /* 15.aac in Resources */,
+				F5A7A53319AE447600D969DF /* btn_51x32_up_popover.png in Resources */,
 				F5701A9A19862E8700E41387 /* 16.aac in Resources */,
 				F5701A9B19862E8700E41387 /* 17.aac in Resources */,
 				F5701A9C19862E8700E41387 /* 18.aac in Resources */,
@@ -1904,6 +1911,7 @@
 				F5701AB619862E8700E41387 /* 41.aac in Resources */,
 				F5701AB719862E8700E41387 /* 42.aac in Resources */,
 				F5701AB819862E8700E41387 /* 43.aac in Resources */,
+				F5A7A53519AF185600D969DF /* btn_51x32_up_bcg.png in Resources */,
 				F5701AB919862E8700E41387 /* 44.aac in Resources */,
 				F5701C4619877F9A00E41387 /* bg_list2_320_odd.png in Resources */,
 				F5701ABA19862E8700E41387 /* 45.aac in Resources */,

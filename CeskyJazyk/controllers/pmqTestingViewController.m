@@ -152,6 +152,7 @@
 
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
     [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+    [_questionView setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning
