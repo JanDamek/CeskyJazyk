@@ -45,6 +45,18 @@
         <relationship name="relationship_test" toMany="YES" deletionRule="Nullify" destinationEntity="Tests" inverseName="relationship_question" inverseEntity="Tests" syncable="YES"/>
     </entity>
     <entity name="Results" representedClassName="Results" syncable="YES">
+        <attribute name="answer1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer7" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer8" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer9" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer10" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer11" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="answer12" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="bad_answers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="rate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -77,7 +89,7 @@
         <element name="Lessons" positionX="261" positionY="189" width="128" height="163"/>
         <element name="Pages" positionX="261" positionY="216" width="128" height="120"/>
         <element name="Questions" positionX="306" positionY="243" width="128" height="298"/>
-        <element name="Results" positionX="324" positionY="306" width="128" height="298"/>
+        <element name="Results" positionX="324" positionY="306" width="128" height="480"/>
         <element name="Tests" positionX="288" positionY="234" width="128" height="148"/>
     </elements>
 </model>

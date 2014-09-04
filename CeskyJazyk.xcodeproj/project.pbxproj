@@ -264,14 +264,13 @@
 		F58C02641989550200CA3755 /* intro.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191519573ABA00D8F04E /* intro.aac */; };
 		F58C02651989550200CA3755 /* math_result1.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191A19573ABA00D8F04E /* math_result1.aac */; };
 		F58C02661989550200CA3755 /* math_result2.aac in Resources */ = {isa = PBXBuildFile; fileRef = F506191C19573ABA00D8F04E /* math_result2.aac */; };
+		F59E41C119B8AD1E00AF2497 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41C019B8AD1E00AF2497 /* Tests.m */; };
+		F59E41C419B8AD1F00AF2497 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41C319B8AD1F00AF2497 /* Questions.m */; };
+		F59E41C719B8AD1F00AF2497 /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41C619B8AD1F00AF2497 /* Results.m */; };
+		F59E41CA19B8AD1F00AF2497 /* Intros.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41C919B8AD1F00AF2497 /* Intros.m */; };
+		F59E41CD19B8AD1F00AF2497 /* Lessons.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41CC19B8AD1F00AF2497 /* Lessons.m */; };
+		F59E41D019B8AD1F00AF2497 /* Pages.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E41CF19B8AD1F00AF2497 /* Pages.m */; };
 		F5A7A51C19AC7AE800D969DF /* pmqQuestionControll.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A51B19AC7AE800D969DF /* pmqQuestionControll.m */; };
-		F5A7A52019ADBFCA00D969DF /* Lessons.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A51F19ADBFCA00D969DF /* Lessons.m */; };
-		F5A7A52319ADBFCB00D969DF /* Intros.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52219ADBFCB00D969DF /* Intros.m */; };
-		F5A7A52619ADBFCB00D969DF /* Pages.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52519ADBFCB00D969DF /* Pages.m */; };
-		F5A7A52919ADBFCB00D969DF /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52819ADBFCB00D969DF /* Questions.m */; };
-		F5A7A52C19ADBFCC00D969DF /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52B19ADBFCC00D969DF /* Results.m */; };
-		F5A7A52F19ADBFCC00D969DF /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7A52E19ADBFCC00D969DF /* Tests.m */; };
-		F5A7A53119ADFFB900D969DF /* btn_51x32_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */; };
 		F5A7A53319AE447600D969DF /* btn_51x32_up_popover.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */; };
 		F5A7A53519AF185600D969DF /* btn_51x32_up_bcg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */; };
 		F5AAD7B119992A520051650F /* vyjm_slova_clip_image002_0000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */; };
@@ -596,6 +595,18 @@
 		F58C02631989543400CA3755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F59B30A6198A388F0007A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		F59B30A8198A38A80007A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F59E41BF19B8AD1E00AF2497 /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tests.h; path = CeskyJazyk/DataModel/Tests.h; sourceTree = "<group>"; };
+		F59E41C019B8AD1E00AF2497 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tests.m; path = CeskyJazyk/DataModel/Tests.m; sourceTree = "<group>"; };
+		F59E41C219B8AD1F00AF2497 /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Questions.h; path = CeskyJazyk/DataModel/Questions.h; sourceTree = "<group>"; };
+		F59E41C319B8AD1F00AF2497 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Questions.m; path = CeskyJazyk/DataModel/Questions.m; sourceTree = "<group>"; };
+		F59E41C519B8AD1F00AF2497 /* Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Results.h; path = CeskyJazyk/DataModel/Results.h; sourceTree = "<group>"; };
+		F59E41C619B8AD1F00AF2497 /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = CeskyJazyk/DataModel/Results.m; sourceTree = "<group>"; };
+		F59E41C819B8AD1F00AF2497 /* Intros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Intros.h; path = CeskyJazyk/DataModel/Intros.h; sourceTree = "<group>"; };
+		F59E41C919B8AD1F00AF2497 /* Intros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Intros.m; path = CeskyJazyk/DataModel/Intros.m; sourceTree = "<group>"; };
+		F59E41CB19B8AD1F00AF2497 /* Lessons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lessons.h; path = CeskyJazyk/DataModel/Lessons.h; sourceTree = "<group>"; };
+		F59E41CC19B8AD1F00AF2497 /* Lessons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lessons.m; path = CeskyJazyk/DataModel/Lessons.m; sourceTree = "<group>"; };
+		F59E41CE19B8AD1F00AF2497 /* Pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pages.h; path = CeskyJazyk/DataModel/Pages.h; sourceTree = "<group>"; };
+		F59E41CF19B8AD1F00AF2497 /* Pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pages.m; path = CeskyJazyk/DataModel/Pages.m; sourceTree = "<group>"; };
 		F5A586C11957336A00B24EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/game_definition.xml; sourceTree = "<group>"; };
 		F5A5891E1957373F00B24EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/1.aac; sourceTree = "<group>"; };
 		F5A589201957373F00B24EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/10.aac; sourceTree = "<group>"; };
@@ -1100,19 +1111,6 @@
 		F5A7A51A19AC7AE800D969DF /* pmqQuestionControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmqQuestionControll.h; sourceTree = "<group>"; };
 		F5A7A51B19AC7AE800D969DF /* pmqQuestionControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqQuestionControll.m; sourceTree = "<group>"; };
 		F5A7A51D19ADBC3500D969DF /* ceskyjazyk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ceskyjazyk-Bridging-Header.h"; sourceTree = "<group>"; };
-		F5A7A51E19ADBFCA00D969DF /* Lessons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lessons.h; path = CeskyJazyk/datamodel/Lessons.h; sourceTree = "<group>"; };
-		F5A7A51F19ADBFCA00D969DF /* Lessons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lessons.m; path = CeskyJazyk/datamodel/Lessons.m; sourceTree = "<group>"; };
-		F5A7A52119ADBFCB00D969DF /* Intros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Intros.h; path = CeskyJazyk/datamodel/Intros.h; sourceTree = "<group>"; };
-		F5A7A52219ADBFCB00D969DF /* Intros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Intros.m; path = CeskyJazyk/datamodel/Intros.m; sourceTree = "<group>"; };
-		F5A7A52419ADBFCB00D969DF /* Pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pages.h; path = CeskyJazyk/datamodel/Pages.h; sourceTree = "<group>"; };
-		F5A7A52519ADBFCB00D969DF /* Pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pages.m; path = CeskyJazyk/datamodel/Pages.m; sourceTree = "<group>"; };
-		F5A7A52719ADBFCB00D969DF /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Questions.h; path = CeskyJazyk/datamodel/Questions.h; sourceTree = "<group>"; };
-		F5A7A52819ADBFCB00D969DF /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Questions.m; path = CeskyJazyk/datamodel/Questions.m; sourceTree = "<group>"; };
-		F5A7A52A19ADBFCC00D969DF /* Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Results.h; path = CeskyJazyk/datamodel/Results.h; sourceTree = "<group>"; };
-		F5A7A52B19ADBFCC00D969DF /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = CeskyJazyk/datamodel/Results.m; sourceTree = "<group>"; };
-		F5A7A52D19ADBFCC00D969DF /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tests.h; path = CeskyJazyk/datamodel/Tests.h; sourceTree = "<group>"; };
-		F5A7A52E19ADBFCC00D969DF /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tests.m; path = CeskyJazyk/datamodel/Tests.m; sourceTree = "<group>"; };
-		F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up.png; sourceTree = "<group>"; };
 		F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up_popover.png; sourceTree = "<group>"; };
 		F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_51x32_up_bcg.png; sourceTree = "<group>"; };
 		F5AAD7AF19992A520051650F /* vyjm_slova_clip_image002_0000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vyjm_slova_clip_image002_0000.jpg; sourceTree = "<group>"; };
@@ -1345,19 +1343,19 @@
 		F527643E192E0F41001BEC6B /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				F5A7A52D19ADBFCC00D969DF /* Tests.h */,
-				F5A7A52E19ADBFCC00D969DF /* Tests.m */,
-				F5A7A52A19ADBFCC00D969DF /* Results.h */,
-				F5A7A52B19ADBFCC00D969DF /* Results.m */,
-				F5A7A52719ADBFCB00D969DF /* Questions.h */,
-				F5A7A52819ADBFCB00D969DF /* Questions.m */,
-				F5A7A52419ADBFCB00D969DF /* Pages.h */,
-				F5A7A52519ADBFCB00D969DF /* Pages.m */,
-				F5A7A52119ADBFCB00D969DF /* Intros.h */,
-				F5A7A52219ADBFCB00D969DF /* Intros.m */,
-				F5A7A51E19ADBFCA00D969DF /* Lessons.h */,
-				F5A7A51F19ADBFCA00D969DF /* Lessons.m */,
 				F5276417192E0E98001BEC6B /* CeskyJazyk.xcdatamodeld */,
+				F59E41CE19B8AD1F00AF2497 /* Pages.h */,
+				F59E41CF19B8AD1F00AF2497 /* Pages.m */,
+				F59E41CB19B8AD1F00AF2497 /* Lessons.h */,
+				F59E41CC19B8AD1F00AF2497 /* Lessons.m */,
+				F59E41C819B8AD1F00AF2497 /* Intros.h */,
+				F59E41C919B8AD1F00AF2497 /* Intros.m */,
+				F59E41C519B8AD1F00AF2497 /* Results.h */,
+				F59E41C619B8AD1F00AF2497 /* Results.m */,
+				F59E41C219B8AD1F00AF2497 /* Questions.h */,
+				F59E41C319B8AD1F00AF2497 /* Questions.m */,
+				F59E41BF19B8AD1E00AF2497 /* Tests.h */,
+				F59E41C019B8AD1E00AF2497 /* Tests.m */,
 				F5A7A51D19ADBC3500D969DF /* ceskyjazyk-Bridging-Header.h */,
 			);
 			name = DataModel;
@@ -1389,7 +1387,6 @@
 			children = (
 				F5A7A53419AF185600D969DF /* btn_51x32_up_bcg.png */,
 				F5A7A53219AE447600D969DF /* btn_51x32_up_popover.png */,
-				F5A7A53019ADFFB900D969DF /* btn_51x32_up.png */,
 				F5701B8419864FCB00E41387 /* btn_192x124_up@2x.png */,
 				F5701B8619864FCB00E41387 /* btn_blue_up_373x334@2x.png */,
 				F5701B8819864FCB00E41387 /* btn_green_up_1133x348@2x.png */,
@@ -1905,7 +1902,6 @@
 				F5701AB219862E8700E41387 /* 38.aac in Resources */,
 				F5701AB319862E8700E41387 /* 39.aac in Resources */,
 				F5701AB419862E8700E41387 /* 4.aac in Resources */,
-				F5A7A53119ADFFB900D969DF /* btn_51x32_up.png in Resources */,
 				F5701C4719877F9A00E41387 /* bg_list2_320_even@2x.png in Resources */,
 				F5701AB519862E8700E41387 /* 40.aac in Resources */,
 				F5701AB619862E8700E41387 /* 41.aac in Resources */,
@@ -2086,32 +2082,32 @@
 				F5F0F07C19364524003C4FFA /* pmqParseXMLToData.m in Sources */,
 				F527640C192E0E98001BEC6B /* main.m in Sources */,
 				F5F0F05D19364500003C4FFA /* pmqPurchase.m in Sources */,
-				F5A7A52019ADBFCA00D969DF /* Lessons.m in Sources */,
 				F5BB04F0193FBE510025EBFB /* pmqResultCell.m in Sources */,
 				F5C565271940EF0F00C78F5C /* pmqResultQuestionCell.m in Sources */,
-				F5A7A52C19ADBFCC00D969DF /* Results.m in Sources */,
 				F5F0F06B19364511003C4FFA /* pmqDetailLesonsViewController.m in Sources */,
-				F5A7A52319ADBFCB00D969DF /* Intros.m in Sources */,
 				F5A7A51C19AC7AE800D969DF /* pmqQuestionControll.m in Sources */,
 				F5F0F06E19364511003C4FFA /* pmqLessonsViewController.m in Sources */,
 				F53E6098193BAA9C00E3EE3E /* pmqLessonTableViewCell.m in Sources */,
 				F5F0F07019364511003C4FFA /* pmqTestingViewController.m in Sources */,
+				F59E41CA19B8AD1F00AF2497 /* Intros.m in Sources */,
 				F5F0F059193644DB003C4FFA /* XMLReader.m in Sources */,
 				F5276410192E0E98001BEC6B /* pmqAppDelegate.m in Sources */,
 				F5F0F07B19364524003C4FFA /* pmqPages.m in Sources */,
 				F5F0F07A19364524003C4FFA /* pmqData.m in Sources */,
 				F5F0F00119363ED1003C4FFA /* UIArcTimerView.m in Sources */,
 				F5003C2A1940A6AD0088D9D4 /* pmqResultInfoViewController.m in Sources */,
-				F5A7A52619ADBFCB00D969DF /* Pages.m in Sources */,
-				F5A7A52919ADBFCB00D969DF /* Questions.m in Sources */,
 				F5F0F06C19364511003C4FFA /* pmqExpleinCell.m in Sources */,
 				F5F0F07D19364524003C4FFA /* pmqQuestions.m in Sources */,
 				F5276419192E0E98001BEC6B /* CeskyJazyk.xcdatamodeld in Sources */,
 				F5F0F06D19364511003C4FFA /* pmqIntrosViewController.m in Sources */,
 				F53E6095193B969A00E3EE3E /* pmqResultViewController.m in Sources */,
+				F59E41D019B8AD1F00AF2497 /* Pages.m in Sources */,
+				F59E41C119B8AD1E00AF2497 /* Tests.m in Sources */,
+				F59E41C419B8AD1F00AF2497 /* Questions.m in Sources */,
 				F5F0F06F19364511003C4FFA /* pmqQuestionMarkCell.m in Sources */,
-				F5A7A52F19ADBFCC00D969DF /* Tests.m in Sources */,
+				F59E41C719B8AD1F00AF2497 /* Results.m in Sources */,
 				F5C565241940C6BA00C78F5C /* pmqTestResultInfoViewController.m in Sources */,
+				F59E41CD19B8AD1F00AF2497 /* Lessons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

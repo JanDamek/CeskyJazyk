@@ -87,8 +87,15 @@
         [a replaceObjectAtIndex:index withObject:ca];
     } else
     {
-        int div = RAND_MAX / [a count];
-        int index = rand() / div;
+        int index = 0;
+        if ([a count]>1){
+            int div = RAND_MAX / [a count];
+            index = rand() / div;
+        } else {
+            int div = RAND_MAX / [a count];
+            index = rand() / (div / 10);
+            index = (index+5) / 10;
+        }
         [a insertObject:ca atIndex:index];
     }
     _answers = [[NSArray alloc] initWithArray:a];

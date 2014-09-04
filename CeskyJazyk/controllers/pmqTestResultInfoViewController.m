@@ -72,7 +72,8 @@
     int i = [self.navigationController.viewControllers count]-2;
     pmqTestingViewController *c = [self.navigationController.viewControllers objectAtIndex:i];
     c.isNew = YES;
-    c.testMode = tmPracticeFails;
+    if (c.testMode!=tmPracticeOverAllFail)
+        c.testMode = tmPracticeFails;
     c.isRepeat = YES;
     
     [self.navigationController popViewControllerAnimated:YES];
@@ -85,7 +86,7 @@
 }
 
 - (IBAction)backBtnAction:(UIButton *)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)viewDidLoad

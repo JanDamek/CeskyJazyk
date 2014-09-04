@@ -2,7 +2,7 @@
 //  Questions.m
 //  ceskyjazyk
 //
-//  Created by Jan Damek on 27.08.14.
+//  Created by Jan Damek on 04.09.14.
 //  Copyright (c) 2014 PMQ-Software. All rights reserved.
 //
 
@@ -18,7 +18,6 @@
 @dynamic lesson_id;
 @dynamic time_of_answer;
 @dynamic relationship_result1;
-@dynamic relationship_test;
 @dynamic relationship_result2;
 @dynamic relationship_result3;
 @dynamic relationship_result4;
@@ -30,5 +29,6 @@
 @dynamic relationship_result10;
 @dynamic relationship_result11;
 @dynamic relationship_result12;
+@dynamic relationship_test;
 
 @end

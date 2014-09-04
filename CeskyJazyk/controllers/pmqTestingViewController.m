@@ -21,7 +21,7 @@
     float mark_size;
     
     NSMutableArray *_questions;
-
+    
     NSMutableArray *_repeatFaults;
     
     int answered;
@@ -61,7 +61,7 @@
 }
 
 - (IBAction)backBtnAction:(UIButton *)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)viewDidLoad
@@ -79,7 +79,7 @@
     self.navigationController.navigationBar.translucent = YES;
     
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-    mark_size = (_marks.frame.size.width - 120) / 12;
+        mark_size = (_marks.frame.size.width - 120) / 12;
     }else{
         mark_size = (_marks.frame.size.width - 60) / 12;
     }
@@ -97,7 +97,7 @@
     if (self.masterPopoverController != nil) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
     }
-
+    
     _questionView.delegate = self;
 }
 
@@ -189,7 +189,7 @@
 -(void)setTestMode:(enum TestMode)testMode{
     answered = 0;
     [_marks reloadData];
-
+    
     _questionView.showState = qcHideAll;
     
     for (UIButton *b in self.answerButtons) {
@@ -204,6 +204,7 @@
     [super viewWillDisappear:animated];
     
     _questionView.delegate = nil;
+    _questionView.showState = qcHideAll;
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
@@ -239,7 +240,7 @@
         test_length = 12;
     }
     
-    int lesson_id=[[(Questions*)[questions objectAtIndex:0]lesson_id]intValue];
+    int lesson_id=[[(Questions*)[questions objectAtIndex:[questions count]-1]lesson_id]intValue];
     if (_isRepeat){
         _questions = [[NSMutableArray alloc] init];
         [_questions addObjectsFromArray:_repeatFaults];
@@ -259,7 +260,7 @@
                 [_questions addObject:q];
                 index--;
                 [questions removeObject:q];
-                lesson_id = [q.lesson_id intValue];
+                //lesson_id = [q.lesson_id intValue];
             }
             index++;
         }
@@ -287,47 +288,54 @@
 }
 
 -(void)loadFromLastTest{
-        [_marks reloadData];
-        
-        pmqQuestions *pmqQ = [[pmqQuestions alloc]init];
-        if (answered < [_questions count]){
-            pmqQ.q = (Questions*)[_questions objectAtIndex:answered];
-        } else pmqQ.q = (Questions*)[_questions objectAtIndex:answered - [_questions count]];
+    [_marks reloadData];
+    
+    pmqQuestions *pmqQ = [[pmqQuestions alloc]init];
+    if (answered < [_questions count]){
+        pmqQ.q = (Questions*)[_questions objectAtIndex:answered];
+    } else pmqQ.q = (Questions*)[_questions objectAtIndex:answered - [_questions count]];
     
     [_questionView setQuestion:pmqQ.fistPartQuestion secondPartQuestion:pmqQ.secondPartQuestion correctAnswer:pmqQ.corect_answer onTime:(_testMode == tmTestOnTime) timeToAnwser:[_data.time_limit intValue]];
-        
-        if (_testMode != tmTestOnTime){
-            _questionView.showState = qcQuestion;
-        }else{
-            _questionView.showState = qcOnTime;
-        }
     
-        int i=0;
-        for (UIButton *b in _answerButtons) {
-            if (i<[pmqQ.answers count]){
-                NSString *s = [pmqQ.answers objectAtIndex:i];
-                if ([s hasPrefix:@"*"]){
-                    s = [s substringFromIndex:1];
-                    b.tag = 1;
-                } else b.tag = 0;
-                [b setTitle:s forState:UIControlStateNormal];
-                [b setHidden:NO];
-                [b setEnabled:YES];
-            } else {
-                [b setHidden:YES];
-                [b setEnabled:NO];
-                [b setTag:0];
-                [b setTitle:@"" forState:UIControlStateNormal];
-                
-            }
-            i++;
-        }
+    if (_testMode != tmTestOnTime){
+        _questionView.showState = qcQuestion;
+    }else{
+        _questionView.showState = qcOnTime;
+    }
     
+    int i=0;
+    for (UIButton *b in _answerButtons) {
+        if (i<[pmqQ.answers count]){
+            NSString *s = [pmqQ.answers objectAtIndex:i];
+            if ([s hasPrefix:@"*"]){
+                s = [s substringFromIndex:1];
+                b.tag = 1;
+            } else b.tag = 0;
+            [b setTitle:s forState:UIControlStateNormal];
+            [b setHidden:NO];
+            [b setEnabled:YES];
+        } else {
+            [b setHidden:YES];
+            [b setEnabled:NO];
+            [b setTag:0];
+            [b setTitle:@"" forState:UIControlStateNormal];
+            
+        }
+        i++;
+    }
+    
+}
+
+-(NSFetchedResultsController *)results{
+    
+    pmqAppDelegate *d = (pmqAppDelegate*)[[UIApplication sharedApplication]delegate];
+    NSFetchedResultsController *_results = d.data.results;
+    
+    return _results;
 }
 
 -(void)prepareTest{
     answered = 0;
-    pmqAppDelegate *d = (pmqAppDelegate*)[[UIApplication sharedApplication]delegate];
     
     switch (_testMode) {
         case tmPractice:
@@ -340,16 +348,65 @@
             break;
             
         case tmPracticeOverAllFail:{
-            Tests *te;
-            for (Lessons *l in [d.data.lessons fetchedObjects]) {
-                if ([l.order intValue] == 16959){
-                    te =l.relationship_test;
-                    break;
+            NSMutableArray *lastFault = [[NSMutableArray alloc] initWithCapacity:12];
+            id <NSFetchedResultsSectionInfo> sectionInfo = [[[self results] sections] objectAtIndex:0];
+            NSArray *re = [sectionInfo objects];
+            Results *lastResult = nil;
+            if ([re count]>0)
+                for (Results *r in re){
+                    if (!lastResult) lastResult = r;
+                    
+                    if (![r.answer1 boolValue])
+                        [lastFault addObject:r.relationship_questions1];
+                    if (![r.answer2 boolValue])
+                        [lastFault addObject:r.relationship_questions2];
+                    if (![r.answer3 boolValue])
+                        [lastFault addObject:r.relationship_questions3];
+                    if (![r.answer4 boolValue])
+                        [lastFault addObject:r.relationship_questions4];
+                    if (![r.answer5 boolValue])
+                        [lastFault addObject:r.relationship_questions5];
+                    if (![r.answer6 boolValue])
+                        [lastFault addObject:r.relationship_questions6];
+                    if (![r.answer7 boolValue])
+                        [lastFault addObject:r.relationship_questions7];
+                    if (![r.answer8 boolValue])
+                        [lastFault addObject:r.relationship_questions8];
+                    if (![r.answer9 boolValue])
+                        [lastFault addObject:r.relationship_questions9];
+                    if (![r.answer10 boolValue])
+                        [lastFault addObject:r.relationship_questions10];
+                    if (![r.answer11 boolValue])
+                        [lastFault addObject:r.relationship_questions11];
+                    if (![r.answer12 boolValue])
+                        [lastFault addObject:r.relationship_questions12];
+                    if ([lastFault count]>=12)
+                        break;
                 }
-            }
-            self.data = te;
             
-            [self prepareQuestions:[[_data.relationship_question allObjects] mutableCopy] firstFail:YES];
+            if ([lastFault count]<12){
+                NSArray *qq = [lastResult.relationship_test.relationship_question allObjects];
+                [lastFault addObjectsFromArray:qq];
+                _data = lastResult.relationship_test;
+            }else _data = lastResult.relationship_test;
+            if ([lastFault count]<12){
+                pmqAppDelegate *d = (pmqAppDelegate*)[[UIApplication sharedApplication]delegate];
+                Lessons *l = [[[[d.data.lessons sections]objectAtIndex:0]objects]objectAtIndex:0];
+                NSArray *qq = [l.relationship_test.relationship_question allObjects];
+                [lastFault addObjectsFromArray:qq];
+                _data = l.relationship_test;
+            }
+            //            Tests *te;
+            //            for (Lessons *l in [d.data.lessons fetchedObjects]) {
+            //                if ([l.order intValue] == 16959){
+            //                    te =l.relationship_test;
+            //                    break;
+            //                }
+            //            }
+            //            self.data = te;
+            
+            //            [self prepareQuestions:[[_data.relationship_question allObjects] mutableCopy] firstFail:YES];
+            [self prepareQuestions:[lastFault mutableCopy] firstFail:YES];
             break;
         }
             
@@ -414,7 +471,7 @@
             [b setHidden:NO];
         } else [b setHidden:YES];
     }
-   
+    
     [self animationDidStop:@"answer" finished:YES];
 }
 
@@ -429,7 +486,7 @@
     float inTime = _questionView.questionTimer.timeToCount*(_questionView.questionTimer.percent/100);
     if (inTime==0) inTime = _questionView.questionTimer.timeToCount;
     q.time_of_answer = [NSNumber numberWithFloat:inTime];
-
+    
     if ([q.last_answer boolValue]) {
         _questionView.showState = qcAnswer;
         time_to_show_answer = 1;
@@ -439,7 +496,7 @@
         [_repeatFaults addObject:q];
     }
     [_questions setObject:q atIndexedSubscript:answered];
-
+    
     answered++;
     
     NSString *sound_file;
@@ -487,39 +544,51 @@
         switch (i) {
             case 0:
                 r.relationship_questions1 = q;
+                r.answer1 = [q.last_answer copy];
                 break;
             case 1:
                 r.relationship_questions2 = q;
+                r.answer2 = [q.last_answer copy];
                 break;
             case 2:
                 r.relationship_questions3 = q;
+                r.answer3 = [q.last_answer copy];
                 break;
             case 3:
                 r.relationship_questions4 = q;
+                r.answer4 = [q.last_answer copy];
                 break;
             case 4:
                 r.relationship_questions5 = q;
+                r.answer5 = [q.last_answer copy];
                 break;
             case 5:
                 r.relationship_questions6 = q;
+                r.answer6 = [q.last_answer copy];
                 break;
             case 6:
                 r.relationship_questions7 = q;
+                r.answer7 = [q.last_answer copy];
                 break;
             case 7:
                 r.relationship_questions8 = q;
+                r.answer8 = [q.last_answer copy];
                 break;
             case 8:
                 r.relationship_questions9 = q;
+                r.answer9 = [q.last_answer copy];
                 break;
             case 9:
                 r.relationship_questions10 = q;
+                r.answer10 = [q.last_answer copy];
                 break;
             case 10:
                 r.relationship_questions11 = q;
+                r.answer11 = [q.last_answer copy];
                 break;
             case 11:
                 r.relationship_questions12 = q;
+                r.answer12 = [q.last_answer copy];
                 break;
         }
     }
@@ -551,7 +620,7 @@
     c.result = r;
     c.testMode = _testMode;
     [self.navigationController pushViewController:c animated:YES];
-
+    
     _questionView.showState = qcHideAll;
     
     for (UIButton *b in _answerButtons) {

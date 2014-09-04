@@ -31,83 +31,85 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    float mid = rect.size.width / 2;
-    CGRect first;
-    CGRect second;
-    CGRect f;
-    CGRect correct;
-    float first_x=0;
-    float mark_x=0;
-    float second_x=0;
-    float mark_width=0;
-    float all=0;
-    
-    UILabel *l = [[UILabel alloc] init];
-    fontSize = _maxFontPointSize;
-    
-    while (all<=0) {
-        [l setFont:[UIFont systemFontOfSize:fontSize]];
-        [l setText:_firstPartQuestion];
-        [l sizeToFit];
+    if (_showState!=qcHideAll){
+        float mid = rect.size.width / 2;
+        CGRect first;
+        CGRect second;
+        CGRect f;
+        CGRect correct;
+        float first_x=0;
+        float mark_x=0;
+        float second_x=0;
+        float mark_width=0;
+        float all=0;
         
-        f = l.frame;
-        first = f;
+        UILabel *l = [[UILabel alloc] init];
+        fontSize = _maxFontPointSize;
         
-        [l setText:_secondPartQuestion];
-        [l sizeToFit];
-        second = l.frame;
-        
-        [l setText:_correctAnswer];
-        [l sizeToFit];
-        correct = l.frame;
-        
-        if (f.size.width==0){
-            f = second;
+        while (all<=0) {
+            [l setFont:[UIFont systemFontOfSize:fontSize]];
+            [l setText:_firstPartQuestion];
+            [l sizeToFit];
+            
+            f = l.frame;
+            first = f;
+            
+            [l setText:_secondPartQuestion];
+            [l sizeToFit];
+            second = l.frame;
+            
+            [l setText:_correctAnswer];
+            [l sizeToFit];
+            correct = l.frame;
+            
+            if (f.size.width==0){
+                f = second;
+            }
+            f.size.height = f.size.height;
+            mark_width = f.size.height * 0.6;
+            
+            first_x = 0;
+            mark_x = first.size.width;
+            if (_showState==qcOnTime){
+                second_x = mark_x + f.size.height;
+            }else if (_showState==qcQuestion){
+                second_x = mark_x + mark_width;
+            }else {
+                second_x = mark_x + correct.size.width;
+            }
+            all = second_x + second.size.width;
+            
+            all = mid - ( all / 2);
+            
+            fontSize = fontSize * 0.9;
         }
-        f.size.height = f.size.height;
-        mark_width = f.size.height * 0.6;
         
-        first_x = 0;
-        mark_x = first.size.width;
+        first_x += all;
+        second_x += all;
+        mark_x += all;
+        
+        [_questionTimer setHidden:YES];
         if (_showState==qcOnTime){
-            second_x = mark_x + f.size.height;
+            [_questionTimer setHidden:NO];
+            
+            f.size.width = f.size.height;
+            f.origin.x = mark_x;
+            
+            [_questionTimer setFrame:f];
+            [self setTimerHeight:f.size.height];
+            
         }else if (_showState==qcQuestion){
-            second_x = mark_x + mark_width;
-        }else {
-            second_x = mark_x + correct.size.width;
+            f.size.width = mark_width;
+            f.origin.x = mark_x;
+            [_questionMark drawInRect:f];
         }
-        all = second_x + second.size.width;
         
-        all = mid - ( all / 2);
-        
-        fontSize = fontSize * 0.9;
-    }
-    
-    first_x += all;
-    second_x += all;
-    mark_x += all;
-    
-    [_questionTimer setHidden:YES];
-    if (_showState==qcOnTime){
-        [_questionTimer setHidden:NO];
-        
-        f.size.width = f.size.height;
-        f.origin.x = mark_x;
-        
-        [_questionTimer setFrame:f];
-        [self setTimerHeight:f.size.height];
-        
-    }else if (_showState==qcQuestion){
-        f.size.width = mark_width;
-        f.origin.x = mark_x;
-        [_questionMark drawInRect:f];
-    }
-    
-    [[UIColor whiteColor] set];
-    [_firstPartQuestion drawAtPoint:CGPointMake(first_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
-    [_secondPartQuestion drawAtPoint:CGPointMake(second_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
-    if ((_showState==qcAnswer) || (_showState==qcAnswerBad)){
-        [_correctAnswer drawAtPoint:CGPointMake(mark_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
+        [[UIColor whiteColor] set];
+        [_firstPartQuestion drawAtPoint:CGPointMake(first_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
+        [_secondPartQuestion drawAtPoint:CGPointMake(second_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
+        if ((_showState==qcAnswer) || (_showState==qcAnswerBad)){
+            [_correctAnswer drawAtPoint:CGPointMake(mark_x, 0) withFont:[UIFont systemFontOfSize:fontSize*1.1]];
+        }
     }
 }
 

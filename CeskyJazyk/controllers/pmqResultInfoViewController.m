@@ -49,15 +49,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                                                   forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     self.navigationController.navigationBar.translucent = YES;
     
-//    self.btnAllResults.layer.cornerRadius = 10;
-//    self.btnPracticeErrors.layer.cornerRadius = 10;
-
+    //    self.btnAllResults.layer.cornerRadius = 10;
+    //    self.btnPracticeErrors.layer.cornerRadius = 10;
+    
     [self.btnPracticeErrors setHidden:([_dataResult.bad_answers intValue]==0)];
     
     id parent = [self.navigationController.viewControllers objectAtIndex:[self.navigationController.viewControllers count]-2];
@@ -165,10 +165,10 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     pmqResultQuestionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"resultCell" forIndexPath:indexPath];
-
-//    NSInteger i = indexPath.row - [questions count];
-//    int ii = (int)i;
-//    NSInteger index= abs( ii ) - 1;
+    
+    //    NSInteger i = indexPath.row - [questions count];
+    //    int ii = (int)i;
+    //    NSInteger index= abs( ii ) - 1;
     NSInteger index = indexPath.row;
     
     Questions *q = [questions objectAtIndex:index];
@@ -179,15 +179,56 @@
         [cell.timeOut setHidden:NO];
     } else [cell.timeOut setHidden:YES];
     
+    bool answer=NO;
+    
+    switch (index){
+        case 0:
+            answer = [_dataResult.answer1 boolValue];
+            break;
+        case 1:
+            answer = [_dataResult.answer2 boolValue];
+            break;
+        case 2:
+            answer = [_dataResult.answer3 boolValue];
+            break;
+        case 3:
+            answer = [_dataResult.answer4 boolValue];
+            break;
+        case 4:
+            answer = [_dataResult.answer5 boolValue];
+            break;
+        case 5:
+            answer = [_dataResult.answer6 boolValue];
+            break;
+        case 6:
+            answer = [_dataResult.answer7 boolValue];
+            break;
+        case 7:
+            answer = [_dataResult.answer8 boolValue];
+            break;
+        case 8:
+            answer = [_dataResult.answer9 boolValue];
+            break;
+        case 9:
+            answer = [_dataResult.answer10 boolValue];
+            break;
+        case 10:
+            answer = [_dataResult.answer11 boolValue];
+            break;
+        case 11:
+            answer = [_dataResult.answer12 boolValue];
+            break;
+    }
+    
     UIColor *answerColor;
-    if ([q.last_answer boolValue]) {
+    if (answer) {
         answerColor = [UIColor whiteColor];
     } else answerColor = [UIColor redColor];
     
     CGRect r = cell.progress.frame;
     r.size.height +=2;
     cell.progress.frame = r;
-//    cell.progress.layer.cornerRadius = 10;
+    //    cell.progress.layer.cornerRadius = 10;
     
     cell.question.textColor = answerColor;
     if ([q.last_answer boolValue]) {
