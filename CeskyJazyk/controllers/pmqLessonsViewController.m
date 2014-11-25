@@ -281,9 +281,10 @@
     } else {
         i.image = [UIImage imageNamed:@"bg_list2_320_odd"];
     }
+    [i sizeToFit];
+    [i setContentMode:UIViewContentModeScaleToFill];
     [selectionView addSubview:i];
     cell.selectedBackgroundView = selectionView;
-    [i sizeToFit];
     
     cell.lessonName.text = object.name;
     [cell.lessonName sizeToFit];

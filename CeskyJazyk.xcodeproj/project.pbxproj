@@ -396,7 +396,6 @@
 		F55C90AF198F985800D94A98 /* CeskyJazyk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CeskyJazyk-Info.plist"; sourceTree = "<group>"; };
 		F55C90B0198F985800D94A98 /* CeskyJazyk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CeskyJazyk-Prefix.pch"; sourceTree = "<group>"; };
 		F56F5869198A6B4800172EA2 /* timeout_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeout_big@2x.png"; sourceTree = "<group>"; };
-		F56F5874198A7E2600172EA2 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F5876198A7E2800172EA2 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F5878198A7E3300172EA2 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F56F587A198A7E3A00172EA2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPad.strings; sourceTree = "<group>"; };
@@ -1186,6 +1185,7 @@
 		F5F0F07819364524003C4FFA /* pmqQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmqQuestions.h; sourceTree = "<group>"; };
 		F5F0F07919364524003C4FFA /* pmqQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pmqQuestions.m; sourceTree = "<group>"; };
 		F5F0F29119364F6D003C4FFA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5FCFB5F19C8CCE0004B6FB4 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		F5FF08BB19558BB7008AEB89 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5FF08BC19558BB8008AEB89 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5FF08C019558BEE008AEB89 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -2296,11 +2296,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				F59B30A8198A38A80007A916 /* Base */,
-				F56F5874198A7E2600172EA2 /* cs */,
 				F56F5876198A7E2800172EA2 /* sk */,
 				F56F5878198A7E3300172EA2 /* pl */,
 				F56F587A198A7E3A00172EA2 /* de */,
 				F56F587E198A909E00172EA2 /* en */,
+				F5FCFB5F19C8CCE0004B6FB4 /* cs */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";

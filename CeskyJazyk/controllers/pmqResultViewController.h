@@ -1,6 +1,6 @@
 //
 //  pmqResultViewController.h
-//  Matematika
+//  Cesky Jazyk
 //
 //  Created by Jan Damek on 01.06.14.
 //  Copyright (c) 2014 PMQ-Software. All rights reserved.

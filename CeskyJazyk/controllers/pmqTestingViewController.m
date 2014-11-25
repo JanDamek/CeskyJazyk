@@ -290,6 +290,8 @@
 -(void)loadFromLastTest{
     [_marks reloadData];
     
+    //TODO: oprava ze neni questions
+    
     pmqQuestions *pmqQ = [[pmqQuestions alloc]init];
     if (answered < [_questions count]){
         pmqQ.q = (Questions*)[_questions objectAtIndex:answered];

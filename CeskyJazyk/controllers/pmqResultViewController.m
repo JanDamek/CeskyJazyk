@@ -1,6 +1,6 @@
 //
 //  pmqResultViewController.m
-//  Matematika
+//  Cesky Jazyk
 //
 //  Created by Jan Damek on 01.06.14.
 //  Copyright (c) 2014 PMQ-Software. All rights reserved.
@@ -111,6 +111,7 @@
     
     if ([r.bad_answers intValue]>0){
         [cell.btnTest setHidden:NO];
+        [cell.btnTest setTag:indexPath.row];
     } else
         [cell.btnTest setHidden:YES];
     
@@ -135,13 +136,13 @@
     else
         if ([[segue identifier] isEqualToString:@"procvicovaniChyb"]) {
             UIButton *b = (UIButton*)sender;
-            id cell;
-            if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-                cell = b.superview.superview.superview;
-            }else{
-                cell = b.superview.superview.superview;
-            }
-            NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+            //            id cell;
+            //            if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            //                cell = b.superview.superview.superview;
+            //            }else{
+            //                cell = b.superview.superview;//.superview;
+            //            }
+            NSIndexPath *indexPath = [NSIndexPath indexPathForItem:b.tag inSection:0];
             
             Results *object = [[self results] objectAtIndexPath:indexPath];
             [(pmqTestingViewController*)[segue destinationViewController] setData:object.relationship_test];
